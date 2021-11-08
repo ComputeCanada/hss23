@@ -1,35 +1,35 @@
 +++
-title = "Project Management for Humanities and Social Sciences"
+title = "What Should I Learn and Where can I Learn it?"
 slug = "pm"
 +++
 
-# Gestion des projets de recherche en sciences humaines et sociales
+**Presented by**: John Simpson
 
-**Presented by / Présenté par**: Megan Lobay
+*Note* Simultaneous Translation to French will be provided. 
 
-**Duration / Durée**: 60 minutes
+**Duration**: 60 minutes
 
-**Description**: So, you want to do a DH project? In this session, I will outline DH project management best practices
-  and introducte resources for researchers wanting to get started.  As Digital Humanities is a highly interdisciplinary
-  field, projects almost always involved experts across many different fields, departments, campuses, and sometimes
-  countries. Planning how all thes people will work together throughout the life of the project is crucial to its
-  success. This session will include introductions to the many invaluable resources out there for researchers as well as
-  some hands on exercises in thinking through your projects.
+**Description**: The landscape of digital tools applicable for Humanists and Social Scientists is wide, varied, and continuously evolving. It can be a difficult landscape to navigate, especially if you are new to it. Which tools are the most important? Which skills are necessary for which tools? Where do you start? What are the resources available to help you? This session seeks to guide participants towards answering these questions for their own situation, and advising them on their journey of digital skill development in Humanities and Social Sciences.
 
-* [PDF slides in English](/session4e.pdf)
+**Biographies**
 
-{{< vimeo 518416693 >}}
+**John Simpson**:
 <br>
 
 ---
++++
+title = "Que dois-je savoir?"
+slug = "pm"
++++
 
-**Description**: Vous avez en tête un projet en humanités numériques? Dans cet atelier, nous aborderons les meilleures
-  pratiques en gestion de projet et présenterons les ressources qui vous permettront de bien amorcer le projet. Les
-  projets en humanités numériques sont souvent interdisciplinaires et font appel à des spécialistes d'autres domaines,
-  d'autres départements et campus, et même d'autres pays; une bonne planification est essentielle pour que toutes les
-  étapes du projet se déroulent avec succès. Cet atelier sera une introduction à plusieurs outils qui sont à votre
-  disposition et des exercices pratiques vous aideront à guider votre planification.
+**Présneté par** : John Simpson
 
-* [Diapositives PDF en français](/session4f.pdf)
+*Note* : La séance sera tenu en anglais avec interprétation simultanée.
 
-{{< vimeo 518421712 >}}
+**Durée** : 60 minutes
+
+**Description**: Les outils numériques pour la recherche en sciences humaines et sociales sont nombreux, variés et en constante évolution. C’est un monde dans lequel il est difficile de s’orienter au début. Quels sont les outils les plus importants? Quelles sont les compétences requises pour pouvoir utiliser les différents outils? Par quoi commencer? Qui peut m’aider? Nous répondons aux questions au sujet de vos cas particuliers et suggérons les moyens que vous pouvez prendre pour développer vos compétences en recherche pour les sciences humaines et sociales. 
+
+**Biographies** 
+
+**John Simpson** : 
