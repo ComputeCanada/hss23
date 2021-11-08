@@ -3,7 +3,9 @@ title = "Welcome and Keynote Address"
 slug = "intro and keynote"
 +++
 
-**Presented by**: Nizar Ladak
+**Welcome by**: Lydia Vermeyden
+
+**Keynote Presented by**: Nizar Ladak and Ghilaine Roquet
 
 **Duration**: 60 minutes
 
@@ -21,7 +23,9 @@ slug = "intro and keynote"
 title = "Mot de bienvenue et introduction"
 +++
 
-**Présenté par** : Ghilaine Roquet
+**Mot de bienvenue par** : Lydia Vermeyden
+
+**Introduction par** : Nizar Ladal and Ghilaone Roquet
 
 **Durée** : 60 minutes
 
