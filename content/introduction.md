@@ -14,7 +14,7 @@ slug = "intro and keynote"
 
 **Biographies**
 
-**Lydia Vermeyden**: 
+**Lydia Vermeyden**: Lydia Vermeyden is the  Research Consultant specializing in Humanities and Social Sciences with ACENET, the Atlantic Canada regional partner in the Compute Canada Federation, and the chair of the Humanities and Social Sciences National Team in the Compute Canada Federation. 
 
 **Nizar Ladak**: Nizar Ladak is the CEO of the Digital Research Alliance of Canada (the Alliance), a federally funded, not-for-profit organization that advances the integration and improvement of digital tools and services for Canadian researchers. A seasoned executive with more than 30 years’ experience, his passion is finding innovative solutions to operational problems and mentoring young professionals. He has a Master of Education degree from the University of Toronto and has completed executive leadership programs at Harvard Business School, Stanford University’s Graduate School of Business and the Rotman Graduate School of Business. In 2021, Mr. Ladak was awarded the Ontario Institute for Studies in Education (OISE) Leaders and Legends Distinguished Service Award. In 2019, Mr. Ladak was selected as one of Canada’s Top 25 Immigrants by the Royal Bank of Canada and Canadian Immigrant magazine.
 
@@ -37,7 +37,7 @@ Nous aurons l’occasion d’entendre Nizar Ladak, directeur général de l’Al
 
 **Biographies**
 
-**Lydia Vermeyden** :
+**Lydia Vermeyden** : Lydia Vermeyden est consultante en recherche dans le domaine des sciences humaines et sociales auprès d'ACENET, le partenaire régional du Canada atlantique au sein de la fédération Calcul Canada (FCC). Madame Vermeyden est également présidente de l’équipe nationale Sciences humaines et sociales de la FCC.
 
 **Nizar Ladak** : Nizar Ladak est le PDG de l’Alliance de recherche numérique du Canada (L'Alliance), un organisme à but non lucratif financé par le gouvernement fédéral qui favorise l'intégration et l'amélioration des outils et des services numériques pour les chercheurs et chercheuses du Canada. Cadre chevronné ayant plus de 30 ans d'expérience, il se passionne pour la recherche de solutions innovantes aux problèmes opérationnels et pour le mentorat de jeunes professionnels. Il est titulaire d'une maîtrise en éducation de l'Université de Toronto et a suivi des programmes de leadership pour les cadres de direction à la Harvard Business School, à l’École supérieure de commerce de l'Université de Stanford et à l’École supérieure de commerce Rotman. En 2021, M. Ladak a reçu le prix « Leaders and Legends Distinguished Service Award » de l'Institut d'études pédagogiques de l'Ontario (IEPO). En 2019, M. Ladak a été sélectionné pour le Prix RBC des 25 grands immigrants au Canada et le magazine Canadian Immigrant.
 
