@@ -23,7 +23,7 @@ title = "Une aventure numérique : Technologie et soutien de la fédération Cal
 slug = "digital"
 +++
 
-**Présentée par** :  Lydia Vermeyden et Pier-luc St-Onge
+**Présenté par** :  Lydia Vermeyden et Pier-luc St-Onge
 
 **Durée** : 120 minutes
 
