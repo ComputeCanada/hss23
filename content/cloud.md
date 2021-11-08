@@ -1,26 +1,29 @@
 +++
+title = "A Digital Adventure: Advancing Research With Technologies and Supports Available Through the Compute Canada Federation"
+slug = "digital"
++++
+
+**Presented by**: Lydia Vermeyden and Pier-luc St-Onge
+
+**Duration**: 120 minutes
+
+**Description**: Learn about the national digital infrastructure that is free to access through the Compute Canada Federation (CCF) for academic researchers in Canada! This workshop will begin with a short overview of the CCF's digital resources and user supports, including the expanding Humanities and Social Science specific supports. It will continue with a discussion with participants about current applications and usage cases for their research areas and explore potential projects. This part of the session will include live demos of applicable technologies, and a Database code-along!
+
+**Biographies**:
+
+**Lydia Vermeyden**:
+
+**Pier-Luc St-Onge**:
+<br>
+
+---
+
++++
 title = "Cloud applications for Humanities and Social Sciences"
 slug = "cloud"
 +++
 
-# L'infonuagique pour la recherche en sciences humaines et sociales
 
-**Presented by / Présenté par**: Chris Geroux
-
-**Duration / Durée**: 60 minutes
-
-**Description**: In this session, we will give an overview of what a cloud is generally, as well as the Compute Canada
-  Federation cloud specifically. To demonstrate what may be accomplished with a cloud, different cloud usage cases for
-  the Humanities and Social Sciences will be presented followed by a discussion of two common methods for website
-  generation, a common use for the cloud. We will finish with a brief discussion of server security and the implications
-  it has for the two methods presented for creating websites.
-
-* [PDF slides in English](/session2e.pdf)
-
-{{< vimeo 518246541 >}}
-<br>
-
----
 
 **Description**: Avec cet atelier, vous aurez une vue d'ensemble de ce qu'est un nuage et nous décrirons plus en détail
   les services infonuagiques de la fédération Calcul Canada. Nous présenterons différents cas d'utilisation et décrirons
