@@ -5,7 +5,7 @@ slug = "pm"
 
 **Presented by**: John Simpson
 
-*Note* Simultaneous Translation to French will be provided. 
+*Note*: Simultaneous Translation to French will be provided. 
 
 **Duration**: 60 minutes
 
@@ -24,7 +24,7 @@ slug = "pm"
 
 **Présneté par** : John Simpson
 
-*Note* : La séance sera tenu en anglais avec interprétation simultanée.
+*Note* : La séance sera tenue en anglais avec interprétation simultanée.
 
 **Durée** : 60 minutes
 
