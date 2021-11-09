@@ -22,7 +22,7 @@ slug = "intro"
 
 ---
 
-Mot de bienvenue et introduction
+# Mot de bienvenue et introduction
 
 **Mot de bienvenue par** : Lydia Vermeyden
 
