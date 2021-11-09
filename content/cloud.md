@@ -1,39 +1,37 @@
 +++
-title = "What is the Worst That Could Happen? (Research Data Management Panel)"
-slug = "rdmp"
+title = "Engaging in the Future of Cloud"
+slug = "cloud"
 +++
 
-**Panel Members**: Craig Squires (En), Arun Jacob (En), Felicity Taylor (En, Fr), and Maude Bonenfant (Fr)
+**Presented by**: Jeff Albert and Félix-Antoine Fortin 
 
-*Note.*: Simultaneous translation for French and English will be available.
- 
+**Duration**: 60 minutes
 
-**Duration**: 120 minutes
+**Description**: Jeff Albert, team lead for the Compute Canada Federation clouds, is hosting this session. We will discuss how cloud technology intersects with your area of research, what use cases and platforms are most important for you, and what the future holds in terms of new cloud infrastructure, platforms and capabilities that cloudNT is developing for cloud researchers.  Share the barriers and challenges you currently experience when it comes to accessing cloud technology.
 
-**Description**: Learn about the national digital infrastructure that is free to access through the Compute Canada Federation (CCF) for academic researchers in Canada! This workshop will begin with a short overview of the CCF's digital resources and user supports, including the expanding Humanities and Social Science specific supports. It will continue with a discussion with participants about current applications and usage cases for their research areas and explore potential projects. This part of the session will include live demos of applicable technologies, and a Database code-along!
+**Biographies**
 
-**Biographies**:
+**Jeff Albert**:
 
-**Lydia Vermeyden**:
-
-**Pier-Luc St-Onge**:
+**Félix-Antoine Fortin**:
 <br>
 
 ---
 
 +++
-title = "Cloud applications for Humanities and Social Sciences"
+title = "Comment utiliser l’infonuagique dans mon projet"
 slug = "cloud"
 +++
 
+**Pésenté par** : Jeff Albert et Félix-Antoine Fortin 
 
+**Durée** : 60 minutes 
 
-**Description**: Avec cet atelier, vous aurez une vue d'ensemble de ce qu'est un nuage et nous décrirons plus en détail
-  les services infonuagiques de la fédération Calcul Canada. Nous présenterons différents cas d'utilisation et décrirons
-  deux méthodes couramment employées pour générer un site Web dans un environnement infonuagique. Nous conclurons avec
-  quelques points importants sur la sécurité des serveurs et signalerons les avantages et inconvénients des deux
-  méthodes proposées.
+**Description** : Jeff Albert, chef de l’équipe infonuagique de la fédération Calcul Canada, expliquera comment le cloud peut être utilisé puis présentera des cas d’usage et des plateformes pertinentes pour la recherche en sciences humaines et sociales. Il donnera aussi un aperçu du travail de l’équipe nationale en ce qui a trait au développement d’une nouvelle infrastructure et aux plateformes et fonctionnalités qui seront éventuellement mises à la disposition de la communauté de la recherche au Canada. Cette session est l’occasion de discuter des difficultés que pose l’accès à la technologie infonuagique.
 
-* [Diapositives PDF en français](/session2f.pdf)
+**Biographies** 
 
-{{< vimeo 518388971 >}}
+**Jeff Albert** :
+
+**Félix-Antoine Fortin** :
+
