@@ -28,11 +28,12 @@ slug = "dmp"
 **Mireille Nappert**:
 
 **Nichole DeMichelis**:
- 
 <br>
 ---
-
-# Gestion des données de recherche en sciences humaines et sociales : De la planification à la conservation et (presque) tout entre les deux 
++++
+title = "Gestion des données de recherche en sciences humaines et sociales : De la planification à la conservation et (presque) tout entre les deux"
+slug = "dmp"
++++ 
 
 **Présenté par** : Beth Knazook, Robyn Nicholson, Yvette Rancourt, Erin Clay, Mireille Nappert et Nichole DeMichelis
 
