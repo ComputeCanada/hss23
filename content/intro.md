@@ -1,6 +1,6 @@
 +++
 title = "Welcome and Keynote Address"
-slug = "intro and keynote"
+slug = "intro"
 +++
 
 **Welcome by**: Lydia Vermeyden
