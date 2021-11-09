@@ -1,9 +1,12 @@
 +++
-title = "A Digital Adventure: Advancing Research With Technologies and Supports Available Through the Compute Canada Federation"
-slug = "digital"
+title = "What is the Worst That Could Happen? (Research Data Management Panel)"
+slug = "rdmp"
 +++
 
-**Presented by**: Lydia Vermeyden and Pier-luc St-Onge
+**Panel Members**: Craig Squires (En), Arun Jacob (En), Felicity Taylor (En, Fr), and Maude Bonenfant (Fr)
+
+*Note.*: Simultaneous translation for French and English will be available.
+ 
 
 **Duration**: 120 minutes
 
