@@ -29,7 +29,7 @@ title = "Le pire qui peut arriver...Table ronde sur la gestion des données de r
 slug = "rdmp"
 +++
 
-*Not* : Les discussions se tiendront en français et en anglais. Des services d’interprétation simultanée seront disponibles. 
+*Note* : Les discussions se tiendront en français et en anglais. Des services d’interprétation simultanée seront disponibles. 
 
 **Durée** : 90 minutes
 
