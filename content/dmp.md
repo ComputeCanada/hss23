@@ -21,15 +21,14 @@ slug = "dmp"
 
 **Robyn Nicholson**:
 
-**Yvette Rancourt**: 
-
-**Erin Clay**: 
+**Yvette Rancourt**  
 
 **Erin Clay**:
 
 **Mireille Nappert**:
 
-**Nichole DeMichelis**: 
+**Nichole DeMichelis**:
+ 
 <br>
 ---
 
@@ -54,8 +53,6 @@ définition de données de recherche
 **Robyn Nicholson** :
 
 **Yvette Rancourt** :
-
-**Erin Clay** :
 
 **Erin Clay** :
 
