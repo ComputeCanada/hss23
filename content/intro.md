@@ -1,7 +1,6 @@
-
 +++
 title = "Welcome and Keynote Address"
-slug = "intro and keynote"
+slug = "intro"
 +++
 
 **Welcome by**: Lydia Vermeyden
@@ -22,9 +21,8 @@ slug = "intro and keynote"
 <br>
 
 ---
-+++
-title = "Mot de bienvenue et introduction"
-+++
+
+Mot de bienvenue et introduction
 
 **Mot de bienvenue par** : Lydia Vermeyden
 
