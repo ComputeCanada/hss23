@@ -13,10 +13,8 @@ slug = "beverage"
 <br>
 
 ---
-+++
-title = "La boisson qui me fait penser à mon champ de recherche (rencontre sociale)"
-slug = "beverage"
-+++
+
+# La boisson qui me fait penser à mon champ de recherche (rencontre sociale)
 
 **Présenté par** :
 
