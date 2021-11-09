@@ -5,7 +5,7 @@ slug = "gisqgis"
 
 **Presernted by**: Julie Faure-Lacroix 
 
-*Note.*: The sessions will be held in French from 9am to 11am ET in French and from 12pm to 2pm ET in English.
+*Note.*: The session will be held in French from 9am to 11am ET and from 12pm to 2pm ET in English.
  
 **Duration**: 120 minutes
 
@@ -14,7 +14,6 @@ slug = "gisqgis"
 **Biographies**
 
 **Julie Faure-Lacroix**:
-
 <br>
 
 ---
