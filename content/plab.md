@@ -14,8 +14,8 @@ slug = "plab"
 **Lydia Vermeyden**:
 
 **Marie H. Burle**: 
-
 <br>
+
 ---
 +++
 title = "Programming lab Show and Tell (social event)"
