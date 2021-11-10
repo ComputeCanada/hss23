@@ -7,6 +7,8 @@ slug = "rdmpfr"
 
 **Animée par** : Nick Rochlin
 
+**Membres de la table ronde** : Craig Squires (En), Arun Jacob (En), Felicity Taylor (En, Fr) et Maude Bonenfant (Fr)
+
 *Note* : Les discussions se tiendront en français et en anglais. Des services d’interprétation simultanée seront disponibles.
 
 **Durée** : 90 minutes
