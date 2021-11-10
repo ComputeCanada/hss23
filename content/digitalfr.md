@@ -7,7 +7,7 @@ slug = "digitalfr"
 
 **Durée** : 120 minutes
 
-**Description** : Apprenez à connaître l’infrastructure numérique nationale que la fédération Calcul Canada met gratuitement à la disposition de la communauté de la recherche. Nous faisons d’abord un survol de>
+**Description** : Apprenez à connaître l’infrastructure numérique nationale que la fédération Calcul Canada met gratuitement à la disposition de la communauté de la recherche. Nous faisons d’abord un survol des ressources et des services de soutien technique à la recherche universitaire dans le domaine des sciences humaines et sociales. Nous abordons ensuite des applications concrètes et des cas d’usage et explorons les possibilités pour d’autres projets. Il y aura démonstration de technologies applicables et nous écrirons ensemble du code pour interroger une base de données. 
 
 **Biographie**
 
