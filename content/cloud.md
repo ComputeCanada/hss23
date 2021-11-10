@@ -11,27 +11,6 @@ slug = "cloud"
 
 **Biographies**
 
-**Jeff Albert**:
+**Jeff Albert**: Jeff Albert is a Senior Advanced Research Systems Administrator with the University of Victoria, applying more than 16 years of experience to distributed systems, cloud computing infrastructure, and high-performance ARC services. He also serves as Team Lead of the Compute Canada Federation’s Cloud National Team, providing strategic leadership on emerging research cloud technologies, infrastructure, and platforms.
 
-**Félix-Antoine Fortin**:
-<br>
-
----
-
-+++
-title = "Comment utiliser l’infonuagique dans mon projet"
-slug = "cloud"
-+++
-
-**Pésenté par** : Jeff Albert et Félix-Antoine Fortin 
-
-**Durée** : 60 minutes 
-
-**Description** : Jeff Albert, chef de l’équipe infonuagique de la fédération Calcul Canada, expliquera comment le cloud peut être utilisé puis présentera des cas d’usage et des plateformes pertinentes pour la recherche en sciences humaines et sociales. Il donnera aussi un aperçu du travail de l’équipe nationale en ce qui a trait au développement d’une nouvelle infrastructure et aux plateformes et fonctionnalités qui seront éventuellement mises à la disposition de la communauté de la recherche au Canada. Cette session est l’occasion de discuter des difficultés que pose l’accès à la technologie infonuagique.
-
-**Biographies** 
-
-**Jeff Albert** :
-
-**Félix-Antoine Fortin** :
-
+**Félix-Antoine Fortin**: Félix-Antoine Fortin is the Team Lead of Research Software Development at Université Laval, a member of the Compute Canada Federation’s Cloud National Team, and the creator of the widely-adopted open source HPC-as-a-Service platform known as Magic Castle.
