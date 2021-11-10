@@ -3,7 +3,7 @@ title = "Research Data Management for HSS: From Plan to Preservation, and (Almos
 slug = "dmp"
 +++
 
-**Presented by**: Beth Knazook, Robyn Nicholson, Yvette Rancourt, Erin Clay, Mireille Nappert, and Nichole DeMichelis
+**Presented by**: Beth Knazook, Robyn Nicholson, Yvette Rancourt, Victoria Smith, and Erin Clay
 
 **Duration / Durée**: 120 minutes
 
@@ -17,48 +17,12 @@ slug = "dmp"
 
 **Biographies** 
 
-**Beth Knazook**:
+**Beth Knazook**: *Coming soon*
 
-**Robyn Nicholson**:
+**Robyn Nicholson**: *Coming soon*
 
-**Yvette Rancourt**  
+**Yvette Rancourt**: As part of the FRDR curation team, Yvette Rancourt (they/them) works with researchers and data managers to support the FAIRness of their data. Yvette also participates in data curation initiatives and community building as a member of the Curation Expert Group.
 
-**Erin Clay**:
+**Victoria Smith**: *Coming soon*
 
-**Mireille Nappert**:
-
-**Nichole DeMichelis**:
-
-<br>
----
-+++
-title = "Gestion des données de recherche en sciences humaines et sociales : De la planification à la conservation et (presque) tout entre les deux"
-slug = "dmp"
-+++ 
-
-**Présenté par** : Beth Knazook, Robyn Nicholson, Yvette Rancourt, Erin Clay, Mireille Nappert et Nichole DeMichelis
-
-**Durée** : 120 minutes
-
-**Description** : La gestion des données de recherche prend une place de plus en plus importante dans les projets de recherche, y compris les projets en sciences humaines et sociales. Depuis le lancement de la Politique des trois organismes sur la gestion des données de recherche et l’adoption de plus en plus généralisée des principes tels que FAIR, CARE et PCAP, il est essentiel de comprendre et d’appliquer les meilleures pratiques en gestion des données de recherche. L’effort en vaut la peine! Dans cet atelier, nous présentons les principaux aspects de la gestion des données de recherche en vous donnant des conseils et en vous indiquant des outils et des ressources que vous pouvez incorporer à votre processus de recherche dès maintenant. Parmi les sujets traités :
-définition de données de recherche
--qu’est-ce qu’un plan de gestion des données et comment en tirer profit
--qu’est-ce que la curation des données et quelle est son importance
--quels sont les enjeux dont il faut tenir compte avant de partager ses données avec d’autres
--comment envisager la conservation à long terme des données
--que sont des données sensibles et comment s'assurer de bien les gérer  
-
-**Biographies** : 
-
-**Beth Knazook** :
-
-**Robyn Nicholson** :
-
-**Yvette Rancourt** :
-
-**Erin Clay** :
-
-**Mireille Nappert** :
-
-**Nichole DeMichelis** :
-
+**Erin Clay**: Erin Clary is the Curation Coordinator for the Digital Research Alliance of Canada. She reviews new dataset deposits for the Federated Research Data Repository (FRDR), and as a member of the Curation Expert Group, she is engaged in developing resources to support a national curation community of practice.
