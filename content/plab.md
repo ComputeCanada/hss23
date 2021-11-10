@@ -3,33 +3,12 @@ title = "Programming lab Show and Tell (social event)"
 slug = "plab"
 +++
 
-**Hosted by**: Lydia Vermeyden and Marie H. Burle
+**Hosted by**: Lydia Vermeyden
 
 **Duration**: 180 minutes
 
 **Description**: Did you participate in the programming lab and learn some new skills you want to share? or make some great progress on your research project? Did you miss the programming lab but you are interested to hear what other people got up to? Join us for the final social mixer event, with an informal show and tell from our programming lab participants!
 
-**Biographies**
+**Biographie**
 
-**Lydia Vermeyden**:
-
-**Marie H. Burle**: 
-<br>
-
----
-+++
-title = "Programming lab Show and Tell (social event)"
-slug = "plab"
-+++
-
-**Animé par** : Lydia Vermeyden et Marie H. Burle
-
-**Durée** : 180 minutes
-
-**Description** : Deuxième rencontre sociale. Étiez-vous au labo de programmation? Avez-vous appris des choses dont vous aimeriez parler? En avez-vous tiré des connaissances qui vous ont permis de faire des progrès intéressants dans votre projet? Ou avez-vous manqué le labo et voulez savoir ce qui s’est passé? Joignez-vous à cette dernière rencontre sociale où celles et ceux qui ont participé au labo de programmation dévoileront leurs découvertes... 
-
-**Biographies**
-
-**Lydia Vermeyden** :
-
-**Marie H. Burle** :
+**Lydia Vermeyden**: Lydia Vermeyden is the Research Consultant specializing in Humanities and Social Sciences with ACENET, the Atlantic Canada regional partner in the Compute Canada Federation, and the chair of the Humanities and Social Sciences National Team in the Compute Canada Federation. Lydia joined ACENET in 2020. Her experience spans several research fields and organizations where she has led or collaborated in applying advanced technology, including experimental quantum physics, nursing, psychology and public health. Her varied projects include optimizing entangled photon sources, integrating e-technology with mental health screening, and developing mental health e-interventions. Prior to joining ACENET, she had been studying experiences and opinions around health and safety, and the effects of employment legislation on family farms in Alberta. She was responsible in several of her previous positions for the training of new students and staff in the area of advanced digital tools, often working with learners who had minimal exposure to advanced technology.
