@@ -2,7 +2,7 @@
 title = "Welcome and Keynote Address"
 slug = "intro"
 +++
-**22 February, 12:00-1:00pm ET**
+**February 22, 2022, 12:00-1:00pm ET**
 
 **Welcome by**: Lydia Vermeyden
 
