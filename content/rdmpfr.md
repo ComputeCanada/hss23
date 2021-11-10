@@ -3,6 +3,10 @@ title = "Le pire qui peut arriver...Table ronde sur la gestion des données de r
 slug = "rdmpfr"
 +++
 
+**Le 24 février 2022, de 14 h 30 à 16 h HE**
+
+**Animée par** : Nick Rochlin
+
 *Note* : Les discussions se tiendront en français et en anglais. Des services d’interprétation simultanée seront disponibles.
 
 **Durée** : 90 minutes
@@ -10,6 +14,8 @@ slug = "rdmpfr"
 **Description** : Pour discuter de comment se passe la gestion des données de recherche dans la pratique, des membres de notre équipe technique se joignent à des chercheuses et chercheurs dans une table ronde où seront présentés des exemples concrets. On y parlera surtout de situations inattendues qui peuvent se produire et causer des problèmes de toutes sortes, même des histoires d’horreur! La rencontre sera dirigée par Nick Rochlin, spécialiste en gestion des données de recherche au campus Okanagan de l’Université de la Colombie-Britannique. N’hésitez pas à poser des questions sur vos cas particuliers en direct ou en remplissant ce formulaire. Bien sûr, vous pouvez vous joindre à nous si vous n’avez pas de questions!
 
 **Biographies**
+
+**Nick Rochlin** : Nick est spécialiste en gestion des données de recherche au campus Okanagan de l’Université de la Colombie-Britannique où il a obtenu une maîtrise en bibliothéconomie et sciences de l’information. Avant de se joindre à l’Université de la Colombie-Britannique, il était bibliothécaire spécialisé dans le secteur des affaires au Collège Okanagan et formait les étudiantes et étudiants en littératie des données et en recherche dans le domaine des affaires. Nick fait partie du comité de leadership de l’équipe nationale Sciences humaines et sociales en tant que chef de la formation. Il est aussi membre actif du réseau des professionnels en gestion des données de recherche Portage, à titre de co-président du Groupe d’experts sur la formation en plus d’être membre du groupe de travail sur le remaniement de la découverte du DFDR (Dépôt fédéré de données de recherche).
 
 **Craig Squires** : Craig est administrateur de système à l’université Memorial de Terre-Neuve depuis plus de vingt ans et avec ACENET depuis 2009. Il détient un doctorat en philosophie pour son travail sur la pensée de Wittgenstein sur la logique et les mathématiques. Craig est aussi musicien et fait partie du comité de direction artistique du Sound Symposium de St.John’s.
 

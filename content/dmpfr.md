@@ -3,7 +3,7 @@ title = "Gestion des données de recherche en sciences humaines et sociales : De
 slug = "dmpfr"
 +++
 
-**Le 24 février de midi à 14 h HE**
+**Le 24 février 2022, de midi à 14 h HE**
 
 **Présenté par** : Mireille Nappert, Nichole DeMichelis, Jeff Moon, Cynthia Lisée et Clara Turp 
 
