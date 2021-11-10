@@ -3,7 +3,9 @@ title = "Gestion des données de recherche en sciences humaines et sociales : De
 slug = "dmpfr"
 +++
 
-**Présenté par** : Mireille Nappert, Nichole DeMichelis et Jeff Moon
+**Le 24 février de midi à 14 h HE**
+
+**Présenté par** : Mireille Nappert, Nichole DeMichelis, Jeff Moon, Cynthia Lisée et Clara Turp 
 
 **Durée** : 120 minutes
 
@@ -19,8 +21,12 @@ slug = "dmpfr"
 
 **Mireille Nappert** : Mireille Nappert est archiviste numérique à HEC Montréal depuis 2019. Elle est membre du Groupe d’experts sur la préservation au sein de l’équipe GDR de l’Alliance de recherche numérique du Canada. Elle participe également au Groupe de travail sur la GDR du Sous-comité des bibliothèques du Bureau de coopération interuniversitaire.
 
-**Nichole DeMichelis** : *Coming soon*
+**Jeff Moon** : Jeff Moon est le directeur de l’équipe RDM de l’Alliance de recherche numérique du Canada. Il est ancien directeur du réseau Portage, un réseau national de bibliothèques lancé par l’Association des bibliothèques de recherche du Canada (ABRC) dans le but de renforcer les capacités et de coordonner les activités de gestion des données de recherche (GDR) au Canada.
 
-**Jeff Moon** : *Coming soon*
+**Clara Turp** : Clara Turp est bibliothécaire des systèmes de découverte à l’université McGill. Son implication dans le domaine de gestion des données de recherche se concentre sur les métadonnées et la découverte de ces données. 
+
+**Cynthia Lisée** : Cynthia Lisée est bibliothécaire à l’UQAM depuis 2009 et occupe officiellement le poste de bibliothécaire en soutien à la recherche depuis 2020. Ses fonctions l’appellent à offrir des services en communication savante, bibliométrie et en gestion des données de recherche (GDR). Elle est aussi présidente du groupe de travail GDR du Sous-comité des bibliothèques du BCI (Bureau de la coopération interuniversitaire) et est membre du groupe de travail sur la gouvernance de l’Assistant PGD de l’Alliance de recherche numérique du Canada (ancien Portage/NOIRN).
+
+**Nichole DeMichelis** : *Coming soon*
 
 

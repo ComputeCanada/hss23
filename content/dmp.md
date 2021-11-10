@@ -3,7 +3,9 @@ title = "Research Data Management for HSS: From Plan to Preservation, and (Almos
 slug = "dmp"
 +++
 
-**Presented by**: Beth Knazook, Robyn Nicholson, Yvette Rancourt, Victoria Smith, and Erin Clay
+**February 24, 2022, 12:00-2:00pm ET**
+
+**Presented by**: Beth Knazook, Robyn Nicholson, Yvette Rancourt, Victoria Smith, Erin Clay, and Kelly Stathis
 
 **Duration / Durée**: 120 minutes
 
@@ -26,3 +28,5 @@ slug = "dmp"
 **Victoria Smith**: Victoria Smith is the Alliance RDM Policy, Privacy, and Sensitive Data Coordinator. She brings a background in research ethics, sensitive data management, and research policy to her work in research data management. Victoria is leading the FRDR Sensitive Data Repository Project and supports the Sensitive Data Expert Group.
 
 **Erin Clay**: Erin Clary is the Curation Coordinator for the Digital Research Alliance of Canada. She reviews new dataset deposits for the Federated Research Data Repository (FRDR), and as a member of the Curation Expert Group, she is engaged in developing resources to support a national curation community of practice.
+
+**Kelly Stathis**: Kelly Stathis is the Discovery and Metadata Coordinator with Alliance RDM. Kelly advances discovery and metadata initiatives for the Federated Research Data Repository (FRDR), provides technical support for the DataCite Canada Consortium, and works with several RDM expert and working groups, including the Discovery and Metadata Expert Group, the Data Repositories Expert Group, the Dataverse North Metadata Working Group, and the FRDR Discovery Redesign Working Group.
