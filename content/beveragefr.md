@@ -3,7 +3,7 @@ title = "La boisson qui me fait penser à mon champ de recherche (rencontre soci
 slug = "beveragefr"
 +++
 
-**le 22 février 2022, de 16 h à 17 h HE**
+**Le 22 février 2022, de 16 h à 17 h HE**
 
 **Durée** : 60 minutes
 

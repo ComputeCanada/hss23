@@ -3,7 +3,7 @@ title = "Une aventure numérique : Technologie et soutien de la fédération Cal
 slug = "digitalfr"
 +++
 
-**le 22 février de 13 h 30 à 15 h 30 HE**
+**Le 22 février de 13 h 30 à 15 h 30 HE**
 
 **Présenté par** : Pier-luc St-Onge
 

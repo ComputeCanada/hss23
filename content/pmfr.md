@@ -3,7 +3,7 @@ title = "Que dois-je savoir?"
 slug = "pmfr"
 +++
 
-**le 23 février 2022, de midi à 13 h HE**
+**Le 23 février 2022, de midi à 13 h HE**
 
 **Présneté par** : John Simpson
 

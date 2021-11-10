@@ -3,7 +3,7 @@ title = "Mot de bienvenue et introduction"
 slug = "introfr"
 +++
 
-**22 février 2022, de midi à 13 h HE**
+**Le 22 février 2022, de midi à 13 h HE**
 
 **Mot de bienvenue par** : Lydia Vermeyden
 
