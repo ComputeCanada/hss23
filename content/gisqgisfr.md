@@ -3,6 +3,8 @@ title = "GIS et QGIS pour les néophytes"
 slug = "gisqgisfr"
 +++
 
+**Le 25 février 2022, de 9 h à 11 h HE**
+
 **Présenté apr** : Julie Faure-Lacroix
 
 *Note* : La séance sera tenue en français de 9 h à 11 h HE et en anglais de 12 h à 14 h HE.
