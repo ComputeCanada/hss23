@@ -3,6 +3,8 @@ title = "Comment utiliser l’infonuagique dans mon projet"
 slug = "cloudfr"
 +++
 
+**Le 25 février 2022, de 14 h 45 à 15 h 45 HE**
+
 **Pésenté par** : Jeff Albert et Félix-Antoine Fortin
 
 **Durée** : 60 minutes
