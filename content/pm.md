@@ -3,6 +3,8 @@ title = "What Should I Learn and Where can I Learn it?"
 slug = "pm"
 +++
 
+**February 23, 2022, 12:00-1:00 pm ET**
+
 **Presented by**: John Simpson
 
 *Note*: Simultaneous Translation to French will be provided. 

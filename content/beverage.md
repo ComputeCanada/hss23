@@ -3,7 +3,7 @@ title = "Be Your own Beverage (social event)"
 slug = "beverage"
 +++
 
-**February 22, 2022, 4:00- 5:00pm ET**
+**February 22, 2022, 4:00-5:00pm ET**
 
 **Duration**: 60 minutes
 
