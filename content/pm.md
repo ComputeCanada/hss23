@@ -11,25 +11,6 @@ slug = "pm"
 
 **Description**: The landscape of digital tools applicable for Humanists and Social Scientists is wide, varied, and continuously evolving. It can be a difficult landscape to navigate, especially if you are new to it. Which tools are the most important? Which skills are necessary for which tools? Where do you start? What are the resources available to help you? This session seeks to guide participants towards answering these questions for their own situation, and advising them on their journey of digital skill development in Humanities and Social Sciences.
 
-**Biographies**
+**Biographie**
 
-**John Simpson**:
-<br>
-
----
-+++
-title = "Que dois-je savoir?"
-slug = "pm"
-+++
-
-**Présneté par** : John Simpson
-
-*Note* : La séance sera tenue en anglais avec interprétation simultanée.
-
-**Durée** : 60 minutes
-
-**Description**: Les outils numériques pour la recherche en sciences humaines et sociales sont nombreux, variés et en constante évolution. C’est un monde dans lequel il est difficile de s’orienter au début. Quels sont les outils les plus importants? Quelles sont les compétences requises pour pouvoir utiliser les différents outils? Par quoi commencer? Qui peut m’aider? Nous répondons aux questions au sujet de vos cas particuliers et suggérons les moyens que vous pouvez prendre pour développer vos compétences en recherche pour les sciences humaines et sociales. 
-
-**Biographies** 
-
-**John Simpson** : 
+**John Simpson**: John is Compute Canada’s Senior Director, Transition and Strategic Initiatives. Previously he was the Humanities and Social Sciences Specialist for the Compute Canada Federation and it is on the basis of this role that he is participating in this training. He has a diverse background in Philosophy and Computing and remains an active contributor to the Digital Humanities as a Member-at-Large of the Canadian Society for Digital Humanities (CSDH-SCHN) Executive, and a Programming Instructor with the Digital Humanities Summer Institute (DHSI). Prior to joining Compute Canada, John was involved in a research intensive postdoctoral fellowship focusing on developing semantic web expertise and prototyping tools capable of assisting academics in consuming and curating the new data made available by digital environments. He has a PhD in Philosophy from the University of Alberta, and an MA in Philosophy and Hons. BA in Philosophy & Economics, with a specialization in International Trade, from the University of Waterloo.
