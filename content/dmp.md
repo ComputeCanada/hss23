@@ -19,10 +19,10 @@ slug = "dmp"
 
 **Beth Knazook**: *Coming soon*
 
-**Robyn Nicholson**: *Coming soon*
+**Robyn Nicholson**: Robyn Nicholson (she/her/elle) is the Data Management Planning Coordinator with the Digital Research Alliance of Canada, and a member of the Data Management Planning Expert Group (DMPEG). In her role, she helps support, maintain, and strategically develop platforms, services, policies, and resources that support researchers and institutions in meeting their data management planning needs, including the DMP Assistant
 
 **Yvette Rancourt**: As part of the FRDR curation team, Yvette Rancourt (they/them) works with researchers and data managers to support the FAIRness of their data. Yvette also participates in data curation initiatives and community building as a member of the Curation Expert Group.
 
-**Victoria Smith**: *Coming soon*
+**Victoria Smith**: Victoria Smith is the Alliance RDM Policy, Privacy, and Sensitive Data Coordinator. She brings a background in research ethics, sensitive data management, and research policy to her work in research data management. Victoria is leading the FRDR Sensitive Data Repository Project and supports the Sensitive Data Expert Group.
 
 **Erin Clay**: Erin Clary is the Curation Coordinator for the Digital Research Alliance of Canada. She reviews new dataset deposits for the Federated Research Data Repository (FRDR), and as a member of the Curation Expert Group, she is engaged in developing resources to support a national curation community of practice.
