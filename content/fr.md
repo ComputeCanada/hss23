@@ -1,5 +1,5 @@
 +++
-title = "Semaine de formation de la FCC pour les SHS, hiver 2022"
+title = "Programme"
 slug = "fr"
 +++
 
