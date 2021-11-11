@@ -6,7 +6,7 @@ slug = "fr"
 | Séance      | Date et heure |
 | ----------- | ----------- |
 | [Séance 1 : Mot de bienvenue et introduction](/introfr) | 22 février 2022, de midi à 13 h HE |
-| [Séance 2 : Une aventure numérique](/digitalfr) | 22 février 2022, de 13 h 30 à 15 h 30 HE |
+| [Séance 2 : Une aventure numérique : Technologie et soutien de la fédération Calcul Canada pour l’avancement de la recherche](/digitalfr) | 22 février 2022, de 13 h 30 à 15 h 30 HE |
 | [Séance 3 : La boisson qui me fait penser à mon champ de recherche (rencontre sociale)](/beveragefr) | 22 février, de 16 h à 17 h HE |
 | [Séance 4 : Que dois-je savoir?](/pmfr) | 23 février 2022, de midi à 13 h HE |
 | [Séance 5 : Labo de programmation](/labfr) | 23 février 2022, de 13 h à 17 h HE |
