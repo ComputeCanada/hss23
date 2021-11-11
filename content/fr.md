@@ -3,7 +3,7 @@ title = "Programme"
 slug = "fr"
 +++
 
-| Séances      | Date et heure |
+| Séance      | Date et heure |
 | ----------- | ----------- |
 | [Séance 1 : Mot de bienvenue et introduction](/introfr) | 22 février 2022, de midi à 13 h HE |
 | [Séance 2 : Une aventure numérique](/digitalfr) | 22 février 2022, de 13 h 30 à 15 h 30 HE |

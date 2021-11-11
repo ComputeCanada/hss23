@@ -1,5 +1,5 @@
 +++
-title = "HSS Series 2022"
+title = "Program"
 slug = "en"
 +++
 
