@@ -1,5 +1,6 @@
 baseurl = "/"
 title = "Compute Canada Federation HSS series 2022"
+      = "Semaine de formation de la fédération Calcul Canada pour les SHS, 2022"
 
 theme = "hugo-coder"
 
