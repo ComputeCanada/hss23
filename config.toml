@@ -25,7 +25,7 @@ canonifyurls = true
     description = ""
     keywords = ""
     info = "Winter 2022 | Hiver 2022"
-    wgavatar = "/images/cc_white_removed_medium.png"
+    wgavatar = "/images/compute-canada-bilingual-logo.jpg"
     favicon_32 = "/images/favicon.png"
 
     dateformat = "January 2, 2006"
