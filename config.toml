@@ -1,5 +1,6 @@
 baseurl = "/"
-title = "Compute Canada HSS series 2022"
+title = "Compute Canada Federation HSS series 2022"
+      = "Semaine de formation de la FCC pour les SHS, 2022
 
 theme = "hugo-coder"
 
@@ -23,7 +24,7 @@ canonifyurls = true
     author = "Compute Canada"
     description = ""
     keywords = ""
-    info = "HSS series 2022"
+    info = "Winter 2022 | Hiver 2022"
     wgavatar = "/images/cc_white_removed_medium.png"
     favicon_32 = "/images/favicon.png"
 
