@@ -27,6 +27,6 @@ slug = "dmpfr"
 
 **Cynthia Lisée** : Cynthia Lisée est bibliothécaire à l’UQAM depuis 2009 et occupe officiellement le poste de bibliothécaire en soutien à la recherche depuis 2020. Ses fonctions l’appellent à offrir des services en communication savante, bibliométrie et en gestion des données de recherche (GDR). Elle est aussi présidente du groupe de travail GDR du Sous-comité des bibliothèques du BCI (Bureau de la coopération interuniversitaire) et est membre du groupe de travail sur la gouvernance de l’Assistant PGD de l’Alliance de recherche numérique du Canada (ancien Portage/NOIRN).
 
-**Nichole DeMichelis** : *Coming soon*
+**Nichole DeMichelis** : Nichole DeMichelis est une agente de curation avec l'équipe de curation au Dépôt fédéré de données de recherche (DFDR) . Elle travaille avec les soumissions en français. En tant que membre du Groupe d’experts sur la curation, elle soutient la communauté de pratique de curation et d’autres telles initiatives.
 
 
