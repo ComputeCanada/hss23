@@ -6,7 +6,7 @@ slug = "en"
 | Session      | Date and time |
 | ----------- | ----------- |
 | [Session 1: Welcome and Keynote Address](/intro) | February 22, 12:00-1:00pm ET |
-| [Session 2: A Digital Adventure](/digital) | February 22, 1:30-3:30pm ET |
+| [Session 2: A Digital Adventure: Advancing Research With Technologies and Supports Available Through the Compute Canada Federation](/digital) | February 22, 1:30-3:30pm ET |
 | [Session 3: Be Your own Beverage](/beverage) | February 22, 4:00-5:00pm ET |
 | [Session 4: What Should I Learn and Where can I Learn it?](/pm) | February 23, 12:00-1:00 pm ET |
 | [Session 5: The programming Lab](/lab) | February 23, 1:00-5:00pm ET |
