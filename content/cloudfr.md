@@ -1,5 +1,5 @@
 +++
-title = "Comment utiliser l’infonuagique dans mon projet"
+title = "façonner l'avenir de l'infonuagique"
 slug = "cloudfr"
 +++
 
