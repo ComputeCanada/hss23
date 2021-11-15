@@ -3,7 +3,7 @@ title = "What is the Worst That Could Happen? (Research Data Management Panel)"
 slug = "rdmp"
 +++
 
-**February 24, 02:30-4:00pm ET**
+**February 24, 2:30-4:00pm ET**
 
 **Moderated by**: Nick Rochlin
 

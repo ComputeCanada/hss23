@@ -3,7 +3,7 @@ title = "Engaging in the Future of Cloud"
 slug = "cloud"
 +++
 
-**February 25, 2022 2:45-03:45 pm ET**
+**February 25, 2022 2:45-3:45 pm ET**
 
 **Presented by**: Jeff Albert and Félix-Antoine Fortin 
 

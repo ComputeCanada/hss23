@@ -3,7 +3,7 @@ title = "The Programming lab"
 slug = "lab"
 +++ 
 
-**February 23, 2022, 01:00-5:00pm ET**
+**February 23, 2022, 1:00-5:00pm ET**
 
 **Duration**: 4 Hours 
 

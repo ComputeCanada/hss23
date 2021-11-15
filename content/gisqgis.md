@@ -3,7 +3,7 @@ title = "An Absolute Beginner's Introduction to GIS and QGIS"
 slug = "gisqgis"
 +++
 
-**February 25, 2022 12:00-02:00 pm ET**
+**February 25, 2022 12:00-2:00 pm ET**
 
 **Presernted by**: Julie Faure-Lacroix 
 

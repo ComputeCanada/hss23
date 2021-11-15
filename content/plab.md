@@ -3,7 +3,7 @@ title = "Programming lab Show and Tell (social event)"
 slug = "plab"
 +++
 
-**February 25, 2022, 4:00-05:00 pm ET**
+**February 25, 2022, 4:00-5:00 pm ET**
 
 **Duration**: 180 minutes
 
