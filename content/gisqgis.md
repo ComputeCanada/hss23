@@ -11,7 +11,7 @@ slug = "gisqgis"
  
 **Duration**: 120 minutes
 
-**Description**: Need to create a map, but don't know how? Have you been asked to analyze geospatial data and you are wondering where to start? This introduction is for you. We will use QGIS to explore the world of Geographic Information Systems (GIS) and familiarize ourselves with the different steps of creating a simple map. We will perform some basic operations and we will discover the open data available within QGIS and elsewhere on the web
+**Description**: Need to create a map, but don't know how? Have you been asked to analyze geospatial data and you are wondering where to start? This introduction is for you. We will use QGIS to explore the world of Geographic Information Systems (GIS) and familiarize ourselves with the different steps of creating a simple map. We will perform some basic operations and we will discover the open data available within QGIS and elsewhere on the web.
 
 **Biography**
 
