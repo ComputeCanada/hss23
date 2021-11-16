@@ -13,7 +13,7 @@ slug = "rdmpfr"
 
 **Durée** : 90 minutes
 
-**Description** : Pour discuter de comment se passe la gestion des données de recherche dans la pratique, des membres de notre équipe technique se joignent à des chercheuses et chercheurs dans une table ronde où seront présentés des exemples concrets. On y parlera surtout de situations inattendues qui peuvent se produire et causer des problèmes de toutes sortes, même des histoires d’horreur! La rencontre sera dirigée par Nick Rochlin, spécialiste en gestion des données de recherche au campus Okanagan de l’Université de la Colombie-Britannique. N’hésitez pas à poser des questions sur vos cas particuliers en direct ou en remplissant [ce formulaire](https://docs.google.com/forms/d/e/1FAIpQLSdanlooKFdnaOsd1TIhLvt7-VXW-jg1IdCquC5inXjO1Pm60A/formResponse"formulaire"). Bien sûr, vous pouvez vous joindre à nous si vous n’avez pas de questions!
+**Description** : Pour discuter de comment se passe la gestion des données de recherche dans la pratique, des membres de notre équipe technique se joignent à des chercheuses et chercheurs dans une table ronde où seront présentés des exemples concrets. On y parlera surtout de situations inattendues qui peuvent se produire et causer des problèmes de toutes sortes, même des histoires d’horreur! La rencontre sera dirigée par Nick Rochlin, spécialiste en gestion des données de recherche au campus Okanagan de l’Université de la Colombie-Britannique. N’hésitez pas à poser des questions sur vos cas particuliers en direct ou en remplissant [ce formulaire](https://docs.google.com/forms/d/e/1FAIpQLSdanlooKFdnaOsd1TIhLvt7-VXW-jg1IdCquC5inXjO1Pm60A/viewform?usp=sf_link). Bien sûr, vous pouvez vous joindre à nous si vous n’avez pas de questions!
 
 **Biographies**
 
