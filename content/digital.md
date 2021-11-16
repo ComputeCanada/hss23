@@ -9,7 +9,7 @@ slug = "digital"
 
 **Duration**: 120 minutes
 
-**Description**: Learn about the national digital infrastructure that is free to access through the Compute Canada Federation (CCF) for academic researchers in Canada! This workshop will begin with a short overview of the CCF's digital resources and user supports, including the expanding Humanities and Social Science specific supports. It will continue with a discussion with participants about current applications and usage cases for their research areas and explore potential projects. This part of the session will include live demos of applicable technologies, and a Database code-along!
+**Description**: Learn about the national digital infrastructure that is free to access through the Compute Canada Federation (CCF) for academic researchers in Canada! This workshop will begin with a short overview of the CCF's digital resources and user supports, including the expanding Humanities and Social Science specific supports. It will continue with a discussion with participants about current applications and use cases for their research areas and explore potential projects. This part of the session will include live demos of applicable technologies, and a database code-along!
 
 **Biography**
 
