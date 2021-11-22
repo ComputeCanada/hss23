@@ -2,7 +2,7 @@
 title = "Program"
 slug = "en"
 +++
-If you have any question, please write to: lydia.vermeyden@ace-net.ca
+If you have any question, please write to: hss@computecanada.ca
 
 
 | Session      | Date and time |

@@ -2,7 +2,7 @@
 title = "Programme"
 slug = "fr"
 +++
-Si vous avez des questions, écrivez-nous : lydia.vermeyden@ace-net.ca
+Si vous avez des questions, écrivez-nous : hss@calculcanada.ca
 
 | Séance      | Date et heure |
 | ----------- | ----------- |
