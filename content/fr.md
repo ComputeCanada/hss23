@@ -2,6 +2,7 @@
 title = "Programme"
 slug = "fr"
 +++
+Si vous avez des questions, écrivez-nous : hss@calculcanada.ca
 
 | Séance      | Date et heure |
 | ----------- | ----------- |
