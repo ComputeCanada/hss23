@@ -15,3 +15,5 @@ slug = "en"
 | [Session 8: An Absolute Beginner's Introduction to GIS and QGIS](/gisqgis) | February 25, 12:00-2:00 pm ET |
 | [Session 9: Engaging in the Future of Cloud](/cloud) | February 25, 2:45-3:45 pm ET |
 | [Session 10: Programming Lab Show and Tell](/plab) | February 25, 4:00-5:00 pm ET |
+
+If you have any question, please write to: hss@computecanada.ca 
