@@ -11,7 +11,7 @@ slug = "introfr"
 
 **Durée** : 60 minutes
 
-**Description** : L’équipe nationale Sciences humaines et sociales accueille celles et ceux qui participent à la deuxième édition de la semaine de formation de la fédération Calcul Canada pour les sciences humaines et sociales. Nous aurons l’occasion d’entendre Nizar Ladak, directeur général de l’Alliance de recherche numérique du Canada ainsi que Ghilaine Roquet, vice-présidente Stratégie et planification
+**Description** : L’équipe nationale Sciences humaines et sociales accueille celles et ceux qui participent à la deuxième édition de la semaine de formation de la fédération Calcul Canada pour les sciences humaines et sociales. Nous aurons l’occasion d’entendre Nizar Ladak, directeur général de l’Alliance de recherche numérique du Canada ainsi que Ghilaine Roquet, vice-présidente Stratégie et planification.
 
 **Biographies**
 
