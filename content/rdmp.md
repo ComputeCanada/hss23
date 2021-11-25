@@ -9,7 +9,7 @@ slug = "rdmp"
 
 **Panel Members**: Craig Squires (En), Arun Jacob (En), Felicity Taylor (En, Fr), and Maude Bonenfant (Fr)
 
-*Note.*: Simultaneous translation for French and English will be available.
+*Note.*: Simultaneous translation to French and English will be available.
 
 **Duration**: 90 minutes
 
@@ -24,6 +24,6 @@ campus. He has a Masters of Library and Information Studies from UBC, and prior 
 
 **Arun Jacob**: Arun Jacob is a doctoral student at the Faculty of Information at the University of Toronto. His educational pursuits have included electronics technology, professional communication, and labour studies. His research examines the role of media in the development of educational technologies. Arun's most recent publication, "Follow The Ho Chi Minh Trail: Analyzing the Media History of the Electronic Battlefield" is available on the Interdisciplinary Digital Engagement in Arts & Humanities (IDEAH) Vol. 2, Issue 1. Arun is the author of “Punching Holes in the International Busa Machine Narrative,” found in the volume Alternative Histories of the Digital Humanities (Punctum Books, 2021) co-edited by Dorothy Kim and Adeline Koh. He also co-authored the article “Transforming DH Pedagogy” (Digital Studies/le Champ Numérique 2020) with Nadine Boulay, Ashley Caranto Morford, Kush Patel, and Kimberly O’Donnell.  As the community liaison for the Critical Digital Humanities Initiative at the University of Toronto, Arun is creating a new series of skills-based workshops for the upcoming academic year. 
 
-**Felicity Taylor**: Felicity is the Research Data Management Librarian at the University of Ottawa and co-applicant on the SpokenWeb partnership. She is an occasional visual artist and curator, and has published scholarly writing related to literary archives in anthologies, and in venues such as the Journal of Canadian Art History,Canadian Literature, and Mémoires du livre / Studies in Book Culture.
+**Felicity Taylor**: Felicity is the Research Data Management Librarian at the University of Ottawa and co-applicant on the SpokenWeb partnership. She is an occasional visual artist and curator, and has published scholarly writing related to literary archives in anthologies, and in venues such as the Journal of Canadian Art History, Canadian Literature, and Mémoires du livre / Studies in Book Culture.
 
 **Maude Bonenfant**: Maude Bonenfant is a professor in the Department of Social and Public Communications at l’Université du Québec à Montréal (UQÀM). She has a doctorate in semiotics and is chairholder of the Canada Research Chair on Gaming Communities and Big Data. Her research focuses on the social dimensions of communication technologies, social networks, big data, artificial intelligence, online communities, as well as gaming practices and video games. She is co-director of the Laboratory for Research on Social Media and Gamification, and co-director of the Homo Ludens Research Group on Games and Communication.
