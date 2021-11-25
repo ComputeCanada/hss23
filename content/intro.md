@@ -10,7 +10,7 @@ slug = "intro"
 
 **Duration**: 60 minutes
 
-**Description**: Introduction and welcome to the second annual Humanities and social sciences winter series, hosted by the Humanities and Social Sciences National Team in the Compute Canada Federation. There will be a special keynote address from the CEO (Nizar Ladak) and the VP of strategy and planning ((Ghilaine Roquet) for The Digital Research Alliance of Canada (The Alliance). 
+**Description**: Introduction and welcome to the second annual Humanities and social sciences winter series, hosted by the Humanities and Social Sciences National Team in the Compute Canada Federation. There will be a special keynote address from the CEO (Nizar Ladak) and the VP of strategy and planning (Ghilaine Roquet) for The Digital Research Alliance of Canada (The Alliance). 
 
 **Biographies**
 
