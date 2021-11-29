@@ -5,7 +5,7 @@ slug = "dmpfr"
 
 **Le 24 février 2022, de midi à 14 h HE**
 
-**Présenté par** : Mireille Nappert, Nichole DeMichelis, Jeff Moon, Cynthia Lisée et Clara Turp 
+**Présenté par** : Mireille Nappert, Nichole DeMichelis, Jeff Moon, Arina Soare et Clara Turp 
 
 **Durée** : 120 minutes
 
@@ -25,7 +25,7 @@ slug = "dmpfr"
 
 **Clara Turp** : Clara Turp est bibliothécaire des systèmes de découverte à l’université McGill. Son implication dans le domaine de gestion des données de recherche se concentre sur les métadonnées et la découverte de ces données. 
 
-**Cynthia Lisée** : Cynthia Lisée est bibliothécaire à l’UQAM depuis 2009 et occupe officiellement le poste de bibliothécaire en soutien à la recherche depuis 2020. Ses fonctions l’appellent à offrir des services en communication savante, bibliométrie et en gestion des données de recherche (GDR). Elle est aussi présidente du groupe de travail GDR du Sous-comité des bibliothèques du BCI (Bureau de la coopération interuniversitaire) et est membre du groupe de travail sur la gouvernance de l’Assistant PGD de l’Alliance de recherche numérique du Canada (ancien Portage/NOIRN).
+**Arina Soare** : Ancienne ingénieure, Arina Soare a changé de carrière et a obtenu son diplôme M.L.I.S. de l'Université McGill. Depuis 2011, elle travaille à titre de bibliothécaire en sciences et génie à la Bibliothèque de Polytechnique Montréal, où elle donne des formations documentaires, offre des services de consultation sur divers sujets, dont la gestion bibliographique, la gestion des données de recherche. Arina rédige également des guides documentaires entre autres dans les domaines du génie suivants : aérospatial, informatique, électrique et mécanique. 
 
 **Nichole DeMichelis** : Nichole DeMichelis est une agente de curation avec l'équipe de curation au Dépôt fédéré de données de recherche (DFDR). Elle travaille avec les soumissions en français. En tant que membre du Groupe d’experts sur la curation, elle soutient la communauté de pratique de curation et d’autres telles initiatives.
 
