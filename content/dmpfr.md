@@ -10,7 +10,7 @@ slug = "dmpfr"
 **Durée** : 120 minutes
 
 **Description** : La gestion des données de recherche prend une place de plus en plus importante dans les projets de recherche, y compris les projets en sciences humaines et sociales. Depuis le lancement de la Politique des trois organismes sur la gestion des données de recherche et l’adoption de plus en plus généralisée des principes tels que FAIR, CARE et PCAP, il est essentiel de comprendre et d’appliquer les meilleures pratiques en gestion des données de recherche. L’effort en vaut la peine! Dans cet atelier, nous présentons les principaux aspects de la gestion des données de recherche en vous donnant des conseils et en vous indiquant des outils et des ressources que vous pouvez incorporer à votre processus de recherche dès maintenant. Parmi les sujets traités :
-- définition de données de recherche
+- définition des données de recherche
 - qu’est-ce qu’un plan de gestion des données et comment en tirer profit
 - qu’est-ce que la curation des données et quelle est son importance
 - quels sont les enjeux dont il faut tenir compte avant de partager ses données avec d’autres
