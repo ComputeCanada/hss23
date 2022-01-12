@@ -1,5 +1,5 @@
 +++
-title = "Gestion des données de recherche en sciences humaines et sociales : De la planification à la conservation et (presque) tout entre les deux"
+title = "Gestion des données de recherche en sciences humaines et sociales : De la planification à la preservation et (presque) tout entre les deux"
 slug = "dmpfr"
 +++
 
@@ -14,14 +14,14 @@ slug = "dmpfr"
 - qu’est-ce qu’un plan de gestion des données et comment en tirer profit
 - qu’est-ce que la curation des données et quelle est son importance
 - quels sont les enjeux dont il faut tenir compte avant de partager ses données avec d’autres
-- comment envisager la conservation à long terme des données
+- comment envisager la preservation à long terme des données
 - que sont des données sensibles et comment s'assurer de bien les gérer
 
 **Biographies** 
 
 **Mireille Nappert** : Mireille Nappert est archiviste numérique à HEC Montréal depuis 2019. Elle est membre du Groupe d’experts sur la préservation au sein de l’équipe GDR de l’Alliance de recherche numérique du Canada. Elle participe également au Groupe de travail sur la GDR du Sous-comité des bibliothèques du Bureau de coopération interuniversitaire.
 
-**Jeff Moon** : Jeff Moon est le directeur de l’équipe RDM de l’Alliance de recherche numérique du Canada. Il est ancien directeur du réseau Portage, un réseau national de bibliothèques lancé par l’Association des bibliothèques de recherche du Canada (ABRC) dans le but de renforcer les capacités et de coordonner les activités de gestion des données de recherche (GDR) au Canada.
+**Jeff Moon** : Jeff Moon est le directeur de l’équipe GDR de l’Alliance de recherche numérique du Canada. Il est ancien directeur du réseau Portage, un réseau national de bibliothèques lancé par l’Association des bibliothèques de recherche du Canada (ABRC) dans le but de renforcer les capacités et de coordonner les activités de gestion des données de recherche (GDR) au Canada.
 
 **Clara Turp** : Clara Turp est bibliothécaire des systèmes de découverte à l’université McGill. Son implication dans le domaine de gestion des données de recherche se concentre sur les métadonnées et la découverte de ces données. 
 
