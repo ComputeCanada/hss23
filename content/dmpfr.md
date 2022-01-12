@@ -1,5 +1,5 @@
 +++
-title = "Gestion des données de recherche en sciences humaines et sociales : De la planification à la preservation et (presque) tout entre les deux"
+title = "Gestion des données de recherche en sciences humaines et sociales : De la planification à la préservation et (presque) tout entre les deux"
 slug = "dmpfr"
 +++
 
@@ -14,7 +14,7 @@ slug = "dmpfr"
 - qu’est-ce qu’un plan de gestion des données et comment en tirer profit
 - qu’est-ce que la curation des données et quelle est son importance
 - quels sont les enjeux dont il faut tenir compte avant de partager ses données avec d’autres
-- comment envisager la preservation à long terme des données
+- comment envisager la préservation à long terme des données
 - que sont des données sensibles et comment s'assurer de bien les gérer
 
 **Biographies** 
