@@ -29,4 +29,5 @@ slug = "dmpfr"
 
 **Nichole DeMichelis** : Nichole DeMichelis est une agente de curation avec l'équipe de curation au Dépôt fédéré de données de recherche (DFDR). Elle travaille avec les soumissions en français. En tant que membre du Groupe d’experts sur la curation, elle soutient la communauté de pratique de curation et d’autres telles initiatives.
 
+**Mireille Léger-Rousseau** : Mireille est bibliothécaire de référence à l’Université de Sherbrooke depuis 2019, où elle contribue à bâtir une culture de GDR au sein de son institution. Auparavant, elle a travaillé dans le secteur privé comme linguiste en text mining et gestion des connaissances.
 
