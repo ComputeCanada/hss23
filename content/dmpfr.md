@@ -23,9 +23,7 @@ slug = "dmpfr"
 
 **Jeff Moon** : Jeff Moon est le directeur de l’équipe GDR de l’Alliance de recherche numérique du Canada. Il est ancien directeur du réseau Portage, un réseau national de bibliothèques lancé par l’Association des bibliothèques de recherche du Canada (ABRC) dans le but de renforcer les capacités et de coordonner les activités de gestion des données de recherche (GDR) au Canada.
 
-**Clara Turp** : Clara Turp est bibliothécaire des systèmes de découverte à l’université McGill. Son implication dans le domaine de gestion des données de recherche se concentre sur les métadonnées et la découverte de ces données. 
-
-**Arina Soare** : Ancienne ingénieure, Arina Soare a changé de carrière et a obtenu son diplôme M.L.I.S. de l'Université McGill. Depuis 2011, elle travaille à titre de bibliothécaire en sciences et génie à la Bibliothèque de Polytechnique Montréal, où elle donne des formations documentaires, offre des services de consultation sur divers sujets, dont la gestion bibliographique, la gestion des données de recherche. Arina rédige également des guides documentaires entre autres dans les domaines du génie suivants : aérospatial, informatique, électrique et mécanique. 
+**Clara Turp** : Clara Turp est bibliothécaire des systèmes de découverte à l’université McGill. Son implication dans le domaine de gestion des données de recherche se concentre sur les métadonnées et la découverte de ces données.  
 
 **Nichole DeMichelis** : Nichole DeMichelis est une agente de curation avec l'équipe de curation au Dépôt fédéré de données de recherche (DFDR). Elle travaille avec les soumissions en français. En tant que membre du Groupe d’experts sur la curation, elle soutient la communauté de pratique de curation et d’autres telles initiatives.
 
