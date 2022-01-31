@@ -5,7 +5,7 @@ slug = "dmpfr"
 
 **Le 24 février 2022, de midi à 14 h HE**
 
-**Présenté par** : Mireille Nappert, Nichole DeMichelis, Jeff Moon, Arina Soare et Clara Turp 
+**Présenté par** : Mireille Nappert, Nichole DeMichelis, Jeff Moon, Arina Soare, Clara Turp et Cynthis Lisée 
 
 **Durée** : 120 minutes
 
@@ -29,3 +29,4 @@ slug = "dmpfr"
 
 **Mireille Léger-Rousseau** : Mireille est bibliothécaire de référence à l’Université de Sherbrooke depuis 2019, où elle contribue à bâtir une culture de GDR au sein de son institution. Auparavant, elle a travaillé dans le secteur privé comme linguiste en text mining et gestion des connaissances.
 
+**Cynthia Lisée** : Cynthia Lisée est bibliothécaire à l’UQAM depuis 2009 et occupe officiellement le poste de bibliothécaire en soutien à la recherche depuis 2020. Ses fonctions l’appellent à offrir des services en communication savante, bibliométrie et en gestion des données de recherche (GDR). Elle est impliquée dans les travaux institutionnels concernant l’espace Dataverse de l’UQAM et l’élaboration de la stratégie institutionnelle pour la GDR. Elle est aussi présidente du groupe de travail GDR du Sous-comité des bibliothèques du BCI (Bureau de la coopération interuniversitaire) et est membre du groupe de travail sur la gouvernance de l’Assistant plan de gestion des données de l’Alliance de recherche numérique du Canada.
