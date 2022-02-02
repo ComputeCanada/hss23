@@ -19,7 +19,7 @@ slug = "dmp"
 
 **Biographies** 
 
-**Beth Knazook**: Beth Knazook is the Preservation Coordinator for the Alliance RDM team, and a member of the Preservation Expert Group. She is involved with work on developing a preservation pipeline in Canada, and has recently been working with the CoreTrustSeal Certification Cohort group to support data repository certification efforts.
+**Beth Knazook**: Beth Knazook is the Project Manager, Research Data at the Digital Repository of Ireland, where she is working on the European Open Science Cloud (EOSC) Future project, an EU-funded iniatiave to give European researchers wide access to FAIR data and related services, as well as generally working to support RDM at the DRI. She was previously the Preservation Coordinator with the Portage Network at the Canadian Association of Research Libraries, later the Digital Research Alliance of Canada. She has a background in preservation management and art history.
 
 **Robyn Nicholson**: Robyn Nicholson (she/her/elle) is the Data Management Planning Coordinator with the Digital Research Alliance of Canada, and a member of the Data Management Planning Expert Group (DMPEG). In her role, she helps support, maintain, and strategically develop platforms, services, policies, and resources that support researchers and institutions in meeting their data management planning needs, including the DMP Assistant.
 
