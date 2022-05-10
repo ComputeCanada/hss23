@@ -16,3 +16,5 @@ slug = "cloud"
 **Jeff Albert**: Jeff Albert is a Senior Advanced Research Systems Administrator with the University of Victoria, applying more than 16 years of experience to distributed systems, cloud computing infrastructure, and high-performance ARC services. He also serves as Team Lead of the Compute Canada Federation’s Cloud National Team, providing strategic leadership on emerging research cloud technologies, infrastructure, and platforms.
 
 **Félix-Antoine Fortin**: Félix-Antoine Fortin is the Team Lead of Research Software Development at Université Laval, a member of the Compute Canada Federation’s Cloud National Team, and the creator of the widely-adopted open source HPC-as-a-Service platform known as Magic Castle.
+
+- [Watch this session on Vimeo](https://vimeo.com/693560048)

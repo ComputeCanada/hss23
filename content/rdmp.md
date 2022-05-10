@@ -27,3 +27,5 @@ campus. He has a Masters of Library and Information Studies from UBC, and prior 
 **Felicity Taylor**: Felicity is the Research Data Management Librarian at the University of Ottawa and co-applicant on the SpokenWeb partnership. She is an occasional visual artist and curator, and has published scholarly writing related to literary archives in anthologies, and in venues such as the Journal of Canadian Art History, Canadian Literature, and Mémoires du livre / Studies in Book Culture.
 
 **Maude Bonenfant**: Maude Bonenfant is a professor in the Department of Social and Public Communications at l’Université du Québec à Montréal (UQÀM). She has a doctorate in semiotics and is chairholder of the Canada Research Chair on Gaming Communities and Big Data. Her research focuses on the social dimensions of communication technologies, social networks, big data, artificial intelligence, online communities, as well as gaming practices and video games. She is co-director of the Laboratory for Research on Social Media and Gamification, and co-director of the Homo Ludens Research Group on Games and Communication.
+
+- [Watch this session on Vimeo](https://vimeo.com/691148432)

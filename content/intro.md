@@ -20,5 +20,7 @@ slug = "intro"
 
 **Ghilaine Roquet**: Ghilaine Roquet is a former Associate Vice-Principal, Information Technology and CIO at McGill University. She has more than 20 years of experience in IT in higher education, previously serving as Associate Vice-Rector and CIO at l’Université de Montréal and as Director, IT Services at HEC-Montréal. Ms. Roquet is a Past President of the Canadian University Council of Chief Information Officers (CUCCIO) and a former member of the Executive Committee of the Board of Réseau d’informations scientifiques du Québec (RISC).
 
-{{< vimeo 690948795 >}}
-<br>
+<!-- {{< vimeo 690948795 >}} -->
+<!-- <br> -->
+
+- [Watch this session on Vimeo](https://vimeo.com/690948795)

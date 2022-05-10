@@ -28,4 +28,4 @@ Mémoires du livre – *Studies in Book Culture*.
 
 **Maude Bonenfant** : Maude Bonenfant est professeure au Département de communication sociale et publique de l’Université du Québec à Montréal (UQAM) et docteure en sémiologie. Ses recherches sont orientées vers les dimensions sociales des technologies de communication, les réseaux socionumériques, les données massives, l’intelligence artificielle, les communautés en ligne ainsi que l’étude du jeu. Elle est titulaire de la Chaire de recherche du Canada sur les données massives et les communautés de joueurs, codirectrice du Laboratoire de recherche en médias socionumériques et ludification et codirectrice du groupe de recherche Homo Ludens sur le jeu et la communication.
 
-
+- [Watch this session on Vimeo](https://vimeo.com/691105276)

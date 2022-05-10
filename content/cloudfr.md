@@ -1,5 +1,5 @@
 +++
-title = "façonner l'avenir de l'infonuagique"
+title = "Façonner l'avenir de l'infonuagique"
 slug = "cloudfr"
 +++
 
@@ -17,3 +17,4 @@ slug = "cloudfr"
 
 **Félix-Antoine Fortin** : Félix-Antoine Fortin est chef de l’équipe de développement de logiciels scientifiques à l'Université Laval, membre de l'équipe infonuagique de la fédération Calcul Canada et auteur de la plateforme open source de CIP en tant que service Magic Castle qui compte plusieurs adeptes.
 
+- [Watch this session on Vimeo](https://vimeo.com/693564325)

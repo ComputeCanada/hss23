@@ -16,3 +16,6 @@ slug = "pm"
 **Biographie**
 
 **John Simpson**: John is Compute Canada’s Senior Director, Transition and Strategic Initiatives. Previously he was the Humanities and Social Sciences Specialist for the Compute Canada Federation and it is on the basis of this role that he is participating in this training. He has a diverse background in Philosophy and Computing and remains an active contributor to the Digital Humanities as a Member-at-Large of the Canadian Society for Digital Humanities (CSDH-SCHN) Executive, and a Programming Instructor with the Digital Humanities Summer Institute (DHSI). Prior to joining Compute Canada, John was involved in a research intensive postdoctoral fellowship focusing on developing semantic web expertise and prototyping tools capable of assisting academics in consuming and curating the new data made available by digital environments. He has a PhD in Philosophy from the University of Alberta, and an MA in Philosophy and Hons. BA in Philosophy & Economics, with a specialization in International Trade, from the University of Waterloo.
+
+- [Watch this session on Vimeo](https://vimeo.com/691053783)
+- [Slides](https://docs.google.com/presentation/d/17x4DlNDS2jDpya1nSYeSAForPQbEYwrbFEE0yv-HuZc/edit#slide=id.p)

@@ -30,3 +30,5 @@ slug = "dmp"
 **Erin Clay**: Erin Clary is the Curation Coordinator for the Digital Research Alliance of Canada. She reviews new dataset deposits for the Federated Research Data Repository (FRDR), and as a member of the Curation Expert Group, she is engaged in developing resources to support a national curation community of practice.
 
 **Kelly Stathis**: Kelly Stathis is the Discovery and Metadata Coordinator with Alliance RDM. Kelly advances discovery and metadata initiatives for the Federated Research Data Repository (FRDR), provides technical support for the DataCite Canada Consortium, and works with several RDM expert and working groups, including the Discovery and Metadata Expert Group, the Data Repositories Expert Group, the Dataverse North Metadata Working Group, and the FRDR Discovery Redesign Working Group.
+
+- [Watch this session on Vimeo](https://vimeo.com/691077405)

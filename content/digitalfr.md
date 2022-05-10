@@ -14,3 +14,6 @@ slug = "digitalfr"
 **Biographie**
 
 **Pier-Luc St-Onge** : Diplômé au baccalauréat et à la maîtrise en génie logiciel et génie informatique, il a travaillé pendant cinq ans pour différents laboratoires de recherche avant de rejoindre Calcul Québec en mai 2013. Dans son projet de recherche, il s'était spécialisé en vision par ordinateur avec OpenCV. À Calcul Québec, il fait partie de l'équipe d'analystes offrant du soutien aux utilisateurs des ressources de calcul.
+
+- [Watch this session on Vimeo](https://vimeo.com/691017525)
+- [Slides](https://drive.google.com/drive/u/1/folders/19VBrmCKrGlvzIPO8lK9IlpWoZyp23E7Q)
