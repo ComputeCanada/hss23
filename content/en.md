@@ -44,6 +44,10 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
 {{< unsafe >}}
   <table>
     <tr>
+      <th></th>
+      <th>Session 1</th>
+    </tr>
+    <tr>
       <td>11:30am–12:50pm</td>
       <td colspan="3">Sensitive Data Project</td>
     </tr>
@@ -87,6 +91,10 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
 
 {{< unsafe >}}
   <table>
+    <tr>
+      <th></th>
+      <th>Session 1</th>
+    </tr>
     <tr>
       <td>12:00–3:00pm &emsp;&emsp;&ensp;</td>
       <td colspan="3">Bring your own project!</td>
