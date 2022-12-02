@@ -2,7 +2,7 @@
 title = "Introduction to the Unix Command Line"
 slug = "unix"
 +++
-**February 14, 2023, 1:30-2:50pm EST**
+**February 14, 2023, 1:30pm-2:50pm EST**
 
 **Presented by**: Grace Fishbein
 
