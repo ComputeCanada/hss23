@@ -24,7 +24,7 @@ canonifyurls = true
     description = ""
     keywords = ""
     info = "Winter 2023 | Hiver 2023"
-    wgavatar = "/images/logo.svg"
+    wgavatar = "/images/drac.svg"
     favicon_32 = "/images/favicon.png"
 
     dateformat = "January 2, 2006"
