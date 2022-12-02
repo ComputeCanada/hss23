@@ -45,7 +45,7 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
   <table>
     <tr>
       <th></th>
-      <th>Session 1</th>
+      <th><div style="float:left;width:40%;">Session 1</div></th>
     </tr>
     <tr>
       <td>11:30am–12:50pm</td>
@@ -68,7 +68,7 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
   <table>
     <tr>
       <th></th>
-      <th>Session 1</th>
+      <th><div style="float:left;width:70%;">Session 1</div></th>
       <th>Session 2</th>
     </tr>
     <tr>
@@ -93,7 +93,7 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
   <table>
     <tr>
       <th></th>
-      <th>Session 1</th>
+      <th><div style="float:left;width:70%;">Session 1</div></th>
     </tr>
     <tr>
       <td>12:00–3:00pm &emsp;&emsp;&ensp;</td>
