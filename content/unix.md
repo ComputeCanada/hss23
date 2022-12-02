@@ -1,10 +1,10 @@
 +++
-title = "Data Management Plan (DMP) Assistant"
-slug = "dmp"
+title = "Introduction to the Unix Command Line"
+slug = "unix"
 +++
-**February 15, 2023, 2:30pm-3:50pm EST**
+**February 14, 2023, 1:30-2:50pm EST**
 
-**Presented by**: Megan or Meghan
+**Presented by**: Grace Fishbein
 
 **Duration**: 80 minutes
 
@@ -12,7 +12,7 @@ slug = "dmp"
 
 #### Biographies
 
-**text**:
+**Grace Fishbein**:
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->

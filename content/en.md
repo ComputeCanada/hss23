@@ -19,22 +19,22 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
     </tr>
     <tr>
       <td>11:30–11:55am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-      <td colspan="3">Introduction to Alliance offered services</td>
+      <td colspan="3"><a href="../intro">Introduction to Alliance offered services</a></td>
     </tr>
     <tr>
       <td>12:00–1:20pm</td>
-      <td>Introduction to Machine Learning</td>
-      <td colspan="2">Introduction to Voyant</td>
+      <td><a href="../mlintro">Introduction to Machine Learning</a></td>
+      <td colspan="2"><a href="../voyant">Introduction to Voyant</a></td>
     </tr>
     <tr>
       <td>1:30–2:50pm</td>
-      <td colspan="3">Introduction to the Unix Command Line</td>
+      <td colspan="3"><a href="../unix">Introduction to the Unix Command Line</a></td>
     </tr>
     <tr>
       <td>3:00–4:20pm</td>
-      <td>Introduction to OpenRefine</td>
-      <td>Introduction to programming in Python</td>
-      <td>Introduction to programming in R</td>
+      <td><a href="../openrefine">Introduction to OpenRefine</a></td>
+      <td><a href="../python">Introduction to programming in Python</a></td>
+      <td><a href="../r">Introduction to programming in R</a></td>
     </tr>
   </table>
 {{< /unsafe >}}
@@ -49,15 +49,15 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
     </tr>
     <tr>
       <td>11:30am–12:50pm</td>
-      <td colspan="3">Sensitive Data Project</td>
+      <td colspan="3"><a href="../sensitive">Sensitive Data Project</a></td>
     </tr>
     <tr>
       <td>1:00–2:20pm</td>
-      <td colspan="3">Research Data Management (RDM) for Humanists</td>
+      <td colspan="3"><a href="../rdm">Research Data Management (RDM) for Humanists</a></td>
     </tr>
     <tr>
       <td>2:30–3:50pm</td>
-      <td colspan="3">Data Management Plan (DMP) Assistant</td>
+      <td colspan="3"><a href="../dmp">Data Management Plan (DMP) Assistant</a></td>
     </tr>
   </table>
 {{< /unsafe >}}
@@ -73,16 +73,16 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
     </tr>
     <tr>
       <td>11:30am–1:20pm &emsp;</td>
-      <td>Machine Learning for HSS</td>
-      <td colspan="2">Using Voyant</td>
+      <td><a href="../mlhss">Machine Learning for HSS</a></td>
+      <td colspan="2"><a href="../usingvoyant">Using Voyant</a></td>
     </tr>
     <tr>
       <td>1:30–2:50pm</td>
-      <td colspan="3">Web scraping with R</td>
+      <td colspan="3"><a href="../webscraping">Web scraping with R</a></td>
     </tr>
     <tr>
       <td>3:00–3:55pm</td>
-      <td colspan="3">Using Markdown & Quarto in JupyterLab or text files</td>
+      <td colspan="3"><a href="../quarto">Using Markdown & Quarto in JupyterLab or text files</a></td>
     </tr>
   </table>
 {{< /unsafe >}}
@@ -97,7 +97,7 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
     </tr>
     <tr>
       <td>12:00–3:00pm &emsp;&emsp;&ensp;</td>
-      <td colspan="3">Bring your own project!</td>
+      <td colspan="3"><a href="../project">Bring your own project!</a></td>
     </tr>
   </table>
 {{< /unsafe >}}

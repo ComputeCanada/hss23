@@ -1,10 +1,10 @@
 +++
-title = "Data Management Plan (DMP) Assistant"
-slug = "dmp"
+title = "Sensitive Data Project"
+slug = "sensitive"
 +++
-**February 15, 2023, 2:30pm-3:50pm EST**
+**February 15, 2023, 11:30am-12:50pm EST**
 
-**Presented by**: Megan or Meghan
+**Presented by**: Victoria Smith
 
 **Duration**: 80 minutes
 
@@ -12,7 +12,7 @@ slug = "dmp"
 
 #### Biographies
 
-**text**:
+**Victoria Smith**:
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->

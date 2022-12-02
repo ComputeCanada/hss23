@@ -1,10 +1,10 @@
 +++
-title = "Data Management Plan (DMP) Assistant"
-slug = "dmp"
+title = "Introduction to Machine Learning"
+slug = "mlintro"
 +++
-**February 15, 2023, 2:30pm-3:50pm EST**
+**February 14, 2023, 12:00-1:20pm EST**
 
-**Presented by**: Megan or Meghan
+**Presented by**: Marie H. Burle
 
 **Duration**: 80 minutes
 
@@ -12,7 +12,7 @@ slug = "dmp"
 
 #### Biographies
 
-**text**:
+**Marie H. Burle**:
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->

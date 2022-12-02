@@ -1,10 +1,10 @@
 +++
-title = "Data Management Plan (DMP) Assistant"
-slug = "dmp"
+title = "Introduction to programming in Python"
+slug = "python"
 +++
-**February 15, 2023, 2:30pm-3:50pm EST**
+**February 14, 2023, 3:00-4:20pm EST**
 
-**Presented by**: Megan or Meghan
+**Presented by**: Alex Razoumov
 
 **Duration**: 80 minutes
 
@@ -12,7 +12,7 @@ slug = "dmp"
 
 #### Biographies
 
-**text**:
+**Alex Razoumov**:
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
