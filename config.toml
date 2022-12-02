@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Compute Canada Federation HSS Series 2022"
+title = "The Digital Research Alliance of Canada HSS Series 2023"
 
 theme = "hugo-coder"
 
@@ -20,11 +20,11 @@ canonifyurls = true
     style = "manni"   # Chroma Style Gallery https://xyproto.github.io/splash/docs/longer/all.html
 
 [params]
-    author = "Compute Canada"
+    author = "The Digital Research Alliance of Canada"
     description = ""
     keywords = ""
-    info = "Winter 2022 | Hiver 2022"
-    wgavatar = "/images/compute-canada-bilingual-logo.jpg"
+    info = "Winter 2023 | Hiver 2023"
+    wgavatar = "/images/logo.svg"
     favicon_32 = "/images/favicon.png"
 
     dateformat = "January 2, 2006"
