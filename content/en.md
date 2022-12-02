@@ -2,7 +2,7 @@
 title = "Program"
 slug = "en"
 +++
-If you have any questions, please write to: support@tech.alliancecan.ca
+If you have any questions, please write to: support at tech dot alliancecan dot ca
 
 
 <!-- | Session      | Date and time | -->
