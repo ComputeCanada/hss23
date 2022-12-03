@@ -478,7 +478,7 @@ $$
 {{</accordion>}}
 
 {{<accordion title="Rendered document">}}
-[![](/quarto/revealjs.png)](https://prog.westdri.ca/quarto/revealjs.html){target="_blank"}
+[![](/quarto/revealjs.png)](https://hss23.netlify.app/quarto/revealjs.html){target="_blank"}
 {{</accordion>}}
 
 ### pdf
@@ -722,7 +722,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 {{</accordion>}}
 
 {{<accordion title="Rendered document">}}
-[![](/quarto/html.png)](https://prog.westdri.ca/quarto/html.html){target="_blank"}
+[![](/quarto/html.png)](https://hss23.netlify.app/quarto/html.html){target="_blank"}
 {{</accordion>}}
 
 ### Beamer with Python code blocks
