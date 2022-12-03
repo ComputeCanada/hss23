@@ -4,6 +4,12 @@ title = "The Digital Research Alliance of Canada HSS Series 2023"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+buildFuture = true
+footnotereturnlinkcontents = "↩"
+relativeURLs = true
+
+enableEmoji = true
+
 paginate = 20
 canonifyurls = true
 
@@ -11,52 +17,58 @@ canonifyurls = true
 # pygmentscodefences = true
 # pygmentscodefencesguesssyntax = true
 
+ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
+
 [markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     codeFences = true
     guessSyntax = true
-    style = "manni"   # Chroma Style Gallery https://xyproto.github.io/splash/docs/longer/all.html
+    style = "manni"
 
 [params]
-    author = "The Digital Research Alliance of Canada"
-    description = ""
-    keywords = ""
-    info = "Winter 2023 | Hiver 2023"
-    wgavatar = "/images/drac.svg"
-    favicon_32 = "/images/favicon.png"
+  author = "The Digital Research Alliance of Canada"
+  description = ""
+  keywords = ""
+  info = "Winter 2023 | Hiver 2023"
+  wgavatar = "/images/drac.svg"
+  favicon_32 = "/images/favicon.png"
+  error = "/img/404.png"
+  dateformat = "January 2, 2006"
 
-    dateformat = "January 2, 2006"
+  hideCredits = false
+  hideCopyright = false
+  since = 2020
 
-    hideCredits = false
-    hideCopyright = false
-    since = 2020
+  # Git Commit in Footer, uncomment the line below to enable it.
+  commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
-    # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://github.com/luizdepra/hugo-coder/tree/"
+  rtl = false
 
-    rtl = false
+  # Specify light/dark colorscheme
+  # Supported values:
+  # "auto" (use preference set by browser)
+  # "dark" (dark background, light foreground)
+  # "light" (light background, dark foreground) (default)
+  colorscheme = "light"
 
-    # Specify light/dark colorscheme
-    # Supported values:
-    # "auto" (use preference set by browser)
-    # "dark" (dark background, light foreground)
-    # "light" (light background, dark foreground) (default)
-    colorscheme = "light"
+  # Series see also post count
+  maxSeeAlsoItems = 5
 
-    # Series see also post count
-    maxSeeAlsoItems = 5
+  # Custom CSS
+  custom_css = []
 
-    # Custom CSS
-    custom_css = []
-
-    # Custom JS
-    custom_js = []
+  # Custom JS
+  custom_js = []
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 [params.fathomAnalytics]
-    siteID = "ABCDE"
-    # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
-    serverURL = "analytics.example.com"
+  siteID = "ABCDE"
+  # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+  serverURL = "analytics.example.com"
 
 [taxonomies]
   category = "categories"
@@ -64,47 +76,47 @@ canonifyurls = true
   tag = "tags"
 
 [languages]
-    [languages.en]
-        languagename = "English"
+  [languages.en]
+    languagename = "English"
 
-        [languages.en.menu]
+    [languages.en.menu]
 
-            # [[languages.en.menu.main]]
-            # name = "Intro"
-            # weight = 1
-            # url = "bash-menu"
+      # [[languages.en.menu.main]]
+      # name = "Intro"
+      # weight = 1
+      # url = "bash-menu"
 
-            # [[languages.en.menu.main]]
-            # name = "Cloud"
-            # weight = 2
-            # url = "git"
+      # [[languages.en.menu.main]]
+      # name = "Cloud"
+      # weight = 2
+      # url = "git"
 
-            # [[languages.en.menu.main]]
-            # name = "DMPs"
-            # weight = 3
-            # url = "hpc-menu"
+      # [[languages.en.menu.main]]
+      # name = "DMPs"
+      # weight = 3
+      # url = "hpc-menu"
 
-            # [[languages.en.menu.main]]
-            # name = "ProjectManagement"
-            # weight = 4
-            # url = "python-menu"
+      # [[languages.en.menu.main]]
+      # name = "ProjectManagement"
+      # weight = 4
+      # url = "python-menu"
 
-	    # [[languages.en.menu.main]]
-	    # name = "Tools"
-	    # weight = 5
-	    # url  = "pytorch"
+	  # [[languages.en.menu.main]]
+	  # name = "Tools"
+	  # weight = 5
+	  # url  = "pytorch"
 
-	    # [[languages.en.menu.main]]
-	    # name = "CLI"
-	    # weight = 6
-	    # url  = "chapel-menu"
+	  # [[languages.en.menu.main]]
+	  # name = "CLI"
+	  # weight = 6
+	  # url  = "chapel-menu"
 
-	    # [[languages.en.menu.main]]
-	    # name = "Photogrammetry"
-	    # weight = 7
-	    # url  = "julia"
+	  # [[languages.en.menu.main]]
+	  # name = "Photogrammetry"
+	  # weight = 7
+	  # url  = "julia"
 
-	    # [[languages.en.menu.main]]
-	    # name = "WebScraping"
-	    # weight = 8
-	    # url  = "vis-menu"
+	  # [[languages.en.menu.main]]
+	  # name = "WebScraping"
+	  # weight = 8
+	  # url  = "vis-menu"
