@@ -10,7 +10,7 @@ slug = "mlhss"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Lucas Nogueira**:
 

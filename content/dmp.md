@@ -10,7 +10,7 @@ slug = "dmp"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **text**:
 

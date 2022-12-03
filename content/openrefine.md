@@ -10,7 +10,7 @@ slug = "openrefine"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Meghan Landry**:
 

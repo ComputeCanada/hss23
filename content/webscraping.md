@@ -10,7 +10,7 @@ slug = "webscraping"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Marie-Hélène Burle**:
 

@@ -12,7 +12,7 @@ slug = "intro"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Megan Lobay**:
 

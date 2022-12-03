@@ -10,7 +10,7 @@ slug = "sensitive"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Victoria Smith**:
 

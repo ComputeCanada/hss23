@@ -10,7 +10,7 @@ slug = "python"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Alex Razoumov**:
 

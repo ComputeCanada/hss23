@@ -10,7 +10,7 @@ slug = "rdmfr"
 
 **Description**:
 
-#### Biographie
+#### Biography
 
 **Sarah Cameron-Pesant**:
 

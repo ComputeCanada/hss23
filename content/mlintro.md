@@ -10,7 +10,7 @@ slug = "mlintro"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Marie-Hélène Burle**:
 

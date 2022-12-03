@@ -10,7 +10,7 @@ slug = "usingvoyant"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Kaylin Land**:
 

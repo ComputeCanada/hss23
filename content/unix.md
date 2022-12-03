@@ -10,7 +10,7 @@ slug = "unix"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Grace Fishbein**:
 

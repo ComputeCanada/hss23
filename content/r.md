@@ -10,7 +10,7 @@ slug = "r"
 
 **Description**:
 
-#### Biographies
+#### Biography
 
 **Marie-Hélène Burle**:
 
