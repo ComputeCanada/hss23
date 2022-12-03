@@ -82,7 +82,7 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
     </tr>
     <tr>
       <td>3:00–3:55pm</td>
-      <td colspan="3"><a href="../quarto">Using Markdown & Quarto in JupyterLab or text files</a></td>
+      <td colspan="3"><a href="../quarto">Authoring dynamic scientific documents with Markdown & Quarto</a></td>
     </tr>
   </table>
 {{< /unsafe >}}

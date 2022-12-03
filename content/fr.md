@@ -81,7 +81,7 @@ Si vous avez des questions, écrivez-nous : `support at tech dot alliancecan dot
     </tr>
     <tr>
       <td>15h à 15h55</td>
-      <td colspan="3"><a href="../quartofr">Utiliser le Markdown et Quarto dans JupyterLab ou des fichiers texte</a></td>
+      <td colspan="3"><a href="../quartofr">Créer des documents scientifiques dynamiques avec Markdown et Quarto</a></td>
     </tr>
   </table>
 {{< /unsafe >}}
