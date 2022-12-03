@@ -1,25 +1,83 @@
 *,
 *:after,
 *:before {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
-	box-sizing: border-box;
-	font-size: 62.5%;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
   color: $fg-color;
   background-color: $bg-color;
-	font-family: $text-font-family;
-	font-size: 1.6em;
-	font-weight: 300;
+  font-family: $text-font-family;
+  font-size: 1.6em;
+  font-weight: 300;
   line-height: 1.8em;
   @media only screen and (max-width : 768px) {
     font-size: 1.6em;
     line-height: 1.6em;
   }
+}
+
+ul {
+  padding: 0 0 0 2rem;
+  li {
+    list-style-type: circle;
+  }
+  p {
+    margin: 0.5rem;
+  }
+}
+
+ol {
+  padding: 0 0 0 2rem;
+  p {
+    margin: 0.5rem;
+  }
+}
+
+#TableOfContents {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 1.0rem 10.0rem 1.0rem 8.0rem;
+  font-family: $heading-font-family;
+  ul {
+    padding-left: 3.0rem;
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+.toggle {
+  cursor: pointer;
+  text-align: center;
+  color: #404040;
+  // padding: 0.1em 0.3em;
+  font-size: 95%;
+  transition: 0.1s;
+}
+
+.panel {
+  margin: auto;
+  width: max-content;
+  margin-top: 2.0rem;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panelnotoggle {
+  margin: auto;
+  width: max-content;
+  margin-top: 2.0rem;
+  background-color: #f6f6f6;
+  border-radius: 5px;
 }
 
 a {
@@ -40,63 +98,124 @@ p {
   margin: 2.0rem 0 2.0rem 0;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h7 {
   font-family: $heading-font-family;
   font-weight: 700;
-  color: $alt-fg-color;
-  margin: 6.4rem 0 3.2rem 0;
 }
 
-h1 {
-  font-size: 3.2rem;
-  line-height: 3.6rem;
-  @media only screen and (max-width : 768px) {
-    font-size: 3.0rem;
-    line-height: 3.4rem;
-  }
-}
 h2 {
-  font-size: 2.8rem;
-  line-height: 3.2rem;
+  margin: 5.0rem 0 3.2rem 0;
+}
+
+h3,
+h4 {
+  margin: 3.7rem 0 2.8rem 0;
+}
+h5,
+h6,
+h7 {
+  margin: 3.5rem 0 2.5rem 0;
+}
+
+h2 {
+  // color: #890c0c;
+  color: #000;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  // text-align: center;
+  // font-variant: small-caps;
   @media only screen and (max-width : 768px) {
-    font-size: 2.6rem;
-    line-height: 3.0rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  @media only screen and (max-width : 480px) {
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 }
 h3 {
-  font-size: 2.4rem;
-  line-height: 2.8rem;
+  // color: #383D3D;
+  // color: #444b4b;
+  // color: #4d5555;
+  // color: #5a6363;
+  // color: #484a62;
+  // color: #43455b;
+  color: #3c3e52;
+  font-size: 2.8rem;
+  line-height: 4.0rem;
   @media only screen and (max-width : 768px) {
-    font-size: 2.2rem;
-    line-height: 2.6rem;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
   }
-}
-h4 {
-  font-size: 2.2rem;
-  line-height: 2.6rem;
-  @media only screen and (max-width : 768px) {
-    font-size: 2.0rem;
+  @media only screen and (max-width : 480px) {
+    font-size: 1.9rem;
     line-height: 2.4rem;
   }
 }
-h5 {
-  font-size: 2.0rem;
-  line-height: 2.4rem;
+h4 {
+  // color: #435069;
+  // color: #4c4d67;
+  color: #644f67;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
   @media only screen and (max-width : 768px) {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+  @media only screen and (max-width : 480px) {
     font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+}
+h5 {
+  // color: #556464;
+  // color: #616283;
+  // color: #616b6b;
+  // color: #76789f;
+  color: #74769d;
+  font-size: 2.0rem;
+  line-height: 2.6rem;
+  @media only screen and (max-width : 768px) {
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+  }
+  @media only screen and (max-width : 480px) {
+    font-size: 1.7rem;
     line-height: 2.2rem;
   }
 }
 h6 {
+  // color: #696a8d;
+  // color: #656f6f;
+  // color: #6f7a7a;
+  color: #778383;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  @media only screen and (max-width : 768px) {
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+  }
+  @media only screen and (max-width : 480px) {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+  }
+}
+h7 {
+  // color: #6e7979;
+  color: #8a9898;
   font-size: 1.8rem;
   line-height: 2.2rem;
   @media only screen and (max-width : 768px) {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  @media only screen and (max-width : 480px) {
+    font-size: 1.5rem;
     line-height: 2.0rem;
   }
 }
@@ -105,21 +224,17 @@ b, strong {
   font-weight: 700;
 }
 
-.highlight > div,
-.highlight > pre {
-  margin: 0 0 2rem;
-  padding: 1rem;
-  border-radius: 1rem;
-}
-
 pre {
+  // box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+  // box-shadow: 0px 0px 1.5px rgba(0,0,0,0.3);
   display: block;
   font-family: $code-font-family;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem;
+  margin: 2.5rem 0 2.5rem 0;
+  padding: 1.3rem 1.6rem;
   overflow-x: auto;
-  margin: 0;
   code {
     display: inline-block;
     background-color: inherit;
@@ -129,15 +244,17 @@ pre {
 
 code {
   font-family: $code-font-family;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 400;
   background-color: $alt-bg-color;
   color: $fg-color;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
 }
 
 blockquote {
-  border-left: 2px solid $alt-bg-color;
-  padding-left: 2.0rem;
+  border-left: 2px solid #cccccc;
+  padding-left: 1.9rem;
+  margin: 2.5rem 0 4rem 7rem;
   line-height: 2.2rem;
   font-weight: 400;
   font-style: italic;
@@ -150,29 +267,25 @@ table {
   border-collapse: collapse;
 }
 table td, table th {
-  border: 1px solid $alt-fg-color;
+  border: 1px solid #b3b3b3;
 }
 table tr:first-child th {
-  border-top: 0;
+  border-top: 0px solid $alt-fg-color;
 }
 table tr:last-child td {
-  border-bottom: 0;
+  border-bottom: 0px solid $alt-fg-color;
 }
 table tr td:first-child,
 table tr th:first-child {
-  border-left: 0;
+  border-left: 0px solid $alt-fg-color;
 }
 table tr td:last-child,
 table tr th:last-child {
-  border-right: 0;
+  border-right: 0px solid $alt-fg-color;
 }
 
 img {
   max-width: 100%;
-}
-
-figure {
-  text-align: center;
 }
 
 .wrapper {
