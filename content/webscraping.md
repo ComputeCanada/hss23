@@ -4,7 +4,7 @@ slug = "webscraping"
 +++
 **February 16, 2023, 1:30pm-2:50pm EST**
 
-**Presented by**: Marie H. Burle
+**Presented by**: Marie-Hélène Burle
 
 **Duration**: 80 minutes
 
@@ -12,7 +12,7 @@ slug = "webscraping"
 
 #### Biographies
 
-**Marie H. Burle**:
+**Marie-Hélène Burle**:
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->

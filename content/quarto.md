@@ -4,7 +4,7 @@ slug = "quarto"
 +++
 **February 16, 2023, 3:00pm-3:55pm EST**
 
-**Presented by**: Marie H. Burle
+**Presented by**: Marie-Hélène Burle
 
 **Duration**: 55 minutes
 
@@ -12,7 +12,7 @@ slug = "quarto"
 
 #### Biographies
 
-**Marie H. Burle**:
+**Marie-Hélène Burle**:
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->

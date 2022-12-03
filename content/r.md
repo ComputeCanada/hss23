@@ -4,7 +4,7 @@ slug = "r"
 +++
 **February 14, 2023, 3:00-4:20pm EST**
 
-**Presented by**: Marie H. Burle
+**Presented by**: Marie-Hélène Burle
 
 **Duration**: 80 minutes
 
@@ -12,7 +12,7 @@ slug = "r"
 
 #### Biographies
 
-**Marie H. Burle**:
+**Marie-Hélène Burle**:
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
