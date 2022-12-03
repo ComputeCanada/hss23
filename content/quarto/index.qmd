@@ -821,8 +821,3 @@ plt.show()
 {{<accordion title="Rendered document">}}
 [![](/quarto/beamer.png)](/quarto/beamer.pdf)
 {{</accordion>}}
-
-## Comments & questions
-
-<!-- https://www.lib.sfu.ca/about/branches-depts/rc/software-data-dh/software/37398 -->
-<!-- https://libcal.library.ubc.ca/event/3683985 -->
