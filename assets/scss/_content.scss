@@ -766,3 +766,14 @@ img[alt=radius] {
     // padding-left: 1.0rem;
   }
 }
+
+// bootstrap SVG-Icons
+.bi {
+  display: inline-block;
+}
+.bi-link-45deg:hover {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--wk-accent-color-3);
+  fill: currentColor;
+}
