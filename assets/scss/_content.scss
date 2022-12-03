@@ -719,3 +719,50 @@ img[alt=radius] {
     font-size: 0.8rem;
   }
 }
+
+#frontdates {
+  padding-left: 8.0rem;
+  font-size: 1.8rem;
+  line-height: 4.2rem;
+  // color: fg-color;
+  // color: #58585a;
+  color: #3f3f40;
+  // color: #353536;
+  font-family: $heading-font-family;
+  font-weight: 700;
+  @media only screen and (max-width : 480px) {
+    padding-left: 0rem;
+    font-size: 1.4rem;
+  }
+  a,
+  a:hover,
+  a:focus,
+  a:visited {
+    font-size: 1.8rem;
+    @media only screen and (max-width : 480px) {
+      font-size: 1.4rem;
+    }
+    line-height: 4.2rem;
+    // color: #58585a;
+    color: #000099;
+    font-family: $heading-font-family;
+    font-weight: 700;
+  }
+  .left {
+    // font-family: $heading-font-family;
+    display: table-cell;
+    width: 45.0rem;
+    @media only screen and (max-width : 480px) {
+      width: 21.0rem;
+    }
+    // text-align: right;
+    text-align: left;
+    font-weight: bold;
+  }
+  .right {
+    font-family: $heading-font-family;
+    line-height: 3.0rem;
+    display: table-cell;
+    // padding-left: 1.0rem;
+  }
+}
