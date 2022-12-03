@@ -1,5 +1,5 @@
 +++
-title = "Utiliser le Markdown et Quarto dans JupyterLab ou des fichiers texte"
+title = "Créer des documents scientifiques dynamiques avec Markdown et Quarto"
 slug = "quartofr"
 +++
 **16 février 2023, 15h à 15h55 HNE**

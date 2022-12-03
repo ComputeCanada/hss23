@@ -1,5 +1,5 @@
 +++
-title = "Using Markdown & Quarto in JupyterLab or text files"
+title = "Authoring dynamic scientific documents with Markdown & Quarto"
 slug = "quarto"
 +++
 **February 16, 2023, 3:00pm-3:55pm EST**
