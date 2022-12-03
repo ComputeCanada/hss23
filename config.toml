@@ -1,8 +1,6 @@
 baseurl = "/"
 title = "The Digital Research Alliance of Canada HSS Series 2023"
 
-theme = "hugo-coder"
-
 languagecode = "en"
 defaultcontentlanguage = "en"
 
