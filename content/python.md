@@ -12,8 +12,8 @@ slug = "python"
 
 #### Biography
 
-**Alex** earned his PhD in computational astrophysics from the University of British Columbia and held
-postdoctoral positions in Urbana–Champaign, San Diego, Oak Ridge, and Halifax. He has worked on numerical
+**Alex Razoumov** earned his PhD in computational astrophysics from the University of British Columbia and
+held postdoctoral positions in Urbana–Champaign, San Diego, Oak Ridge, and Halifax. He has worked on numerical
 models ranging from galaxy formation to core-collapse supernovae and stellar hydrodynamics, and has developed
 a number of computational fluid dynamics and radiative transfer codes and techniques. He spent five years as
 HPC Analyst in SHARCNET helping researchers from diverse backgrounds to use large clusters, and in 2014 moved
