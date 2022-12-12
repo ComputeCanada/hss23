@@ -12,7 +12,16 @@ slug = "mlintrofr"
 
 #### Biographie
 
-**Lydia Vermeyden**:
+**Lydia Vermeyden** joined ACENET in 2020. Her experience spans several research fields and organizations
+where she has led or collaborated in applying advanced technology, including experimental quantum physics,
+nursing, psychology and public health. Her varied projects include optimizing entangled photon sources,
+integrating e-technology with mental health screening, and developing mental health e-interventions. Prior to
+joining ACENET, she had been studying experiences and opinions around health and safety, and the effects of
+employment legislation on family farms in Alberta. She was responsible in several of her previous positions
+for the training of new students and staff in the area of advanced digital tools, often working with learners
+who had minimal exposure to advanced technology.
+
+
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->

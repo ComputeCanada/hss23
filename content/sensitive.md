@@ -12,7 +12,10 @@ slug = "sensitive"
 
 #### Biography
 
-**Victoria Smith**:
+**Victoria Smith** is the Alliance RDM Policy, Privacy, and Sensitive Data Coordinator. She brings a
+background in research ethics, sensitive data management, and research policy to her work in research data
+management. Victoria is leading the FRDR Sensitive Data Repository Project and supports the Sensitive Data
+Expert Group.
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
