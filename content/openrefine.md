@@ -8,7 +8,13 @@ slug = "openrefine"
 
 **Duration**: 80 minutes
 
-**Description**:
+**Description**: This Library Carpentry adapted lesson introduces people working in Humanities, Social
+Sciences, and library- and information-related roles to working with data in OpenRefine. OpenRefine can be
+used to standardize and clean data across your file, and is most useful when working with a comma separated
+values file (csv) or a tab delimited file (tsv). It can help you get an overview of a data set; resolve
+inconsistencies in a data set; help you split data up into more granular parts; and more. At the conclusion of
+the lesson you will understand what the OpenRefine software does and how to use the OpenRefine software to
+work with data files. No previous experience with OpenRefine is required.
 
 Le même séminaire [en français](/openrefinefr).
 

@@ -18,7 +18,7 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
   </tr>
   <tr>
     <td>11:30–11:55am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td colspan="3"><a href="../intro">Introduction to Alliance offered services</a></td>
+    <td colspan="3"><a href="../intro">Introduction to the Digital Research Alliance of Canada for Humanities and Social Sciences Researchers</a></td>
   </tr>
   <tr>
     <td>12:00–1:20pm</td>

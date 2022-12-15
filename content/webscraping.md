@@ -8,7 +8,12 @@ slug = "webscraping"
 
 **Duration**: 80 minutes
 
-**Description**:
+**Description**: The internet is a trove of information. A lot of it is publicly available and thus suitable
+for use in research. Extracting that information and putting it in an organized format for analysis can,
+however, be extremely tedious. Web scraping tools allow to automate parts of that process and R is a popular
+language for the task.
+
+In this workshop, we will guide you through a simple example using the package rvest.
 
 Le même séminaire [en français](/webscrapingfr).
 

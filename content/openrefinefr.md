@@ -8,7 +8,14 @@ slug = "openrefinefr"
 
 **Durée**: 80 minutes
 
-**Description**:
+**Description**: Un essentiel pour les personnes spécialisées en sciences humaines et sociales, ainsi que pour
+les professionnels des bibliothèques et de l’information, cet atelier adapté de Library Carpentry est une
+introduction au nettoyage des données avec OpenRefine. Ce puissant outil peut être utilisé pour uniformiser et
+nettoyer des fichiers de données tabulaires, que ce soit en format CSV (séparation par des virgules) ou TSV
+(séparation par des espaces de tabulation). Il permet de réaliser un diagnostic de l’état des données, de
+résoudre des inconsistances, de subdiviser certains champs contenant une séquence de valeurs, etc. À la fin de
+cet atelier, vous devriez avoir une bonne idée de ce que OpenRefine permet de faire et de comment l’utiliser
+pour vos fichiers de données. Aucune expérience préalable n’est requise.
 
 The same workshop [in English](/openrefine).
 

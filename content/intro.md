@@ -1,5 +1,5 @@
 +++
-title = "Introduction to Alliance offered services"
+title = "Introduction to the Digital Research Alliance of Canada for Humanities and Social Sciences Researchers"
 slug = "intro"
 +++
 **February 14, 2023, 11:30-11:55am EST**
@@ -10,7 +10,10 @@ slug = "intro"
 
 **Duration**: 25 minutes
 
-**Description**:
+**Description**: Introduction to the Digital Research Alliance of Canada, and overview of the research support
+and resources available through the Alliance, that are directly applicable to Humanities and Social Sciences
+researchers. We will give some brief usage cases and the next steps if you are interested in exploring Compute
+Canada Federation resources.
 
 Le même séminaire [en français](/introfr).
 

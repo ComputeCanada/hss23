@@ -17,7 +17,7 @@ Si vous avez des questions, écrivez-nous : `support at tech dot alliancecan dot
   </tr>
   <tr>
     <td>11h30 à 11h55 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td colspan="3"><a href="../introfr">Introduction aux services offerts par l'Alliance</a></td>
+    <td colspan="3"><a href="../introfr">L'Alliance de recherche numérique du Canada au service de la recherche en sciences humaines et sociales</a></td>
   </tr>
   <tr>
     <td>12h à 13h20</td>
