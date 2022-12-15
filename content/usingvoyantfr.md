@@ -10,6 +10,8 @@ slug = "usingvoyantfr"
 
 **Description**:
 
+The same workshop [in English](/usingvoyant).
+
 #### Biographie
 
 **?**:

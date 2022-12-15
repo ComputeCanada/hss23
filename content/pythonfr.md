@@ -10,6 +10,8 @@ slug = "pythonfr"
 
 **Description**:
 
+The same workshop [in English](/python).
+
 #### Biographie
 
 **Mohamed Jabir**:

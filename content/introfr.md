@@ -12,6 +12,8 @@ slug = "introfr"
 
 **Description**:
 
+The same workshop [in English](/intro).
+
 #### Biographie
 
 **Megan Lobay**:

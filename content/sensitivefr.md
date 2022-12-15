@@ -10,6 +10,8 @@ slug = "sensitivefr"
 
 **Description**:
 
+The same workshop [in English](/sensitive).
+
 #### Biographie
 
 **Pierre-Olivier Quirion**:

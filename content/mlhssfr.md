@@ -10,6 +10,8 @@ slug = "mlhssfr"
 
 **Description**:
 
+The same workshop [in English](/mlhss).
+
 #### Biographie
 
 **Carl**:

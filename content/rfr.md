@@ -10,6 +10,8 @@ slug = "rfr"
 
 **Description**:
 
+The same workshop [in English](/r).
+
 #### Biographie
 
 **Daniel Stubbs** a fait des études en mathématiques à l'université de Toronto (B.Sc.) et l'université Western

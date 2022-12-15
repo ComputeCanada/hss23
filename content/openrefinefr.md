@@ -10,6 +10,8 @@ slug = "openrefinefr"
 
 **Description**:
 
+The same workshop [in English](/openrefine).
+
 #### Biographie
 
 Diplômé au baccalauréat et à la maîtrise en génie logiciel et génie informatique, **Pier-Luc St-Onge** a

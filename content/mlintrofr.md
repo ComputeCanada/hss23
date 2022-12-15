@@ -10,6 +10,8 @@ slug = "mlintrofr"
 
 **Description**:
 
+The same workshop [in English](/mlintro).
+
 #### Biographie
 
 **Lydia Vermeyden** joined ACENET in 2020. Her experience spans several research fields and organizations

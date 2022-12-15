@@ -10,6 +10,8 @@ slug = "unixfr"
 
 **Description**:
 
+The same workshop [in English](/unix).
+
 #### Biographie
 
 **Mohamed Jabir**:

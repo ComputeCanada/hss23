@@ -10,6 +10,8 @@ slug = "voyantfr"
 
 **Description**:
 
+The same workshop [in English](/voyant).
+
 #### Biographie
 
 **Lucas Nogueira**:

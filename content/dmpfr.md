@@ -10,6 +10,8 @@ slug = "dmpfr"
 
 **Description**:
 
+The same workshop [in English](/dmp).
+
 #### Biographie
 
 **?**:

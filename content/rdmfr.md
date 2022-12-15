@@ -10,6 +10,8 @@ slug = "rdmfr"
 
 **Description**:
 
+The same workshop [in English](/rdm).
+
 #### Biography
 
 **Sarah Cameron-Pesant** est analyste en CIP, spécialiste des sciences humaines et sociales à Calcul

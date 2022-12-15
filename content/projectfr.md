@@ -10,6 +10,8 @@ slug = "projectfr"
 
 **Description**:
 
+The same workshop [in English](/project).
+
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
 
