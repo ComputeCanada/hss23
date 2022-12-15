@@ -10,6 +10,8 @@ slug = "mlhss"
 
 **Description**:
 
+Le même séminaire [en français](/mlhssfr).
+
 #### Biography
 
 **Lucas Nogueira**:

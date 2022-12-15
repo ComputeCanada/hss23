@@ -10,6 +10,8 @@ slug = "unix"
 
 **Description**:
 
+Le même séminaire [en français](/unixfr).
+
 #### Biography
 
 **Grace Fishbein** is the Training Coordinator of ACENET and is based in St. John’s at Memorial University of

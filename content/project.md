@@ -10,6 +10,8 @@ slug = "project"
 
 **Description**:
 
+Le même séminaire [en français](/projectfr).
+
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
 

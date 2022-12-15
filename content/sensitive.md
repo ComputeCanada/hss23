@@ -10,6 +10,8 @@ slug = "sensitive"
 
 **Description**:
 
+Le même séminaire [en français](/sensitivefr).
+
 #### Biography
 
 **Victoria Smith** is the Alliance RDM Policy, Privacy, and Sensitive Data Coordinator. She brings a

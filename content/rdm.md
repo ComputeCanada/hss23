@@ -10,6 +10,8 @@ slug = "rdm"
 
 **Description**:
 
+Le même séminaire [en français](/rdmfr).
+
 #### Biographies
 
 **Shahira Khair**:

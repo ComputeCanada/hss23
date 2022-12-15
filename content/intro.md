@@ -12,6 +12,8 @@ slug = "intro"
 
 **Description**:
 
+Le même séminaire [en français](/introfr).
+
 #### Biography
 
 **Megan Lobay** is the Associate Director of Research Computing at Simon Fraser University, and one of the

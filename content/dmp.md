@@ -10,6 +10,8 @@ slug = "dmp"
 
 **Description**:
 
+Le même séminaire [en français](/dmpfr).
+
 #### Biography
 
 **text**:

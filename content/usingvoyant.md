@@ -10,6 +10,8 @@ slug = "usingvoyant"
 
 **Description**:
 
+Le même séminaire [en français](/usingvoyantfr).
+
 #### Biography
 
 **Kaylin Land**:

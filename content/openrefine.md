@@ -10,6 +10,8 @@ slug = "openrefine"
 
 **Description**:
 
+Le même séminaire [en français](/openrefinefr).
+
 #### Biography
 
 **Meghan Landry** is the Humanities & Social Sciences Research Specialist with ACENET, and one of the Alliance

@@ -13,6 +13,8 @@ inside Jupyter notebooks, basic use of variables, lists, dictionaries, talk abou
 external libraries. We will provide Python in the cloud, so there is no need to install it on your own
 computer for this session.
 
+Le même séminaire [en français](/pythonfr).
+
 #### Biography
 
 **Alex Razoumov** earned his PhD in computational astrophysics from the University of British Columbia and
