@@ -8,7 +8,10 @@ slug = "python"
 
 **Duration**: 80 minutes
 
-**Description**:
+**Description**: In this very short (1h20m) introduction to Python, we will cover the basics of running Python
+inside Jupyter notebooks, basic use of variables, lists, dictionaries, talk about defining functions and using
+external libraries. We will provide Python in the cloud, so there is no need to install it on your own
+computer for this session.
 
 #### Biography
 

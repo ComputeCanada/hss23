@@ -12,7 +12,13 @@ slug = "unix"
 
 #### Biography
 
-**Grace Fishbein**:
+**Grace Fishbein** is the Training Coordinator of ACENET and is based in St. John’s at Memorial University of
+Newfoundland. She completed her undergraduate degree at Memorial in applied math and physics and then pursued
+her masters in biomedical physics at Ryerson University. Her masters research involved exploring the design
+and behaviour analysis of microbubbles and nanobubbles, which are used as contrast agents in
+ultrasound. Throughout her masters, Grace sought out professional development opportunities that focused on
+improving learning and teaching in higher education. As ACENET’s Training Coordinator she is responsible for
+the organization and landscape of ACENET’s Training.
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
