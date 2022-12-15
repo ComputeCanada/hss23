@@ -8,7 +8,10 @@ slug = "quartofr"
 
 **Durée**: 55 minutes
 
-**Description**:
+**Description**: Cet atelier vous montrera comment créer aisément des documents scientifiques (page HTML, site
+Web, document PDF, livre, etc.) constitués de textes formatés, de codes dynamiques et de figures, le tout à
+partir de blocs de texte et de code. Pour ce faire, nous utiliserons Quarto, un outil à code ouvert combinant
+la puissance de Jupyter ou knitr à celle de Pandoc.
 
 The same workshop [in English](/quarto).
 
