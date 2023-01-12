@@ -13,6 +13,10 @@ Web, document PDF, livre, etc.) constitués de textes formatés, de codes dynami
 partir de blocs de texte et de code. Pour ce faire, nous utiliserons Quarto, un outil à code ouvert combinant
 la puissance de Jupyter ou knitr à celle de Pandoc.
 
+**Prérequis techniques**: Les participantes et participants devront installer Quarto, R, Python et quelques
+autres outils sur leur ordinateur. Les instructions seront fournies par courriel et ajoutées au site Web avant
+la semaine d’ateliers.
+
 Inscrivez-vous {{<a "https://www.eventbrite.ca/e/510984316847" "ici">}}
 
 The same workshop [in English](/quarto).

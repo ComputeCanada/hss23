@@ -12,8 +12,8 @@ slug = "intro"
 
 **Description**: Introduction to the Digital Research Alliance of Canada, and overview of the research support
 and resources available through the Alliance, that are directly applicable to Humanities and Social Sciences
-researchers. We will give some brief usage cases and the next steps if you are interested in exploring Compute
-Canada Federation resources.
+researchers. We will give some brief usage cases and the next steps if you are interested in exploring our
+resources!
 
 Register {{<a "https://www.eventbrite.ca/e/505242944247" "here">}}
 
