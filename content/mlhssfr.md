@@ -4,11 +4,15 @@ slug = "mlhssfr"
 +++
 **16 février 2023, 11h30 à 13h20 HNE**
 
-**Présenté par**: Carl?
+**Présenté par**: Charles Coulombe?
 
 **Durée**: 110 minutes
 
 **Description**:
+
+**Prérequis techniques**: L’environnement interactif de cet atelier requiert uniquement un navigateur Web
+moderne. Un second écran est recommandé afin de pouvoir suivre les instructions sur un écran et pour écrire du
+code sur un écran séparé.
 
 The same workshop [in English](/mlhss).
 

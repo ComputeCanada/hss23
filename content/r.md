@@ -16,6 +16,11 @@ This introductory course does not assume any prior knowledge: it will take you t
 importing, cleaning, and visualizing your data. Along the way, we will get familiar with R data types,
 functions writing, and control flow.
 
+**Technical requirements**: The hands-on workshop environment will only require a modern Web browser. A second
+screen is recommended to be able to follow instructions on one screen and write code on a separate screen.
+
+Register {{<a "https://www.eventbrite.ca/e/511818692487" "here">}}
+
 Le même séminaire [en français](/rfr).
 
 #### Biography

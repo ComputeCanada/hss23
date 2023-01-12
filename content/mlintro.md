@@ -15,6 +15,8 @@ use of the transformative advances happening in that field??
 This workshop will answer these questions in a non-technical manner to give you a high level overview of a
 discipline that has become crucial in all fields of research.
 
+Register {{<a "https://www.eventbrite.ca/e/510836615067" "here">}}
+
 Le même séminaire [en français](/mlintrofr).
 
 #### Biography

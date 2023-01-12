@@ -15,6 +15,8 @@ language for the task.
 
 In this workshop, we will guide you through a simple example using the package rvest.
 
+Register {{<a "https://www.eventbrite.ca/e/512943125697" "here">}}
+
 Le même séminaire [en français](/webscrapingfr).
 
 #### Biography

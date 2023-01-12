@@ -16,6 +16,8 @@ inconsistencies in a data set; help you split data up into more granular parts; 
 the lesson you will understand what the OpenRefine software does and how to use the OpenRefine software to
 work with data files. No previous experience with OpenRefine is required.
 
+Register {{<a "https://www.eventbrite.ca/e/510901348687" "here">}}
+
 Le même séminaire [en français](/openrefinefr).
 
 #### Biography

@@ -8,7 +8,19 @@ slug = "rfr"
 
 **Durée**: 80 minutes
 
-**Description**:
+**Description**: R est un langage de programmation gratuit et ouvert pour le calcul statistique, la
+modélisation et la génération des images avec une grande diversité de paquets pour les statistiques. Ce
+langage est très populaire dans certains milieux universitaires comme la statistique, les sciences de la vie,
+la bioinformatique, l’analyse de données et la linguistique. Cette formation de base ne suppose pas de
+connaissances préalables en R : on vous guide dans vos premiers pas d’importation, nettoyage et visualisation
+des données. Chemin faisant, vous deviendrez à l’aise avec les types de données, l’écriture des fonctions
+ainsi que comment contrôler le flux d’exécution.
+
+**Prérequis techniques**: L’environnement interactif de cet atelier requiert uniquement un navigateur Web
+moderne. Un second écran est recommandé afin de pouvoir suivre les instructions sur un écran et pour écrire du
+code sur un écran séparé.
+
+Inscrivez-vous {{<a "https://www.eventbrite.ca/e/511818692487" "ici">}}
 
 The same workshop [in English](/r).
 

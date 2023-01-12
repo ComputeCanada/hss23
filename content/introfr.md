@@ -15,6 +15,8 @@ Canada met gratuitement à la disposition de la communauté canadienne de la rec
 nous ferons spécifiquement un survol des ressources et des services de soutien technique à la recherche
 universitaire dans le domaine des sciences humaines et sociales.
 
+Inscrivez-vous {{<a "https://www.eventbrite.ca/e/505242944247" "ici">}}
+
 The same workshop [in English](/intro).
 
 #### Biographie

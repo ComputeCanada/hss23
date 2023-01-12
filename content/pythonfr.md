@@ -12,6 +12,8 @@ slug = "pythonfr"
 listes,dictionnaires et vous montrer comment construire des fonctions. Nous allons utiliser un environnement
 infonuagique pré configuré. Vous n’avez pas besoin d’installer Python.
 
+Inscrivez-vous {{<a "https://www.eventbrite.ca/e/512983085217" "ici">}}
+
 The same workshop [in English](/python).
 
 #### Biographie

@@ -8,7 +8,14 @@ slug = "webscrapingfr"
 
 **Durée**: 80 minutes
 
-**Description**:
+**Description**: Internet est non seulement un trésor riche en informations, mais une grande portion y est
+accessible publiquement, ce qui est propice à une utilisation pour la recherche. Cependant, extraire
+l’information de pages Web et la formater pour analyse peut rapidement devenir une tâche fastidieuse. Les
+outils de moissonnage du Web permettent d’automatiser en partie ce processus et le langage R est populaire
+pour réaliser cette tâche. Dans cet atelier, nous allons donc vous guider à travers un exemple simple
+utilisant le module rvest.
+
+Inscrivez-vous {{<a "https://www.eventbrite.ca/e/512943125697" "ici">}}
 
 The same workshop [in English](/webscraping).
 

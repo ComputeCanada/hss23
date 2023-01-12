@@ -12,9 +12,9 @@ format: hugo-md
 
 **Duration**: 55 minutes
 
-**Description**:
+**Description**: This workshop will show you how to easily create beautiful scientific documents (html, pdf, websites, books...)---complete with formatted text, dynamic code, and figures with Quarto, an open-source tool combining the powers of Jupyter or knitr with Pandoc to turn your text and code blocks into fully dynamic and formatted documents.
 
-This workshop will show you how to easily create beautiful scientific documents (html, pdf, websites, books...)---complete with formatted text, dynamic code, and figures with Quarto, an open-source tool combining the powers of Jupyter or knitr with Pandoc to turn your text and code blocks into fully dynamic and formatted documents.
+Register {{<a "https://www.eventbrite.ca/e/510984316847" "here">}}
 
 Le même séminaire [en français](/quartofr).
 

@@ -17,6 +17,8 @@ résoudre des inconsistances, de subdiviser certains champs contenant une séque
 cet atelier, vous devriez avoir une bonne idée de ce que OpenRefine permet de faire et de comment l’utiliser
 pour vos fichiers de données. Aucune expérience préalable n’est requise.
 
+Inscrivez-vous {{<a "https://www.eventbrite.ca/e/510901348687" "ici">}}
+
 The same workshop [in English](/openrefine).
 
 #### Biographie

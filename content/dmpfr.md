@@ -4,7 +4,7 @@ slug = "dmpfr"
 +++
 **15 février 2023, 14h30 à 15h50 HNE**
 
-**Présenté par**: ?
+**Présenté par**: Sandy Hervieux (McGill)
 
 **Durée**: 80 minutes
 
@@ -14,7 +14,7 @@ The same workshop [in English](/dmp).
 
 #### Biographie
 
-**?**:
+**Sandy Hervieux**
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->

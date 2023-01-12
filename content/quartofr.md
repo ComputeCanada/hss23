@@ -13,6 +13,8 @@ Web, document PDF, livre, etc.) constitués de textes formatés, de codes dynami
 partir de blocs de texte et de code. Pour ce faire, nous utiliserons Quarto, un outil à code ouvert combinant
 la puissance de Jupyter ou knitr à celle de Pandoc.
 
+Inscrivez-vous {{<a "https://www.eventbrite.ca/e/510984316847" "ici">}}
+
 The same workshop [in English](/quarto).
 
 #### Biographie
