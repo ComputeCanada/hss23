@@ -4,7 +4,7 @@ slug = "mlhssfr"
 +++
 **16 février 2023, 11h30 à 13h20 HNE**
 
-**Présenté par**: Charles Coulombe?
+**Présenté par**: Moïse Rousseau
 
 **Durée**: 110 minutes
 
@@ -18,7 +18,7 @@ The same workshop [in English](/mlhss).
 
 #### Biographie
 
-**Carl**:
+**Moïse Rousseau**:
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
