@@ -2,7 +2,7 @@
 title = "Programme"
 slug = "fr"
 +++
-Si vous avez des questions, écrivez-nous : `support at tech dot alliancecan dot ca`.
+Si vous avez des questions, écrivez-nous : `hss-series@gw.alliancecan.ca`.
 
 *Toutes les heures sont exprimées en heure normale de l'Est (HNE).*
 

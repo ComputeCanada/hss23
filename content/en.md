@@ -3,7 +3,7 @@ title = "Program"
 slug = "en"
 +++
 
-If you have any questions, please write to: `support at tech dot alliancecan dot ca`.
+If you have any questions, please write to: `hss-series@gw.alliancecan.ca`.
 
 *All times are in Eastern Standard Time (EST).*
 
