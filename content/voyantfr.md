@@ -21,6 +21,8 @@ d’autres visualisations interactives permettant de jouer avec votre texte. Nou
 design de projets d’analyse de textes et nous donnerons quelques idées pratiques pour l’utilisation de Voyant
 dans votre propre recherche.
 
+Inscrivez-vous {{<a "https://www.eventbrite.ca/e/510894468107" "ici">}}
+
 The same workshop [in English](/voyant).
 
 #### Biographie

@@ -20,6 +20,8 @@ of the workshop will be to highlight possible future applications that participa
 screen is recommended to be able to follow instructions on one screen and write commands on a separate
 screen. Setup instructions can be found [here](https://swcarpentry.github.io/shell-novice/setup.html).
 
+Register {{<a "https://www.eventbrite.ca/e/514348258487" "here">}}
+
 Le même séminaire [en français](/unixfr).
 
 #### Biography

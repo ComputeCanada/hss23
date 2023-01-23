@@ -19,6 +19,8 @@ accomplir des tâches comme la navigation dans le système de fichiers.
 moderne. Un second écran est recommandé afin de pouvoir suivre les instructions sur un écran et pour écrire
 des commandes sur un écran séparé. https://swcarpentry.github.io/shell-novice/setup.html
 
+Inscrivez-vous {{<a "https://www.eventbrite.ca/e/514348258487" "ici">}}
+
 The same workshop [in English](/unix).
 
 #### Biographie

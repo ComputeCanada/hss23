@@ -20,6 +20,8 @@ user-friendly for those without any coding skills.
  allow you to play with your text. We will also discuss the basics of designing a textual analysis project and
  give you ideas for using Voyant in your own research.
 
+Register {{<a "https://www.eventbrite.ca/e/510894468107" "here">}}
+
 Le même séminaire [en français](/voyantfr).
 
 #### Biography

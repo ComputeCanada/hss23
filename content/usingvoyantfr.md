@@ -15,6 +15,8 @@ votre propre corpus de textes numériques à analyser et nous vous montrerons pa
 Voyant. Enfin, nous ferons la démonstration de comment utiliser les Spyral Notebooks pour sauvegarder,
 partager et améliorer vos analyses avec Voyant.
 
+Inscrivez-vous {{<a "https://www.eventbrite.ca/e/514394887957" "ici">}}
+
 The same workshop [in English](/usingvoyant).
 
 #### Biographie

@@ -14,6 +14,8 @@ a new companion notebook environment that works in tandem with Voyant Tools. Par
 corpus of digital texts for analysis and we will walk through using Voyant with your text. We will demonstrate
 how to use Spyral Notebooks to save, share, and enhance your Voyant analysis.
 
+Register {{<a "https://www.eventbrite.ca/e/514394887957" "here">}}
+
 Le même séminaire [en français](/usingvoyantfr).
 
 #### Biography

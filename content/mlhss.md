@@ -23,6 +23,8 @@ to learn more about this exciting field.
 **Technical requirements**: The hands-on workshop environment will only require a modern Web browser. A second
 screen is recommended to be able to follow instructions on one screen and write code on a separate screen.
 
+Register {{<a "https://www.eventbrite.ca/e/515048001437" "here">}}
+
 Le même séminaire [en français](/mlhssfr).
 
 #### Biography
