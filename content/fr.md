@@ -2,7 +2,7 @@
 title = "Programme"
 slug = "fr"
 +++
-Si vous avez des questions, écrivez-nous : `support at tech dot alliancecan dot ca`.
+Si vous avez des questions, écrivez-nous : `hss-series@gw.alliancecan.ca`.
 
 *Toutes les heures sont exprimées en heure normale de l'Est (HNE).*
 
@@ -17,7 +17,7 @@ Si vous avez des questions, écrivez-nous : `support at tech dot alliancecan dot
   </tr>
   <tr>
     <td>11h30 à 11h55 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td colspan="3"><a href="../introfr">Introduction aux services offerts par l'Alliance</a></td>
+    <td colspan="3"><a href="../introfr">L'Alliance au service de la recherche en sciences humaines et sociales</a></td>
   </tr>
   <tr>
     <td>12h à 13h20</td>
@@ -68,7 +68,7 @@ Si vous avez des questions, écrivez-nous : `support at tech dot alliancecan dot
   <tr>
     <td>11h30 à 13h20 &emsp;</td>
     <td><a href="../mlhssfr">Apprentissage machine pour les SHS</a></td>
-    <td colspan="2"><a href="../usingvoyantfr">Utiliser Voyant</a></td>
+    <td colspan="2"><a href="../usingvoyantfr">Utiliser Voyant et Spyral</a></td>
   </tr>
   <tr>
     <td>13h30 à 14h50</td>

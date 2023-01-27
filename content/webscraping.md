@@ -8,13 +8,20 @@ slug = "webscraping"
 
 **Duration**: 80 minutes
 
-**Description**:
+**Description**: The internet is a trove of information. A lot of it is publicly available and thus suitable
+for use in research. Extracting that information and putting it in an organized format for analysis can,
+however, be extremely tedious. Web scraping tools allow to automate parts of that process and R is a popular
+language for the task.
+
+In this workshop, we will guide you through a simple example using the package rvest.
+
+Register {{<a "https://www.eventbrite.ca/e/512943125697" "here">}}
+
+Le même séminaire [en français](/webscrapingfr).
 
 #### Biography
 
-**Marie-Hélène Burle**:
-
-Evolutionary and behavioural ecologist by training, Software/Data Carpentry instructor, and open source advocate, Marie-Hélène Burle develops and delivers training for researchers on high-performance computing tools (R, Python, Julia, Git, Bash scripting, machine learning, parallel scientific programming, HPC…) for Simon Fraser University and the Digital Research Alliance of Canada.
+Evolutionary and behavioural ecologist by training, Software/Data Carpentry instructor, and open source advocate, **Marie-Hélène Burle** develops and delivers training for researchers on high-performance computing tools (R, Python, Julia, Git, Bash scripting, machine learning, parallel scientific programming, HPC…) for Simon Fraser University and the Digital Research Alliance of Canada.
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->

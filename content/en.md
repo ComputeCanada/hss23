@@ -3,7 +3,7 @@ title = "Program"
 slug = "en"
 +++
 
-If you have any questions, please write to: `support at tech dot alliancecan dot ca`.
+If you have any questions, please write to: `hss-series@gw.alliancecan.ca`.
 
 *All times are in Eastern Standard Time (EST).*
 
@@ -18,7 +18,7 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
   </tr>
   <tr>
     <td>11:30–11:55am &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td colspan="3"><a href="../intro">Introduction to Alliance offered services</a></td>
+    <td colspan="3"><a href="../intro">Introduction to the Alliance support for Digital Humanities Research</a></td>
   </tr>
   <tr>
     <td>12:00–1:20pm</td>
@@ -69,7 +69,7 @@ If you have any questions, please write to: `support at tech dot alliancecan dot
   <tr>
     <td>11:30am–1:20pm &emsp;</td>
     <td><a href="../mlhss">Machine Learning for HSS</a></td>
-    <td colspan="2"><a href="../usingvoyant">Using Voyant</a></td>
+    <td colspan="2"><a href="../usingvoyant">Using Voyant & Spyral</a></td>
   </tr>
   <tr>
     <td>1:30–2:50pm</td>
