@@ -491,7 +491,7 @@ $$
 
 {{</accordion>}}
 
-{{<accordion title="Rendered document">}}
+{{<accordion title="Rendered document (click on the image to open the document in a new tab)">}}
 <a href="https://hss23.netlify.app/quarto/revealjs.html" target="_blank"><img src="../../quarto/revealjs.png" /></a>
 {{</accordion>}}
 
@@ -566,7 +566,7 @@ $$
 
 {{</accordion>}}
 
-{{<accordion title="Rendered document">}}
+{{<accordion title="Rendered document (click on the image to open the document in a new tab)">}}
 [![](../../quarto/pdf.png)](/quarto/pdf.pdf)
 {{</accordion>}}
 
@@ -737,7 +737,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 
 {{</accordion>}}
 
-{{<accordion title="Rendered document">}}
+{{<accordion title="Rendered document (click on the image to open the document in a new tab)">}}
 <a href="https://hss23.netlify.app/quarto/html.html" target="_blank"><img src="../../quarto/html.png" /></a>
 {{</accordion>}}
 
@@ -834,6 +834,6 @@ plt.show()
 
 {{</accordion>}}
 
-{{<accordion title="Rendered document">}}
+{{<accordion title="Rendered document (click on the image to open the document in a new tab)">}}
 [![](../../quarto/beamer.png)](/quarto/beamer.pdf)
 {{</accordion>}}
