@@ -17,7 +17,7 @@ format: hugo-md
 **Technical requirements**: Participants will need to install Quarto, R, Python, along with other tools on
 their computer. Instructions will be provided by email and added to the website prior to the series.
 
-Register {{<a "https://www.eventbrite.ca/e/510984316847" "here">}}
+Register [here](https://www.eventbrite.ca/e/510984316847){target="_blank"}.
 
 Le même séminaire [en français](/quartofr).
 
