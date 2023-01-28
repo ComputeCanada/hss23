@@ -54,7 +54,7 @@ LaTeX et HTML sont deux exemples de langages de balisage :
 -   LaTeX (une extension du langage TeX) est communément utilisé pour créer des PDF.
 
 {{<ex>}}
-Exemple de texte en code LaTeX:
+Exemple de texte en code LaTeX :
 {{</ex>}}
 
 ``` latex
@@ -75,7 +75,7 @@ Exemple de texte en code LaTeX:
 -   HTML (souvent avec des fichiers CSS ou SCSS pour définir des règles de formatage) est utilisé pour créer des pages Web.
 
 {{<ex>}}
-Exemple de texte en code HTML:
+Exemple de texte en code HTML :
 {{</ex>}}
 
 ``` html
@@ -87,55 +87,86 @@ Exemple de texte en code HTML:
     <title>Mon titre</title>
   </head>
   <body>
-    <h1>Mon titre</h1>
     <address class="author">Prénom Nom</address>
     <input type="date" value="2022-11-24" />
 
-    <h2>Première section</h2>
-    <p>Un paragraphe dans cette première section.</p>
+    <h1>Première section</h1>
+    <p>Du texte dans cette première section.</p>
   </body>
 </html>
 ```
 
 ### Markdown
 
-A number of minimalist markup languages intend to remove all the visual clutter and complexity to create raw texts that are readable prior to rendering. <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown</a> (note the pun with "markup"), created in 2004, is the most popular of them. Due to its simplicity, it has become quasi-ubiquitous. Many implementations exist which add a varying number of features (as you can imagine, a very simple markup language is also fairly limited).
+Un certain nombre de langages de balisage légers ont heureusement été conçus
+pour réduire le plus possible l'encombrement et la complexité du texte brut à
+la source d'un document formaté.
+<a href="https://fr.wikipedia.org/wiki/Markdown" target="_blank">Markdown</a>
+(notez le calembour avec "markup" en anglais),
+créé en 2004, est le plus populaire d'entre eux.
+Dû à sa simplicité, il est devenu quasi-omniprésent.
+Différents compilateurs de Markdown existent, ce qui amène un nombre variable
+d'éléments syntaxiques additionnels, car un langage de balisage simple est
+aussi plutôt limité.
 
-Markdown files are simply text files and they use the `.md` extension.
+En pratique, les fichiers Markdown sont des fichiers texte réguliers dont
+l'extension est `.md`.
 
-### Basic Markdown syntax
+### Syntaxe de base de Markdown
 
-In its <a href="https://daringfireball.net/projects/markdown/" target="_blank">basic form</a>, Markdown is mostly used to create webpages. Conveniently, raw HTML can be included whenever the limited markdown syntax isn't sufficient.
+<a href="https://daringfireball.net/projects/markdown/" target="_blank">À l’origine</a>,
+Markdown est principalement conçu et utilisé pour créer des pages Web.
+De ce fait, des balises HTML peuvent aussi être utilisées lorsque la syntaxe de
+Markdown ne permet pas d'obtenir le résultat voulu.
 
-<a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Here</a> is an overview of the Markdown syntax supported by many applications.
+<a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Ce guide en ligne</a>
+donne un aperçu des principales règles syntaxiques qui sont prises en charge
+par une majorité d'applications.
 
-### Pandoc and its extended Markdown syntax
+### Pandoc et sa syntaxe étendue de Markdown
 
-While the basic syntax is good enough for HTML outputs, it is very limited for other formats.
+Alors que la syntaxe de base est suffisante pour générer des fichiers HTML,
+elle reste très limitée pour d'autres formats.
 
-<a href="https://pandoc.org/" target="_blank">Pandoc</a> is a free and open-source markup format converter. Pandoc supports <a href="https://quarto.org/docs/authoring/markdown-basics.html" target="_blank">an extended Markdown syntax</a> with functionality for figures, tables, callout blocks, LaTeX mathematical equations, citations, and YAML metadata blocks. In short, everything needed for the creation of scientific documents.
+<a href="https://pandoc.org/" target="_blank">Pandoc</a> est un convertisseur de formats
+de balisage qui est à la fois gratuit et à code-source ouvert.
+Il prend en charge <a href="https://quarto.org/docs/authoring/markdown-basics.html" target="_blank">une syntaxe étendue de Markdown</a>
+avec des fonctionnalités additionnelles pour les figures, les tables, les
+légendes, les équations mathématiques en code LaTeX, les citations et les blocs
+de métadonnées YAML.
+Bref, tout ce qui est nécessaire pour la création de documents scientifiques!
 
-Such documents remain as readable as basic Markdown documents (thus respecting the Markdown philosophy), but they can now be rendered in sophisticated pdf, books, entire websites, Word documents, etc.
+De tels fichiers texte restent aussi lisibles que les fichiers Markdown de base
+(ce qui respecte la philosophie Markdown), mais ils peuvent également être
+transformés en PDF, livres, sites Web complets, documents Word, etc.
 
-And of course, as such documents remain text files, you can put them under version control with <a href="https://git-scm.com/" target="_blank">Git</a>.
+Et bien sûr, ces fichiers texte peuvent également être gérés par un
+gestionnaire de versions tel que <a href="https://git-scm.com/" target="_blank">Git</a>.
 
 {{<ex>}}
-Previous example using Pandoc's Markdown:
+Voici l'exemple précédent réécrit avec la syntaxe Markdown étendue de Pandoc :
 {{</ex>}}
 
 ``` markdown
 ---
-title: My title
-author: My name
+title: Mon titre
+author: Prénom Nom
 date: 2022-11-24
 ---
-# First section
-Some text in the first section.
+# Première section
+Du texte dans cette première section.
 ```
 
-## Literate programming
+## Programmation lettrée
 
-<a href="https://en.wikipedia.org/wiki/Literate_programming" target="_blank">Literate programming</a> is a methodology that combines snippets of code and written text. While first introduced in 1984, this approach to the creation of documents has truly exploded in popularity in recent years thanks to the development of new tools such as <a href="https://r4ds.had.co.nz/r-markdown.html" target="_blank">R Markdown</a> and, later, <a href="https://jupyter.org/" target="_blank">Jupyter notebooks</a>.
+La <a href="https://fr.wikipedia.org/wiki/Programmation_lettr%C3%A9e" target="_blank">programmation lettrée</a>
+est une approche de la programmation qui combine des bouts de code et des bouts
+de texte (formatés ou non).
+Malgré une introduction en 1984, cette approche de création de documents a
+surtout gagné en popularité dans les dernières années grâce au développement
+de nouveaux outils tels que
+<a href="https://r4ds.had.co.nz/r-markdown.html" target="_blank">R Markdown</a> et,
+par la suite, <a href="https://jupyter.org/" target="_blank">Jupyter notebooks</a>.
 
 ## Quarto
 
