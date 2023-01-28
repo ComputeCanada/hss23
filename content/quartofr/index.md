@@ -40,53 +40,59 @@ Québec, il fait partie de l'équipe d'analystes offrant du soutien aux utilisat
 
 ------------------------------------------------------------------------
 
-## Markup and Markdown
+## Le balisage et Markdown
 
-### Markup languages
+### Les langages de balisage
 
-Markup languages control the formatting of text documents. They are powerful but complex and the raw text (before it is rendered into its formatted version) is visually cluttered and hard to read.
+Les langages de balisage contrôlent le formatage de documents textuels.
+Ils offrent plusieurs possibilités, mais en ajoutant un certain degré de complexité :
+le texte à la source (avant qu'il soit transformé en version formatée)
+est visuellement encombré et relativement difficile à lire.
 
-Examples of markup languages include LaTeX and HTML.
+LaTeX et HTML sont deux exemples de langages de balisage :
 
--   Tex (often with the macro package LaTeX) is used to create pdf.
+-   LaTeX (une extension du langage TeX) est communément utilisé pour créer des PDF.
 
 {{<ex>}}
-Example LaTeX:
+Exemple de texte en code LaTeX:
 {{</ex>}}
 
 ``` latex
 \documentclass{article}
-\title{My title}
-\author{My name}
+\title{Mon titre}
+\author{Prénom Nom}
 \usepackage{datetime}
 \newdate{date}{24}{11}{2022}
 \date{\displaydate{date}}
+
 \begin{document}
  \maketitle
- \section{First section}
- Some text in the first section.
+ \section{Première section}
+ Du texte dans cette première section.
 \end{document}
 ```
 
--   HTML (often with css or scss files to customize the format) is used to create webpages.
+-   HTML (souvent avec des fichiers CSS ou SCSS pour définir des règles de formatage) est utilisé pour créer des pages Web.
 
 {{<ex>}}
-Example HTML:
+Exemple de texte en code HTML:
 {{</ex>}}
 
 ``` html
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="fr-CA">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>My title</title>
-    <address class="author">My name</address>
-    <input type="date" value="2022-11-24" />
+    <title>Mon titre</title>
   </head>
-  <h1>First section</h1>
   <body>
-    Some text in the first section.
+    <h1>Mon titre</h1>
+    <address class="author">Prénom Nom</address>
+    <input type="date" value="2022-11-24" />
+
+    <h2>Première section</h2>
+    <p>Un paragraphe dans cette première section.</p>
   </body>
 </html>
 ```
