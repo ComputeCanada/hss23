@@ -170,78 +170,84 @@ par la suite, <a href="https://jupyter.org/" target="_blank">Jupyter notebooks</
 
 ## Quarto
 
-### How it works
+### Comment ça fonctionne
 
-Quarto files are transformed into Pandoc's extended Markdown by Jupyter (when used with Python or Julia) or by knitr (when used with R), then pandoc turns the Markdown document into the output of your choice.
+1.  Les fichiers Quarto utilisent l'extension `.qmd` plutôt que `.md`,
+    mais ils restent des fichiers texte relativement semblables au Markdown.
+2.  Ils sont d'abord transformés en Markdown étendu par Jupyter,
+    lorsqu'utilisé avec Julia ou Python, ou par knitr, lorsqu'utilisé avec R.
+3.  Enfin, Pandoc compile les fichiers Markdown dans le format de votre choix.
 
 {{<ex>}}
-Julia and Python make use of the Jupyter engine:
+Julia et Python utilisent le noyau Jupyter :
 {{</ex>}}
 {{<img src="/img/quarto/qmd_jupyter.png" title="" width="90%" line-height="1.0rem">}}
-From <a href="https://quarto.org/" target="_blank">Quarto documentation</a>
+Image tirée de la <a href="https://quarto.org/docs/get-started/hello/text-editor.html#rendering" target="_blank">documentation sur Quarto</a>
 {{</img>}}
+
 {{<ex>}}
-R uses the knitr engine:
+R utilise le noyau knitr :
 {{</ex>}}
 {{<img src="/img/quarto/qmd_knitr.png" title="" width="98%" line-height="0.2rem">}}
-From <a href="https://quarto.org/" target="_blank">Quarto documentation</a>
+Image tirée de la <a href="https://quarto.org/docs/faq/rmarkdown.html#quarto-sounds-similar-to-r-markdown.-what-is-the-difference-and-why-create-a-new-project" target="_blank">documentation sur Quarto</a>
 {{</img>}}
 
-Quarto files use the extension `.qmd`.
-
-When using R, you can use Quarto directly from RStudio: if you are used to R Markdown, Quarto is the new and better R Markdown.
-
-When using Python or Julia, you can use Quarto directly from a Jupyter notebook (with `.ipynb` extension).
+-   Si vous programmez en R, vous pouvez utiliser Quarto directement à partir de
+    RStudio; Quarto est simplement une nouvelle version améliorée de R Markdown.
+-   Si vous programmez en Julia ou en Python, vous pouvez utiliser Quarto
+    directement à partir d'un notebook Jupyter (avec l'extension `.ipynb`).
 
 {{<ex>}}
-Using Quarto directly from a Jupyter notebook:
+Fonctionnement de Quarto à partir d'un notebook Jupyter :
 {{</ex>}}
 {{<img src="/img/quarto/ipynb.png" title="" width="80%" line-height="1.7rem">}}
-From <a href="https://quarto.org/" target="_blank">Quarto documentation</a>
+Image tirée de la <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/get-started/hello/images/ipynb-how-it-works.png" target="_blank">documentation sur Quarto</a>
 {{</img>}}
 
-In this workshop, we will see the most general workflow: simply using a text editor.
+Dans cet atelier, nous allons voir la méthode la plus générique,
+c'est-à-dire celle qui utilise un éditeur texte.
 
-### Supported languages
+### Langages de programmation et formats pris en charge
 
-Quarto renders highlighting in countless languages and generates dynamic output for code blocks in:
+Quarto génère de la coloration syntaxique pour d'innombrables langages de
+programmation et génère même une vue dynamique pour les blocs de code en :
 
+-   Julia
 -   Python
 -   R
--   Julia
--   Observable JS
+-   Observable JavaScript
 
-You can render documents in a wide variety of formats:
+Vous pouvez générer des documents dans une grande variété de formats :
 
-{{<accordion title="Supported outputs (click to expand)">}}
-- HTML
-- PDF
-- MS Word
-- OpenOffice
-- ePub
-- Revealjs
-- PowerPoint
-- Beamer
-- GitHub Markdown
-- CommonMark
-- Hugo
-- Docusaurus
-- Markua
-- MediaWiki
-- DokuWiki
-- ZimWiki
-- Jira Wiki
-- XWiki
-- JATS
-- Jupyter
-- ConTeXt
-- RTF
-- reST
+{{<accordion title="Cliquez ici pour afficher la liste">}}
 - AsciiDoc
-- Org-Mode
-- Muse
+- **Beamer**
+- CommonMark
+- ConTeXt
+- Docusaurus
+- DokuWiki
+- ePub
+- **GitHub Markdown**
 - GNU
 - Groff
+- Hugo
+- **HTML**
+- JATS
+- Jira Wiki
+- **Jupyter**
+- Markua
+- MediaWiki
+- MS **PowerPoint**
+- MS **Word**
+- Muse
+- **OpenOffice**
+- Org-Mode
+- **PDF**
+- reST
+- Revealjs
+- RTF
+- XWiki
+- ZimWiki
 {{</accordion>}}
 
 ### Installation
