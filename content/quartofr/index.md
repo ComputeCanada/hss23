@@ -17,9 +17,10 @@ Web, document PDF, livre, etc.) constitués de textes formatés, de codes dynami
 partir de blocs de texte et de code. Pour ce faire, nous utiliserons Quarto, un outil à code ouvert combinant
 la puissance de Jupyter ou knitr à celle de Pandoc.
 
-**Prérequis techniques**: Les participantes et participants devront installer Quarto, R, Python et quelques
-autres outils sur leur ordinateur. Les instructions seront fournies par courriel et ajoutées au site Web avant
-la semaine d'ateliers.
+**Prérequis techniques**: Les participantes et participants devront installer
+Quarto, R, Python et quelques autres outils sur leur ordinateur.
+Les [**instructions d'installation**](#installation) se trouvent dans une
+section du matériel ci-dessous et seront aussi fournies par courriel.
 
 Inscrivez-vous <a href="https://www.eventbrite.ca/e/510984316847" target="_blank">ici</a>
 
@@ -179,14 +180,14 @@ par la suite, <a href="https://jupyter.org/" target="_blank">Jupyter notebooks</
 3.  Enfin, Pandoc compile les fichiers Markdown dans le format de votre choix.
 
 {{<ex>}}
-Julia et Python utilisent le noyau Jupyter :
+Julia et Python utilisent le moteur Jupyter :
 {{</ex>}}
 {{<img src="/img/quarto/qmd_jupyter.png" title="" width="90%" line-height="1.0rem">}}
 Image tirée de la <a href="https://quarto.org/docs/get-started/hello/text-editor.html#rendering" target="_blank">documentation sur Quarto</a>
 {{</img>}}
 
 {{<ex>}}
-R utilise le noyau knitr :
+R utilise le moteur knitr :
 {{</ex>}}
 {{<img src="/img/quarto/qmd_knitr.png" title="" width="98%" line-height="0.2rem">}}
 Image tirée de la <a href="https://quarto.org/docs/faq/rmarkdown.html#quarto-sounds-similar-to-r-markdown.-what-is-the-difference-and-why-create-a-new-project" target="_blank">documentation sur Quarto</a>
@@ -252,42 +253,72 @@ Vous pouvez générer des documents dans une grande variété de formats :
 
 ### Installation
 
-1.  Download Quarto <a href="https://quarto.org/docs/get-started/" target="_blank">here</a>.
+1.  Téléchargez Quarto
+    <a href="https://quarto.org/docs/get-started/" target="_blank">ici</a> et installez-le.
+2.  Si ce n'est pas déjà fait, téléchargez le compilateur du langage (Julia,
+    Python ou R) que vous voulez utiliser avec Quarto, de même que leur moteur
+    correspondant (Jupyter pour Julia et Python, sinon knitr pour R).
+    Voir ci-dessous les instructions spécifiques pour chacun.
 
-2.  Download the language(s) (R, Python, or Julia) you will want to use with Quarto as well as their corresponding engine (knitr for R; Jupyter for Python and Julia):
+Pour référence :
+<a href="https://quarto.org/docs/get-started/" target="_blank">Quarto - Get Started</a>
 
-<u>If you want to use Quarto with R, you will need:</u>
+#### Quarto avec Julia
 
--   R (download <a href="https://cran.r-project.org/" target="_blank">here</a> if you don't have R already on your system),
--   the `rmarkdown` package. For this, launch R and run:
+Veuillez compléter votre environnement logiciel selon ce qui vous manque :
+
+-   Téléchargez le compilateur Julia
+    <a href="https://julialang.org/downloads/" target="_blank">ici</a> et installez-le.
+-   À partir de la ligne de commande Julia, installez les modules
+    <a href="https://github.com/JuliaLang/IJulia.jl" target="_blank">IJulia</a> et
+    <a href="https://github.com/timholy/Revise.jl" target="_blank">Revise</a> :
+
+``` julia
+] add IJulia Revise
+# <Backspace>
+```
+
+-   Ensuite, l'appel de la fonction `notebook()` du module `IJulia` permet
+    d'installer Jupyter si vous ne l'aviez pas déjà :
+
+``` julia
+using IJulia
+notebook()  # Pour installer une distribution minimale de Python+Jupyter
+```
+
+Pour référence :
+<a href="https://quarto.org/docs/computations/julia.html#installation" target="_blank">Quarto - Using Julia</a>
+
+#### Quarto avec Python
+
+Veuillez compléter votre environnement logiciel selon ce qui vous manque :
+
+-   Téléchargez le compilateur Python 3
+    <a href="https://www.python.org/downloads/" target="_blank">ici</a> et installez-le.
+-   Pour installer JupyterLab, ouvrez un terminal et lancez la commande :
+
+``` bash
+python3 -m pip install jupyter  # Si vous êtes sur Linux ou MacOS
+python -m pip install jupyter   # Si vous êtes sur Windows
+```
+
+Pour référence :
+<a href="https://quarto.org/docs/computations/python.html#installation" target="_blank">Quarto - Using Python</a>
+
+#### Quarto avec R
+
+Veuillez compléter votre environnement logiciel selon ce qui vous manque :
+
+-   Téléchargez le compilateur R
+    <a href="https://cran.r-project.org/" target="_blank">ici</a> et installez-le.
+-   À partir de la ligne de commande R, installez le module `rmarkdown` :
 
 ``` r
 install.packages("rmarkdown")
 ```
 
-<u>If you want to use it with Python, you will need:</u>
-
--   Python 3 (download <a href="https://www.python.org/downloads/" target="_blank">here</a> if don't have it on your system),
--   JupyterLab. For this, open a terminal and run:
-
-``` bash
-python3 -m pip install jupyterlab  # if you are on MacOS or Linux
-py -m pip install jupyterlab       # if you are on Windows
-```
-
-<u>Finally, if you want to use Quarto with Julia, you will need:</u>
-
--   Julia (download <a href="https://julialang.org/downloads/" target="_blank">here</a> if you don't have Julia),
--   the <a href="https://github.com/JuliaLang/IJulia.jl" target="_blank">IJulia</a> and <a href="https://github.com/timholy/Revise.jl" target="_blank">Revise</a> packages. For this, launch Julia and run:
-
-``` julia
-] add IJulia Revise
-# <Backspace>
-using IJulia
-notebook()      # to install a minimal Python+Jupyter distribution
-```
-
-Running `notebook()` allows you to install Jupyter if you don't already have it.
+Pour référence :
+<a href="https://quarto.org/docs/computations/r.html#installation" target="_blank">Quarto - Using R</a>
 
 ### Document structure and syntax
 
