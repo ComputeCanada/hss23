@@ -221,8 +221,8 @@ install.packages("rmarkdown")
 -   JupyterLab. For this, open a terminal and run:
 
 ``` bash
-python3 -m pip install jupyterlab  # if you are on MacOS or Linux
-py -m pip install jupyterlab       # if you are on Windows
+python3 -m pip install jupyter      # if you are on MacOS or Linux
+python -m pip install jupyter       # if you are on Windows
 ```
 
 <u>Finally, if you want to use Quarto with Julia, you will need:</u>
