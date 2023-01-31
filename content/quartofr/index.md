@@ -384,7 +384,7 @@ quelques options additionnelles :
 ---
 title: "Mon titre"
 subtitle: "Un sous-titre"
-institute: "Simon Fraser University"
+institute: "Université XYZ"
 date: "2022-11-24"
 execute:
   error: true
@@ -484,19 +484,20 @@ Ceci ouvrira le document généré dans votre navigateur Web.
 Pour la suite, nous allons jouer avec ce fichier `test.qmd` et voir
 comment il est compilé par Quarto en fonction de nos modifications.
 
-## Examples
+## Exemples complets
 
-Below are a few basic example files and their outputs.
+Vous trouverez ci-dessous quelques exemples de fichiers Quarto
+et leur version compilée respective.
 
-### Revealjs presentation
+### Diapositives avec reveal.js
 
-{{<accordion title="Code">}}
+{{<accordion title="Cliquez ici pour faire afficher le code">}}
 
 ``` markdown
 ---
-title: "My title"
-author: "My name"
-institute: "Simon Fraser University"
+title: "Mon titre"
+author: "Mon nom"
+institute: "Université XYZ"
 format:
   revealjs:
     highlight-style: monokai
@@ -504,90 +505,101 @@ format:
     embed-resources: true
 ---
 
-## First section
+## Première section
 
-When exporting to revealjs, second level sections mark the start of new slides,
-with a slide title.
+En compilant dans le format reveal.js, chaque section de second niveau,
+c'est-à-dire qui débute par `## <titre>`,
+correspond à une nouvelle diapositive et son titre.
 
-This can be changed in options.
+Ce comportement par défaut peut être changé dans les options en entête.
 
 ---
 
-New slides can be started without titles this way.
+Une nouvelle diapositive **sans titre** peut être créée avec `---`
+sur une nouvelle ligne de texte.
 
-# There are title slides
+# Utiliser `# <titre>` pour un titre de chapitre
 
-## Formatting
+## Texte formaté
 
-Text can be rendered *in italic* or **in bold** as well as [underlined]{.underline}.
+Le texte peut être formaté *en italique*, **en gras** et
+[en souligné]{.underline}.
 
-You can use superscripts^2^, subscripts~test~, ~~strikethrough~~, and `inline code`.
+On peut aussi faire des exposants^2^, des indices~m,n~, ~~barrer du texte~~ et
+inclure une courte `ligne de code`.
 
-> This is a quote.
+> Ceci est une citation.
 
-## Columns
+## Colonnes
 
 :::: {.columns}
 ::: {.column width="30%"}
-You can create columns.
+Une première colonne.
 :::
 
 ::: {.column width="70%"}
-And you can set their respective width.
+On peut configurer leur largeur respective.
 :::
 ::::
 
-## Lists
+## Listes animées
+
+Une liste peut apparaître un item à la fois :
 
 ::: {.incremental}
-- List can happen one line at a time
-- like
-- this
+- Comme
+- ça!
 :::
 
-## Lists
+## Listes statiques
 
-- Or all at the same time
-- like
-- that
+Ou apparaître d'un seul coup :
 
-## Ordered lists
+* Pas de
+    + surprise!
+        - :-)
+
+## Listes ordonnées
 
 1. Item 1
+    a) Oeufs
 2. Item 2
+    a) Pain
+    b) Confiture
 3. Item 3
+    a) Jus d'orange
 
 ## Images
 
-![Example image](/home/marie/parvus/prog/tcl/static/img/quarto/qmd_jupyter.png)
+![Compilation via Jupyter](../img/quarto/qmd_jupyter.png)
 
 ## Tables
 
-| Col 1 | Col 2 | Col 3  |
-|------ |-------|--------|
-| a     | 1     | red    |
-| b     | 2     | orange | 
-| c     | 3     | yellow |
+| Col 1 | Col 2 | Col 3 |
+|-------|-------|-------|
+| a     | 4     | rouge |
+| b     | 6     | jaune |
+| c     | 7     | bleu  |
 
 :::{.callout-note}
-Tables can be fully customized (or you could use raw html).
+Les tables peuvent être complètement personnalisées
+(ou sinon vous pouvez utiliser du HTML)
 :::
 
-## Equations
+## Équations LaTeX
 
 $$
-\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2}
-\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
-  + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
-  \mathrm r \mathrm C 
+\frac{\partial \mathrm C}{ \partial t } +
+\frac{1}{2} \sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} +
+r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+r \mathrm C
 $$
 ```
 
 {{</accordion>}}
 
-{{<accordion title="Rendered document (click on the image to open the document in a new tab)">}}
-<a href="https://hss23.netlify.app/quarto/revealjs.html" target="_blank"><img src="../..\quarto/revealjs.png" /></a>
-{{</accordion>}}
+-   <a href="/quartofr/revealjs.html" target="_blank"><strong>Afficher le résultat précompilé</strong></a>
 
 ### pdf
 
@@ -680,7 +692,7 @@ quarto install tool tinytex
 ---
 title: "My title"
 author: "My name"
-institute: "Simon Fraser University"
+institute: "Université XYZ"
 format: html
 ---
 

@@ -1,0 +1,101 @@
+---
+title: "Mon titre"
+author: "Mon nom"
+institute: "Université XYZ"
+format:
+  revealjs:
+    highlight-style: monokai
+    code-line-numbers: false
+    embed-resources: true
+---
+
+## Première section
+
+En compilant dans le format reveal.js, chaque section de second niveau,
+c'est-à-dire qui débute par `## <titre>`,
+correspond à une nouvelle diapositive et son titre.
+
+Ce comportement par défaut peut être changé dans les options en entête.
+
+---
+
+Une nouvelle diapositive **sans titre** peut être créée avec `---`
+sur une nouvelle ligne de texte.
+
+# Utiliser `# <titre>` pour un titre de chapitre
+
+## Texte formaté
+
+Le texte peut être formaté *en italique*, **en gras** et
+[en souligné]{.underline}.
+
+On peut aussi faire des exposants^2^, des indices~m,n~, ~~barrer du texte~~ et
+inclure une courte `ligne de code`.
+
+> Ceci est une citation.
+
+## Colonnes
+
+:::: {.columns}
+::: {.column width="30%"}
+Une première colonne.
+:::
+
+::: {.column width="70%"}
+On peut configurer leur largeur respective.
+:::
+::::
+
+## Listes animées
+
+Une liste peut apparaître un item à la fois :
+
+::: {.incremental}
+- Comme
+- ça!
+:::
+
+## Listes statiques
+
+Ou apparaître d'un seul coup :
+
+* Pas de
+    + surprise!
+        - :-)
+
+## Listes ordonnées
+
+1. Item 1
+    a) Oeufs
+2. Item 2
+    a) Pain
+    b) Confiture
+3. Item 3
+    a) Jus d'orange
+
+## Images
+
+![Compilation via Jupyter](../img/quarto/qmd_jupyter.png)
+
+## Tables
+
+| Col 1 | Col 2 | Col 3 |
+|-------|-------|-------|
+| a     | 4     | rouge |
+| b     | 6     | jaune |
+| c     | 7     | bleu  |
+
+:::{.callout-note}
+Les tables peuvent être complètement personnalisées
+(ou sinon vous pouvez utiliser du HTML)
+:::
+
+## Équations LaTeX
+
+$$
+\frac{\partial \mathrm C}{ \partial t } +
+\frac{1}{2} \sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} +
+r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+r \mathrm C
+$$
