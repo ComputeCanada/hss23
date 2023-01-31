@@ -43,7 +43,7 @@ Québec, il fait partie de l'équipe d'analystes offrant du soutien aux utilisat
 
 ## Le balisage et Markdown
 
-### Les langages de balisage
+### Langages de balisage
 
 Les langages de balisage contrôlent le formatage de documents textuels.
 Ils offrent plusieurs possibilités, mais en ajoutant un certain degré de complexité :
@@ -175,7 +175,7 @@ par la suite, <a href="https://jupyter.org/" target="_blank">Jupyter notebooks</
 
 1.  Les fichiers Quarto utilisent l'extension `.qmd` plutôt que `.md`,
     mais ils restent des fichiers texte relativement semblables au Markdown.
-2.  Ils sont d'abord transformés en Markdown étendu par Jupyter,
+2.  Ils sont d'abord transformés en Markdown étendu Pandoc par Jupyter,
     lorsqu'utilisé avec Julia ou Python, ou par knitr, lorsqu'utilisé avec R.
 3.  Enfin, Pandoc compile les fichiers Markdown dans le format de votre choix.
 
@@ -245,7 +245,7 @@ Vous pouvez générer des documents dans une grande variété de formats :
 - Org-Mode
 - **PDF**
 - reST
-- Revealjs
+- **reveal.js**
 - RTF
 - XWiki
 - ZimWiki
@@ -320,62 +320,70 @@ install.packages("rmarkdown")
 Pour référence :
 <a href="https://quarto.org/docs/computations/r.html#installation" target="_blank">Quarto - Using R</a>
 
-### Document structure and syntax
+### Structure et syntaxe d'un fichier Quarto
 
-#### Front matter
+#### Entête de fichier
 
-Written in YAML. Sets the options for the document. Let's see a few examples.
+Écrit en <a href="https://fr.wikipedia.org/wiki/YAML" target="_blank">YAML</a>
+(pour *Yet Another Markup Language*), l'entête de fichier permet de définir
+différentes options pour le document généré. Voyons quelques exemples.
 
 {{<ex>}}
-HTML output:
+Pour générer un fichier HTML :
 {{</ex>}}
 
 ``` yaml
 ---
-title: "My title"
-author: "My name"
+title: "Mon titre"
+author: "Mon nom"
 format: html
 ---
 ```
 
 {{<ex>}}
-HTML output with a few options:
+Pour générer un fichier HTML avec une table des matières et des styles
+personnalisés :
 {{</ex>}}
 
 ``` yaml
 ---
-title: "My title"
-author: "My name"
+title: "Mon titre"
+author: "Mon nom"
 format:
   html:
     toc: true
-    css: <my_file>.css
+    css: <mes_styles>.css
 ---
 ```
 
-The above examples would work if you don't use any code blocks or if you use R code blocks. If you use Python or Julia however, you need to add a `jupyter` entry with the name of the language that should run in Jupyter.
+L'exemple ci-dessus fonctionne si vous n'utilisez aucun bloc de code
+ou bien si vous utilisez uniquement des blocs de code R.
+Cependant, si vous utilisez du code Julia ou Python, vous devez ajouter
+l'option `jupyter` avec le nom de la commande qui devrait exécuter le
+code dans Jupyter.
 
 {{<ex>}}
-MS Word output with Python code blocks:
+Pour générer un document MS Word avec des blocs de code Python :
 {{</ex>}}
 
 ``` yaml
 ---
-title: "My title"
-author: "My name"
+title: "Mon titre"
+author: "Mon nom"
 format: docx
 jupyter: python3
 ---
 ```
 
 {{<ex>}}
-revealjs output with some options and Julia code blocks:
+Pour générer un document reveal.js avec des blocs de code Julia et
+quelques options additionnelles :
 {{</ex>}}
 
 ``` yaml
 ---
-title: "Some title"
-subtitle: "Some subtitle"
+title: "Mon titre"
+subtitle: "Un sous-titre"
 institute: "Simon Fraser University"
 date: "2022-11-24"
 execute:
@@ -391,13 +399,15 @@ jupyter: julia-1.8
 ---
 ```
 
-See <a href="https://quarto.org/docs/guide/" target="_blank">the Quarto documentation</a> for an exhaustive list of options for all formats.
+Voir <a href="https://quarto.org/docs/guide/" target="_blank">le guide de Quarto</a>
+pour une liste exhaustive des options pour tous les formats.
 
-#### Written sections
+#### Sections de texte
 
-Written sections are written in <a href="https://quarto.org/docs/authoring/markdown-basics.html" target="_blank">Pandoc’s extended Markdown</a>.
+Les sections de texte sont écrites en
+<a href="https://quarto.org/docs/authoring/markdown-basics.html" target="_blank">Markdown étendu Pandoc</a>.
 
-#### Code blocks
+#### Blocs de code
 
 If all you want is **syntax highlighting** of the code blocks, use this syntax:
 
