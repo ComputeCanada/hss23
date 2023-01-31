@@ -409,77 +409,80 @@ Les sections de texte sont écrites en
 
 #### Blocs de code
 
-If all you want is **syntax highlighting** of the code blocks, use this syntax:
+Si tout ce que vous voulez est une **coloration syntaxique** d'un bloc de
+code, utilisez la syntaxe :
 
 ```` markdown
-```{.language}
-<some code>
+```{.langage}
+<bloc de code>
 ```
 ````
 
-If you want **syntax highlighting** of the blocks and **for the code to run**, use instead:
+Si vous voulez la **coloration syntaxique** et **permettre l'exécution**
+d'un bloc de code, utilisez la syntaxe suivante à la place :
 
 ```` markdown
-```{language}
-<some code>
+```{langage}
+<bloc de code>
 ```
 ````
 
-In addition, options can be added to individual code blocks:
+Des options peuvent aussi être ajoutées individuellement aux blocs de code :
 
 ```` markdown
-```{language}
-#| <some option>: <some option value>
+```{langage}
+#| <une option>: <valeur>
 
-<some code>
+<bloc de code>
 ```
 ````
 
-### Rendering
+### Compilation de fichiers Quarto
 
-Using Quarto is very simple: there are only two commands you need to know.
-
-In a terminal, simply run either of:
+Pour compiler un fichier Quarto, il y a deux commandes possibles
+à exécuter dans un terminal :
 
 ``` bash
-quarto render <file>.qmd     # this will render the document
-quarto preview <file>.qmd    # this will display live preview as you work on your document
+quarto render <fichier>.qmd   # Pour générer le document final
+quarto preview <fichier>.qmd  # Aperçu du document final pendant son édition
 ```
 
-## Let's give this a try
+## Un premier exercice
 
-Create a file called `test.qmd` with the text editor of your choice.
+Créez un fichier appelé `test.qmd` avec l'éditeur texte de votre choix.
 
 {{<ex>}}
-Example:
+Exemple:
 {{</ex>}}
 
 ``` bash
 nano test.qmd
 ```
 
-Add a minimal front matter with the output format.
+Ajoutez une entête minimale avec un format de sortie.
 
 {{<ex>}}
-Example:
+Exemple:
 {{</ex>}}
 
 ``` yaml
 ---
-title: "Some title"
+title: "Titre accrocheur"
 format: revealjs
 ---
 ```
 
-Then open a new terminal, `cd` to the location of the file, and run the command:
+Dans un second terminal, naviguez avec `cd` vers le répertoire
+contenant le fichier `test.qmd` et exécutez la commande :
 
 ``` bash
 quarto preview test.qmd
 ```
 
-This will open the rendered document in your browser.
+Ceci ouvrira le document généré dans votre navigateur Web.
 
-We will play with this `test.qmd` file and see how it is rendered by Quarto as we go.
+Pour la suite, nous allons jouer avec ce fichier `test.qmd` et voir
+comment il est compilé par Quarto en fonction de nos modifications.
 
 ## Examples
 
