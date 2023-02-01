@@ -1,0 +1,171 @@
+---
+title: "Mon titre"
+author: "Mon nom"
+institute: "Université XYZ"
+format:
+  html:
+    embed-resources: true
+number-sections: true
+---
+
+# Premier chapitre
+
+Une introduction ...
+
+## Première section
+
+Plus d'explications ...
+
+## Texte formaté  {#sec-format}
+
+::: aside
+Notez que chaque titre de chapitre ou section crée une ancre, ce qui permet
+de citer des sections spécifiques de votre document.
+:::
+
+Le texte peut être formaté *en italique*, **en gras** et
+[en souligné]{.underline}.
+
+On peut aussi faire des exposants^2^, des indices~m,n~, ~~barrer du texte~~ et
+inclure une courte `ligne de code`.
+
+> Ceci est une citation.
+
+## Colonnes
+
+:::: {.columns}
+::: {.column width="30%"}
+Une première colonne plus étroite à gauche.
+:::
+
+::: {.column width="70%"}
+On peut configurer leur largeur respective.
+:::
+::::
+
+## Listes
+
+### Liste de points
+
+* Un item
+* Un autre item
+    + Un sous-item
+        - Une caractéristique
+
+### Liste ordonnée
+
+1. Item 1
+    a) Oeufs
+2. Item 2
+    a) Pain
+    b) Confiture
+3. Item 3
+    a) Jus d'orange
+
+## Images
+
+![Compilation via Jupyter](../img/quarto/qmd_jupyter.png)
+
+## Tables
+
+| Col 1 | Col 2 | Col 3 |
+|-------|-------|-------|
+| a     | 4     | rouge |
+| b     | 6     | jaune |
+| c     | 7     | bleu  |
+
+:::{.callout-note}
+Les tables peuvent être complètement personnalisées
+(ou sinon vous pouvez utiliser du HTML)
+:::
+
+## Équations LaTeX
+
+$$
+\frac{\partial \mathrm C}{ \partial t } +
+\frac{1}{2} \sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} +
+r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+r \mathrm C
+$$
+
+## Références croisées
+
+Voir @sec-format.
+
+*Notez que vous pouvez ajouter des bibliographies, des organigrammes,
+un équivalent aux `div` HTML et bien plus.
+Rappelez-vous que cet exemple n'est qu'un aperçu des possibilités.*
+
+## Essayons avec des blocs de code R
+
+```{r}
+# Ce code sera exécuté à la compilation
+2 + 3
+```
+
+::: aside
+Avez-vous remarqué que le contenu de la cellule de code peut être
+copié en un seul clic sur l'icône qui apparaît?
+:::
+
+```{.r}
+# Ce code ne sera pas exécuté
+2 + 3
+```
+
+Afficher uniquement un résultat de calcul, c'est pratique pour cacher
+les longs blocs de code.
+
+```{r}
+#| echo: false
+# Seule la sortie sera affichée
+data.frame(
+  country = c("Canada", "USA", "Mexico"),
+  var = c(2.9, 3.1, 4.5)
+)
+```
+
+## Graphiques
+
+```{r}
+plot(cars)
+```
+
+<br>
+Les options d'affichage permettent, entre autres, d'ajouter un titre de figure
+sous le graphique :
+
+```{r}
+#| fig-cap: "Distance d'arrêt selon la vitesse de l'automobile"
+
+plot(cars)
+```
+
+<br>
+Vous pouvez aussi faire afficher plusieurs graphiques dans une même figure :
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: 
+#|   - "Distance d'arrêt selon la vitesse de l'automobile"
+#|   - "Pression de la vapeur de mercure selon la température"
+
+plot(cars)
+plot(pressure)
+```
+
+Si vous avez installé `ggplot2`[^1], vous pouvez essayer ceci :
+
+```{r}
+library(ggplot2)
+
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+  geom_point(mapping = aes(color = class)) + 
+  geom_smooth()
+```
+
+[^1]: Pour installer `ggplot2` :
+    ```{.r}
+    install.packages("ggplot2")
+    ```

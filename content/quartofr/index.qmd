@@ -682,148 +682,168 @@ $$
 
 * [**Afficher le résultat précompilé**](/quartofr/exemple_pdf.pdf){target="_blank"}
 
-### HTML with R code blocks
+### HTML avec des blocs de code R
 
 {{<accordion title="Code">}}
-
 ````
 ---
-title: "My title"
-author: "My name"
+title: "Mon titre"
+author: "Mon nom"
 institute: "Université XYZ"
-format: html
+format:
+  html:
+    embed-resources: true
+number-sections: true
 ---
 
-# Header 1
+# Premier chapitre
 
-## Header 2
+Une introduction ...
 
-Some text.
+## Première section
 
-## Formatting  {#sec-formatting}
+Plus d'explications ...
+
+## Texte formaté  {#sec-format}
 
 ::: aside
-Note that each header automatically creates an anchor,
-making it easy to link to specific sections of your documents.
+Notez que chaque titre de chapitre ou section crée une ancre, ce qui permet
+de citer des sections spécifiques de votre document.
 :::
 
-Text can be rendered *in italic* or **in bold** as well as [underlined]{.underline}.
+Le texte peut être formaté *en italique*, **en gras** et
+[en souligné]{.underline}.
 
-You can use superscripts^2^, subscripts~test~, ~~strikethrough~~, and `inline code`.
+On peut aussi faire des exposants^2^, des indices~m,n~, ~~barrer du texte~~ et
+inclure une courte `ligne de code`.
 
-> This is a quote.
+> Ceci est une citation.
 
-## Columns
+## Colonnes
 
 :::: {.columns}
 ::: {.column width="30%"}
-You can create columns.
+Une première colonne plus étroite à gauche.
 :::
 
 ::: {.column width="70%"}
-And you can set their respective width.
+On peut configurer leur largeur respective.
 :::
 ::::
 
-## Lists
+## Listes
 
-- Item 1
-- Item 2
-- Item 3
+### Liste de points
 
-## Ordered lists
+* Un item
+* Un autre item
+    + Un sous-item
+        - Une caractéristique
+
+### Liste ordonnée
 
 1. Item 1
+    a) Oeufs
 2. Item 2
+    a) Pain
+    b) Confiture
 3. Item 3
+    a) Jus d'orange
 
 ## Images
 
-![Example image](qmd_jupyter.png)
+![Compilation via Jupyter](../img/quarto/qmd_jupyter.png)
 
 ## Tables
 
-| Col 1 | Col 2 | Col 3  |
-|------ |-------|--------|
-| a     | 1     | red    |
-| b     | 2     | orange | 
-| c     | 3     | yellow |
+| Col 1 | Col 2 | Col 3 |
+|-------|-------|-------|
+| a     | 4     | rouge |
+| b     | 6     | jaune |
+| c     | 7     | bleu  |
 
 :::{.callout-note}
-Tables can be fully customized (or you could use raw html).
+Les tables peuvent être complètement personnalisées
+(ou sinon vous pouvez utiliser du HTML)
 :::
 
-## Equations
+## Équations LaTeX
 
 $$
-\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2}
-\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
-  + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
-  \mathrm r \mathrm C 
+\frac{\partial \mathrm C}{ \partial t } +
+\frac{1}{2} \sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} +
+r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+r \mathrm C
 $$
 
-## Cross-references
+## Références croisées
 
-See @sec-formatting.
+Voir @sec-format.
 
-*Note that you can add bibliographies, flow charts, the equivalent of HTML "div",
-and just so much more. Remember that this is a tiny overview.*
+*Notez que vous pouvez ajouter des bibliographies, des organigrammes,
+un équivalent aux `div` HTML et bien plus.
+Rappelez-vous que cet exemple n'est qu'un aperçu des possibilités.*
 
-## Let's try some code blocks now
+## Essayons avec des blocs de code R
 
 ```{{r}}
-# This is a block that runs
+# Ce code sera exécuté à la compilation
 2 + 3
 ```
 
 ::: aside
-Did you notice that the content of your code blocks can be copied with a click?
-Of course, this is customizable.
+Avez-vous remarqué que le contenu de la cellule de code peut être
+copié en un seul clic sur l'icône qui apparaît?
 :::
 
 ```{{.r}}
-# This is a block that doesn't run
+# Ce code ne sera pas exécuté
 2 + 3
 ```
 
+Afficher uniquement un résultat de calcul, c'est pratique pour cacher
+les longs blocs de code.
+
 ```{{r}}
 #| echo: false
-# And this is a block showing only the output
+# Seule la sortie sera affichée
 data.frame(
   country = c("Canada", "USA", "Mexico"),
   var = c(2.9, 3.1, 4.5)
 )
 ```
 
-## Plots
+## Graphiques
 
 ```{{r}}
 plot(cars)
 ```
 
 <br>
-You can play with options to add a title:
+Les options d'affichage permettent, entre autres, d'ajouter un titre de figure
+sous le graphique :
 
 ```{{r}}
-#| fig-cap: "Stopping distance as a function of speed in cars"
+#| fig-cap: "Distance d'arrêt selon la vitesse de l'automobile"
 
 plot(cars)
 ```
 
 <br>
-You can have more complex multi-plot layouts:
+Vous pouvez aussi faire afficher plusieurs graphiques dans une même figure :
 
 ```{{r}}
 #| layout-ncol: 2
 #| fig-cap: 
-#|   - "Stopping distance as a function of speed in cars"
-#|   - "Vapor pressure of mercury as a function of temperature"
+#|   - "Distance d'arrêt selon la vitesse de l'automobile"
+#|   - "Pression de la vapeur de mercure selon la température"
 
 plot(cars)
 plot(pressure)
 ```
 
-For those who have `ggplot2`[^1], you can try that too:
+Si vous avez installé `ggplot2`[^1], vous pouvez essayer ceci :
 
 ```{{r}}
 library(ggplot2)
@@ -833,17 +853,14 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
   geom_smooth()
 ```
 
-[^1]: You can install it with:
+[^1]: Pour installer `ggplot2` :
     ```{{.r}}
     install.packages("ggplot2")
-	```
+    ```
 ````
-
 {{</accordion>}}
 
-{{<accordion title="Rendered document (click on the image to open the document in a new tab)">}}
-[![](/quarto/html.png)](https://hss23.netlify.app/quarto/html.html){target="_blank"}
-{{</accordion>}}
+* [**Afficher le résultat précompilé**](/quartofr/exemple_r.html){target="_blank"}
 
 ### Beamer with Python code blocks
 
