@@ -258,6 +258,12 @@ Vous pouvez générer des documents dans une grande variété de formats :
    Python ou R) que vous voulez utiliser avec Quarto, de même que leur moteur
    correspondant (Jupyter pour Julia et Python, sinon knitr pour R).
    Voir ci-dessous les instructions spécifiques pour chacun.
+3. Afin de pouvoir générer des documents PDF, vous aurez besoin d'une
+   distribution TeX. Si TeX n'est pas installé sur votre ordinateur, vous
+   pouvez lancer la commande suivante :
+```{.bash}
+quarto install tinytex
+```
 
 Pour référence :
 [Quarto - Get Started](https://quarto.org/docs/get-started/){target="_blank"}
@@ -485,7 +491,6 @@ et leur version compilée respective.
 ### Diapositives avec reveal.js
 
 {{<accordion title="Cliquez ici pour faire afficher le code">}}
-
 ```{.markdown}
 ---
 title: "Mon titre"
@@ -593,88 +598,89 @@ $$
 
 * [**Afficher le résultat précompilé**](/quartofr/revealjs.html){target="_blank"}
 
-### pdf
+### PDF
+
+{{<notes>}}
+Rappel : TeX est requis pour produire des PDF. Voir les [instructions d'installation ici](#installation).
+{{</notes>}}
 
 {{<accordion title="Code">}}
-
 ```{.markdown}
 ---
-title: "My title"
-author: "My name"
+title: "Mon titre"
+author: "Mon nom"
 format:
   pdf:
     toc: true
 ---
 
-# Header 1
+# Chapitre 1
 
-Some text.
+Une introduction ...
 
-## Header 2
+## Section 1.1
 
-More text.
+Plus d'explications ...
 
-## Formatting
+## Texte formaté
 
-Text can be rendered *in italic* or **in bold** as well as [underlined]{.underline}.
+Le texte peut être formaté *en italique*, **en gras** et
+[en souligné]{.underline}.
 
-You can use superscripts^2^, subscripts~test~, ~~strikethrough~~, and `inline code`.
+On peut aussi faire des exposants^2^, des indices~m,n~, ~~barrer du texte~~ et
+inclure une courte `ligne de code`.
 
-> This is a quote.
+> Ceci est une citation.
 
-## Lists
+## Listes
 
-### Unordered
+### Liste de points
 
-- Item 1
-- Item 2
-- Item 3
+* Un item
+* Un autre item
+    + Un sous-item
+        - Une caractéristique
 
-### Ordered
+### Liste ordonnée
 
 1. Item 1
+    a) Oeufs
 2. Item 2
+    a) Pain
+    b) Confiture
 3. Item 3
+    a) Jus d'orange
 
 ## Images
 
-![Example image](/home/marie/parvus/prog/tcl/static/img/quarto/qmd_jupyter.png)
+![Compilation via Jupyter](../img/quarto/qmd_jupyter.png)
 
 ## Tables
 
-| Col 1 | Col 2 | Col 3  |
-|------ |-------|--------|
-| a     | 1     | red    |
-| b     | 2     | orange | 
-| c     | 3     | yellow |
+| Col 1 | Col 2 | Col 3 |
+|-------|-------|-------|
+| a     | 4     | rouge |
+| b     | 6     | jaune |
+| c     | 7     | bleu  |
 
 :::{.callout-note}
-Tables can be fully customized (or you could use raw html).
+Les tables peuvent être complètement personnalisées
+(ou sinon vous pouvez utiliser du HTML)
 :::
 
-## Equations
+## Équations LaTeX
 
 $$
-\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2}
-\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
-  + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
-  \mathrm r \mathrm C 
+\frac{\partial \mathrm C}{ \partial t } +
+\frac{1}{2} \sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} +
+r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+r \mathrm C
 $$
 ```
-
 {{</accordion>}}
 
-{{<accordion title="Rendered document (click on the image to open the document in a new tab)">}}
-[![](/quarto/pdf.png)](/quarto/pdf.pdf)
-{{</accordion>}}
-
-{{<notes>}}
-Note: in order to export to pdf, you need a TeX distribution. You probably already have one installed on your machine, so you should first try to render or preview a document to pdf to see whether it works. If it doesn't work, you can install the minimalist distribution TinyTex by running in your terminal:
-{{</notes>}}
-
-```{.bash}
-quarto install tool tinytex
-```
+* [**Afficher le résultat précompilé**](/quartofr/exemple_pdf.pdf){target="_blank"}
 
 ### HTML with R code blocks
 
