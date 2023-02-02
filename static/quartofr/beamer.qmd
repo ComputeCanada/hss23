@@ -1,0 +1,98 @@
+---
+title: "Mon titre"
+author: "Mon nom"
+format: beamer
+jupyter: python3
+---
+
+## Première diapositive
+
+En compilant dans le format Beamer, chaque section de second niveau,
+c'est-à-dire qui débute par `## <titre>`,
+correspond à une nouvelle diapositive et son titre.
+
+## Texte formaté
+
+Le texte peut être formaté *en italique*, **en gras** et
+[en souligné]{.underline}.
+
+On peut aussi faire des exposants^2^, des indices~m,n~, ~~barrer du texte~~ et
+inclure une courte `ligne de code`.
+
+> Ceci est une citation.
+
+## Listes
+
+### Liste de points
+
+* Un item
+* Un autre item
+    + Un sous-item
+        - Une caractéristique
+
+### Liste ordonnée
+
+1. Item 1
+    a) Oeufs
+2. Item 2
+    a) Pain
+    b) Confiture
+3. Item 3
+    a) Jus d'orange
+
+## Images
+
+![Compilation via Jupyter](../img/quarto/qmd_jupyter.png)
+
+## Tables
+
+| Col 1 | Col 2 | Col 3 |
+|-------|-------|-------|
+| a     | 4     | rouge |
+| b     | 6     | jaune |
+| c     | 7     | bleu  |
+
+:::{.callout-note}
+Les tables peuvent être complètement personnalisées
+(ou sinon vous pouvez utiliser du HTML)
+:::
+
+## Équations LaTeX
+
+$$
+\frac{\partial \mathrm C}{ \partial t } +
+\frac{1}{2} \sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} +
+r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+r \mathrm C
+$$
+
+## Un bloc de code simple
+
+Forcer l'affichage du code et du résultat :
+
+```{python}
+#| echo: true
+
+2 + 3
+```
+
+## Générer un graphique avec Numpy et Matplotlib
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Données pour le graphique
+t = np.arange(0.0, 2.0, 0.01)
+s = 1 + np.sin(2 * np.pi * t)
+
+fig, ax = plt.subplots()
+ax.plot(t, s)
+
+ax.set(xlabel='Temps (s)', ylabel='Voltage (mV)',
+       title='Note: le code reste caché')
+ax.grid()
+
+plt.show()
+```

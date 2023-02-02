@@ -1,0 +1,71 @@
+---
+title: "Mon titre"
+author: "Mon nom"
+format:
+  pdf:
+    toc: true
+---
+
+# Chapitre 1
+
+Une introduction ...
+
+## Section 1.1
+
+Plus d'explications ...
+
+## Texte formaté
+
+Le texte peut être formaté *en italique*, **en gras** et
+[en souligné]{.underline}.
+
+On peut aussi faire des exposants^2^, des indices~m,n~, ~~barrer du texte~~ et
+inclure une courte `ligne de code`.
+
+> Ceci est une citation.
+
+## Listes
+
+### Liste de points
+
+* Un item
+* Un autre item
+    + Un sous-item
+        - Une caractéristique
+
+### Liste ordonnée
+
+1. Item 1
+    a) Oeufs
+2. Item 2
+    a) Pain
+    b) Confiture
+3. Item 3
+    a) Jus d'orange
+
+## Images
+
+![Compilation via Jupyter](../img/quarto/qmd_jupyter.png)
+
+## Tables
+
+| Col 1 | Col 2 | Col 3 |
+|-------|-------|-------|
+| a     | 4     | rouge |
+| b     | 6     | jaune |
+| c     | 7     | bleu  |
+
+:::{.callout-note}
+Les tables peuvent être complètement personnalisées
+(ou sinon vous pouvez utiliser du HTML)
+:::
+
+## Équations LaTeX
+
+$$
+\frac{\partial \mathrm C}{ \partial t } +
+\frac{1}{2} \sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} +
+r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+r \mathrm C
+$$
