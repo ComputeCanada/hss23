@@ -470,7 +470,7 @@ And you can set their respective width.
 ## Tables
 
 | Col 1 | Col 2 | Col 3  |
-|------ |-------|--------|
+|-------|-------|--------|
 | a     | 1     | red    |
 | b     | 2     | orange | 
 | c     | 3     | yellow |
@@ -545,7 +545,7 @@ You can use superscripts^2^, subscripts~test~, ~~strikethrough~~, and `inline co
 ## Tables
 
 | Col 1 | Col 2 | Col 3  |
-|------ |-------|--------|
+|-------|-------|--------|
 | a     | 1     | red    |
 | b     | 2     | orange | 
 | c     | 3     | yellow |
@@ -640,7 +640,7 @@ And you can set their respective width.
 ## Tables
 
 | Col 1 | Col 2 | Col 3  |
-|------ |-------|--------|
+|-------|-------|--------|
 | a     | 1     | red    |
 | b     | 2     | orange | 
 | c     | 3     | yellow |
@@ -784,7 +784,7 @@ You can use superscripts^2^, subscripts~test~, ~~strikethrough~~, and `inline co
 ## Tables
 
 | Col 1 | Col 2 | Col 3  |
-|------ |-------|--------|
+|-------|-------|--------|
 | a     | 1     | red    |
 | b     | 2     | orange | 
 | c     | 3     | yellow |
