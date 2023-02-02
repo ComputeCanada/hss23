@@ -31,3 +31,5 @@ Evolutionary and behavioural ecologist by training, Software/Data Carpentry inst
 <!-- <br> -->
 
 <!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+
+#### The material for this workshop can be found {{<a "https://mint.westdri.ca/r/intro_hss.html" "here.">}}
