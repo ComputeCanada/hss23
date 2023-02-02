@@ -876,68 +876,86 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 
 -   <a href="/quartofr/exemple_r.html" target="_blank"><strong>Afficher le résultat précompilé</strong></a>
 
-### Beamer with Python code blocks
+### Beamer avec des blocs de code Python
 
-Beamer is LaTeX presentation framework: a way to create beautiful pdf slides.
+Beamer est l'outil de référence pour créer des présentations en LaTeX ;
+c'est donc un moyen de créer de jolies diapositives en PDF.
 
 {{<accordion title="Code">}}
 
 ```` markdown
 ---
-title: "Some title"
-author: "Some name"
+title: "Mon titre"
+author: "Mon nom"
 format: beamer
 jupyter: python3
 ---
 
-## First slide
+## Première diapositive
 
-With some content
+En compilant dans le format Beamer, chaque section de second niveau,
+c'est-à-dire qui débute par `## <titre>`,
+correspond à une nouvelle diapositive et son titre.
 
-## Formatting
+## Texte formaté
 
-Text can be rendered *in italic* or **in bold** as well as [underlined]{.underline}.
+Le texte peut être formaté *en italique*, **en gras** et
+[en souligné]{.underline}.
 
-You can use superscripts^2^, subscripts~test~, ~~strikethrough~~, and `inline code`.
+On peut aussi faire des exposants^2^, des indices~m,n~, ~~barrer du texte~~ et
+inclure une courte `ligne de code`.
 
-## Lists
+> Ceci est une citation.
 
-- Item 1
-- Item 2
-- Item 3
+## Listes
 
-## Ordered lists
+### Liste de points
+
+* Un item
+* Un autre item
+    + Un sous-item
+        - Une caractéristique
+
+### Liste ordonnée
 
 1. Item 1
+    a) Oeufs
 2. Item 2
+    a) Pain
+    b) Confiture
 3. Item 3
+    a) Jus d'orange
 
 ## Images
 
-![Example image](qmd_jupyter.png)
+![Compilation via Jupyter](../img/quarto/qmd_jupyter.png)
 
 ## Tables
 
-| Col 1 | Col 2 | Col 3  |
-|------ |-------|--------|
-| a     | 1     | red    |
-| b     | 2     | orange | 
-| c     | 3     | yellow |
+| Col 1 | Col 2 | Col 3 |
+|-------|-------|-------|
+| a     | 4     | rouge |
+| b     | 6     | jaune |
+| c     | 7     | bleu  |
 
 :::{.callout-note}
-Tables can be fully customized (or you could use raw html).
+Les tables peuvent être complètement personnalisées
+(ou sinon vous pouvez utiliser du HTML)
 :::
 
-## Equations
+## Équations LaTeX
 
 $$
-\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2}
-\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
-  + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
-  \mathrm r \mathrm C 
+\frac{\partial \mathrm C}{ \partial t } +
+\frac{1}{2} \sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} +
+r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+r \mathrm C
 $$
 
-## Some basic code block
+## Un bloc de code simple
+
+Forcer l'affichage du code et du résultat :
 
 ```{python}
 #| echo: true
@@ -945,30 +963,27 @@ $$
 2 + 3
 ```
 
-## Some plot
+## Générer un graphique avec Numpy et Matplotlib
 
 ```{python}
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Data for plotting
+# Données pour le graphique
 t = np.arange(0.0, 2.0, 0.01)
 s = 1 + np.sin(2 * np.pi * t)
 
 fig, ax = plt.subplots()
 ax.plot(t, s)
 
-ax.set(xlabel='time (s)', ylabel='voltage (mV)',
-       title='Here goes the title')
+ax.set(xlabel='Temps (s)', ylabel='Voltage (mV)',
+       title='Note: le code reste caché')
 ax.grid()
 
-fig.savefig("test.png")
 plt.show()
 ```
 ````
 
 {{</accordion>}}
 
-{{<accordion title="Rendered document (click on the image to open the document in a new tab)">}}
-[![](../..\quarto/beamer.png)](/quarto/beamer.pdf)
-{{</accordion>}}
+-   <a href="/quartofr/beamer.pdf" target="_blank"><strong>Afficher le résultat précompilé</strong></a>
