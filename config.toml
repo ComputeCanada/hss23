@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "The Digital Research Alliance of Canada HSS Series 2023"
+title = "Digital Research Alliance of Canada - HSS Winter Series 2023"
 
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -30,7 +30,7 @@ ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
     style = "manni"
 
 [params]
-  author = "The Digital Research Alliance of Canada"
+  author = "Digital Research Alliance of Canada | Alliance de recherche numérique du Canada"
   description = ""
   keywords = ""
   info = "Winter 2023 | Hiver 2023"
