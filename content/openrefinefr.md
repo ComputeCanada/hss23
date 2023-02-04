@@ -107,10 +107,56 @@ Les chapitres et les concepts d'OpenRefine que nous verrons sont :
   * *Text facet*
     ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/ORFacetMenu.png))
     * Tri par le nom et le décompte
+      ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/ORFacetedScientificName.png))
     * Édition d'un groupe de valeurs
   * Facettes numériques, de dates et heures, personnalisées
   * **Exercice en groupe**
-    * Trouver le nombre d'années différentes avec une facette
+    * Trouver le nombre d'années différentes avec une facette textuelle
     * Trouver les années ayant le plus et le moins d'enregistrement
-    * Changer le format de `yr` en valeurs numériques
-      et obtenir une facette numérique.
+    * Obtenir une facette numérique
+    * Fermer toutes les facettes
+
+### 3. Transformation des données
+
+=> [Matériel Data Carpentry - Chapitre 3](https://datacarpentry.org/OpenRefine-ecology-lesson/03-transforming-data/index.html)
+
+* Colonnes de nombres
+  * Options de `Edit cells` > `Common transforms`
+  * Transformer `recordID` avec `To number`
+  * **Exercice en groupe**
+    * Transformer `period` et deux autres colonnes en nombres
+    * Cliquer sur l'onglet `Undo / Redo` et voir les changements
+  * **Exercice en groupe**
+    * Dans une colonne transformée en nombres :
+      * Remplacer un nombre par `abc`
+      * Remplacer un autre nombre par rien (laisser vide)
+    * Obtenir une facette numérique sur la colonne
+    * Activer et désactiver la vue des valeurs
+      `Numeric`, `Non-numeric` et `Blank`
+    * Fermer la facette
+    * Annuler tous les changements dans `Undo / Redo`
+* Grappes de valeurs semblables
+  ([Référence](https://openrefine.org/docs/manual/cellediting#cluster-and-edit))
+  * Facette textuelle de `scientificName` => Bouton `Cluster`
+  * Méthode `key collision` et clé de fonction `metaphone3`
+    ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/openrefine-clustering.png))
+  * Activer la fusion des valeurs, fusionner et refaire le calcul des grappes
+  * [Autres méthodes et clés de fonction](https://openrefine.org/docs/manual/cellediting#clustering-methods)
+* Subdiviser les données en colonnes séparées
+  * **Exercice en groupe**
+    * Pour `scientificName`, `Edit Column` > `Split into several columns`
+    * Choisir un espace (` `) comme séparateur, préserver la colonne
+    * Observer les colonnes vides
+    * Dans `Undo / Redo`, sélectionner la précédente révision
+* Nettoyer les espaces de début et de fin
+  * `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`
+  * **Exercice en groupe**
+    * Refaire la subdivision du nom scientifique en fonction de l'espace
+* Renommer des colonnes
+  * `Edit column` > `Rename this column`
+  * **Exercice en groupe**
+    * Renommer `scientificName 1` et `scientificName 2`
+      par `genus` et `species`, respectivement
+    * Choisir `speciesName` en cas de conflit de nom
+    * Annuler les actions de renommer et de subdiviser en gardant
+      la révision dont les espaces ont été nettoyés
