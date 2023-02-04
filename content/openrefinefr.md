@@ -160,3 +160,26 @@ Les chapitres et les concepts d'OpenRefine que nous verrons sont :
     * Choisir `speciesName` en cas de conflit de nom
     * Annuler les actions de renommer et de subdiviser en gardant
       la révision dont les espaces ont été nettoyés
+
+### 4. Filtrer avec OpenRefine
+
+=> [Matériel Data Carpentry - Chapitre 4](https://datacarpentry.org/OpenRefine-ecology-lesson/04-filter-exclude-sort/index.html)
+
+Note : puisque le tri peut se faire via les facettes,
+nous sauterons les sections à ce sujet.
+
+* Inclure ou exclure des valeurs sur les facettes
+  * Reprendre la facette textuelle sur `scientificName`
+  * Vis-à-vis une valeur, cliquer sur `include`
+  * Noter le nombre de rangées qui change
+  * Tester différents `include`/`exclude`, cliquer sur une valeur
+* Filtres de texte
+  * Reprendre à neuf la facette textuelle sur `scientificName`
+  * Pour `scientificName`, sélectionner l'option `Text filter`
+  * **Exercice en groupe**
+    ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/openrefine-filtering.png))
+    * Tenter une sélection avec `bai` ; observer la table et la facette
+    * Modifier la vue pour avoir jusqu'à 50 rangées
+    * Tester *case sensitive* avec `Bai` et `bai`
+    * Rajouter une lettre
+* Facettes == aperçu, filtrer == sélection
