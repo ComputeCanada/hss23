@@ -183,3 +183,19 @@ nous sauterons les sections à ce sujet.
     * Tester *case sensitive* avec `Bai` et `bai`
     * Rajouter une lettre
 * Facettes == aperçu, filtrer == sélection
+
+### 5. Exporter les étapes de nettoyage des données
+
+=> [Matériel Data Carpentry - Chapitre 5](https://datacarpentry.org/OpenRefine-ecology-lesson/05-exporting-cleaning-steps/index.html)
+
+* Exporter les transformations
+  * `Undo / Redo` > `Extract ...` > Sélection des étapes
+  * Copier le code dans un éditeur texte et sauvegarder (fichier `*.json`)
+* Importer les transformations
+  * Démarrer un nouveau projet (nouveau nom), même fichier CSV
+  * `Undo / Redo` > `Apply` > Coller le contenu du fichier `*.json`
+  * Cliquer sur `Perform operations`; valider le nettoyage
+* Science reproductible
+  * [Gestion des changements](https://swcarpentry.github.io/git-novice/)
+    du fichier `*.json`
+  * Publication des données et des étapes de changement
