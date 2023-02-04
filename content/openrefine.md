@@ -8,13 +8,18 @@ slug = "openrefine"
 
 **Duration**: 80 minutes
 
-**Description**: This Library Carpentry adapted lesson introduces people working in Humanities, Social
+**Description**: This Data Carpentry adapted lesson introduces people working in Humanities, Social
 Sciences, and library- and information-related roles to working with data in OpenRefine. OpenRefine can be
 used to standardize and clean data across your file, and is most useful when working with a comma separated
 values file (csv) or a tab delimited file (tsv). It can help you get an overview of a data set; resolve
 inconsistencies in a data set; help you split data up into more granular parts; and more. At the conclusion of
 the lesson you will understand what the OpenRefine software does and how to use the OpenRefine software to
 work with data files. No previous experience with OpenRefine is required.
+
+**Technical requirements**: Participants will need to install Java and
+OpenRefine on their computer.
+[**Setup instructions**](#setup-instructions) can be found in a section below
+and will be provided by email prior to the series.
 
 Register {{<a "https://www.eventbrite.ca/e/510901348687" "here">}}
 
@@ -34,3 +39,32 @@ Canada and is active in national humanities and social sciences initiatives.
 <!-- <br> -->
 
 <!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+-----
+
+## Setup instructions
+
+The below instructions come from
+[Data Carpentry: Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/setup.html).
+
+### Installation
+
+1. Download OpenRefine
+   [here](https://openrefine.org/download.html)
+2. If Java is not embedded in the OpenRefine installer, you will need to
+   [install this dependency](https://openrefine.org/docs/manual/installing#system-requirements).
+3. Install OpenRefine by following instructions
+   [here](https://openrefine.org/docs/manual/installing#installing-or-upgrading).
+
+You may ask for help on Slack if you are having any problem with these
+installation steps.
+
+### Data
+
+For this workshop, we will use the following CSV file:
+[Portal_rodents_19772002_scinameUUIDs.csv](https://ndownloader.figshare.com/files/7823341).
+* **Note carefully where** you save this file on your computer, because
+  we will use it in OpenRefine at the beginning of the workshop.
+* **About the data**: it is a part of the Data Carpentry Ecology workshop.
+  It is a teaching version, which is in fact a subset of the
+  [Portal Project Teaching Database](https://figshare.com/articles/dataset/Portal_Project_Teaching_Database/1314459)
+  that has been intentionally *messed up* for the tutorial.

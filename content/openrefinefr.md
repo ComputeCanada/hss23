@@ -9,13 +9,18 @@ slug = "openrefinefr"
 **Durée**: 80 minutes
 
 **Description**: Un essentiel pour les personnes spécialisées en sciences humaines et sociales, ainsi que pour
-les professionnels des bibliothèques et de l’information, cet atelier adapté de Library Carpentry est une
+les professionnels des bibliothèques et de l’information, cet atelier adapté de Data Carpentry est une
 introduction au nettoyage des données avec OpenRefine. Ce puissant outil peut être utilisé pour uniformiser et
 nettoyer des fichiers de données tabulaires, que ce soit en format CSV (séparation par des virgules) ou TSV
 (séparation par des espaces de tabulation). Il permet de réaliser un diagnostic de l’état des données, de
 résoudre des inconsistances, de subdiviser certains champs contenant une séquence de valeurs, etc. À la fin de
 cet atelier, vous devriez avoir une bonne idée de ce que OpenRefine permet de faire et de comment l’utiliser
 pour vos fichiers de données. Aucune expérience préalable n’est requise.
+
+**Prérequis techniques**: Les participantes et participants devront installer
+Java et OpenRefine sur leur ordinateur.
+Les [**instructions d'installation**](#préparation-pour-latelier) se trouvent
+dans une section du matériel ci-dessous et seront aussi fournies par courriel.
 
 Inscrivez-vous {{<a "https://www.eventbrite.ca/e/510901348687" "ici">}}
 
@@ -32,3 +37,44 @@ Québec, il fait partie de l’équipe d’analystes offrant du soutien aux util
 <!-- <br> -->
 
 <!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+-----
+
+## Préparation pour l'atelier
+
+Les instructions ci-dessous proviennent de l'atelier
+[Data Carpentry: Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/setup.html).
+
+### Installation
+
+1. Télécharger OpenRefine
+   [ici](https://openrefine.org/download.html)
+2. Si Java n'est pas inclus avec l'installateur d'OpenRefine, il faudra
+   [installer cette dépendance](https://openrefine.org/docs/manual/installing#system-requirements).
+3. Installer OpenRefine selon les instructions
+   [ici](https://openrefine.org/docs/manual/installing#installing-or-upgrading).
+
+Veuillez nous demander de l'aide sur Slack si vous avez des problèmes avec
+ces étapes d'installation.
+
+### Les données
+
+Pour cet atelier, nous utiliserons ce fichier CSV :
+[Portal_rodents_19772002_scinameUUIDs.csv](https://ndownloader.figshare.com/files/7823341).
+* **Notez bien l'endroit** où vous avez sauvegardé ce fichier dans votre
+  ordinateur, car il faudra le charger dans OpenRefine pendant l'atelier.
+* **À propos des données** : ce fichier est tiré du tutoriel Data Carpentry.
+  Il est conçu pour l'enseignement, c'est-à-dire que son contenu est
+  une version réduite et intentionnellement modifiée du
+  [Portal Project Teaching Database](https://figshare.com/articles/dataset/Portal_Project_Teaching_Database/1314459).
+
+## Tutoriel Data Carpentry
+
+Cet atelier est une version écourtée du tutoriel en ligne
+[Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/).
+
+Les chapitres et les concepts d'OpenRefine que nous verrons sont :
+
+1. [Introduction à OpenRefine](https://datacarpentry.org/OpenRefine-ecology-lesson/01-getting-started/index.html)
+    * Pourquoi un atelier sur OpenRefine?
+    * Qu'est-ce que OpenRefine?
+2. []
