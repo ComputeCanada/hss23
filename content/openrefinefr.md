@@ -184,7 +184,7 @@ nous sauterons les sections à ce sujet.
     * Rajouter une lettre
 * Facettes == aperçu, filtrer == sélection
 
-### 5. Exporter les étapes de nettoyage des données
+### 5. Réutiliser les étapes de nettoyage des données
 
 => [Matériel Data Carpentry - Chapitre 5](https://datacarpentry.org/OpenRefine-ecology-lesson/05-exporting-cleaning-steps/index.html)
 
@@ -199,3 +199,21 @@ nous sauterons les sections à ce sujet.
   * [Gestion des changements](https://swcarpentry.github.io/git-novice/)
     du fichier `*.json`
   * Publication des données et des étapes de changement
+
+### 6. Exporter le projet et les données
+
+=> [Matériel Data Carpentry - Chapitre 6](https://datacarpentry.org/OpenRefine-ecology-lesson/06-exporting-data/index.html)
+
+* Sauvegarde automatique du projet
+* Exporter un projet - `Export` > `OpenRefine project archive to file`
+  * Comme le téléchargement d'un fichier `*.tar.gz`
+  * Contient un dossier `history` pour les données transformées
+    et un fichier `data.zip` contenant les données initiales.
+  * Importation via `Open...` > `Import Project` > fichier `*.tar.gz`
+* Exporter les données nettoyées
+  * `Export` > choix du type de fichier (TSV ou CSV)
+  * Comme le téléchargement d'un fichier `*.tsv` ou `*.csv`
+
+### 7. Ressources supplémentaires
+
+=> [Matériel Data Carpentry - Chapitre 7](https://datacarpentry.org/OpenRefine-ecology-lesson/07-resources/index.html)
