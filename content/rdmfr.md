@@ -4,7 +4,7 @@ slug = "rdmfr"
 +++
 **15 février 2023, 13h à 14h20 HNE**
 
-**Présenté par**: Sarah Cameron-Pesant
+**Présenté par**: Sarah Cameron-Pesant et Lydia Vermeyden
 
 **Durée**: 80 minutes
 
@@ -32,7 +32,7 @@ Inscrivez-vous {{<a "https://www.eventbrite.ca/e/510961378237" "ici">}}
 
 The same workshop [in English](/rdm).
 
-#### Biography
+#### Biographies
 
 **Sarah Cameron-Pesant** est analyste en CIP, spécialiste des sciences humaines et sociales à Calcul
 Québec. Elle détient une maîtrise en littératures de langue française et une maîtrise en sciences de
@@ -41,7 +41,22 @@ en bibliométrie, littérature, histoire du livre et études de la Renaissance. 
 de données pour le Consortium Érudit, puis comme analyste de recherche quantitative à la Chaire de recherche
 du Canada sur les transformations de la communication savante.
 
-
+**Lydia Vermeyden** a rejoint ACENET en 2020.
+Elle a travaillé dans de nombreux domaines de recherche,
+notamment en physique quantique expérimentale, en soins infirmiers, en
+psychologie et en santé publique, de même qu'au sein de plusieurs organisations
+où elle a mené ou collaboré à l'implémentation de technologies avancées.
+Ses projets variés ont porté sur l'optimisation des sources de photons liés,
+l'utilisation des nouvelles technologies à des fins de dépistage en santé
+mentale et le développement d'interventions numériques pour soutenir la santé
+mentale.
+Avant de rejoindre ACENET, elle a étudié les expériences et les opinions en
+matière de santé et de sécurité, ainsi que les effets de la législation du
+travail sur les exploitations agricoles familiales en Alberta.
+Dans le cadre de plusieurs de ses fonctions précédentes, elle a également été
+responsable de la formation des nouveaux étudiants et du personnel aux outils
+numériques avancés, travaillant souvent avec des apprenants qui étaient peu
+familiers avec les nouvelles technologies.
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
