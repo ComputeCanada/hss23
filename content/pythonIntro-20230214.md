@@ -49,94 +49,51 @@ huge number of external libraries           |
 There are many ways to run Python commands:
 
 * from a Unix shell you can start a Python shell and type commands there,
-* you launch Python scripts saved in plain text *.py files,
+* you can launch Python scripts saved in plain text *.py files,
 * you can execute Python cells inside Jupyter notebooks; the code is stored inside JSON files, displayed as HTML
 
-<!-- Today we will be using a Jupyter notebook. -->
+Today we will be using a Jupyter notebook at https://jupyter.pyten.calculquebec.cloud
+- we will distribute the usernames and password now
+- please login with your unique username
+- start a new Python 3 notebook
 
-Today's options:
+**Local option** for more advanced users: if you have Python + Jupyter installed locally on your computer, and
+you know what you are doing, you can start a Jupyter notebook locally from your shell by typing `jupyter
+notebook`.
 
-1. **First option**: In the Bash course you used a remote cluster via SSH. You can run Python in the command
-   line inside an interactive job there (<u>important</u>: do not run Python on the login node). To do this,
-   log in to `bobthewren.c3.ca` and start a serial interactive job:
+<!-- ## Virtual Python environments -->
 
-```sh
-$ salloc --time=03:00:00 --mem=3600
-$ source ~/projects/def-sponsor00/shared/astro/bin/activate
-$ python
-Python 3.8.10 (default, Jun 16 2021, 14:20:20)
-[GCC 9.3.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> import numpy as np
->>> np.sqrt(2)
-```
+<!-- We talk about creating Virtual Python environments in the HPC course. These environment are very useful, as -->
+<!-- not only can you install packages into your directories without being root, but they also let you create -->
+<!-- sandbox Python environments with your custom set of packages -- perfect when you work on multiple projects, -->
+<!-- each with a different list of dependencies. -->
 
-Working in the terminal, you won't have access to all the bells and whistles of the Jupyter interface, and you will have
-to plot matplotlib graphics into remote PNG files and then download them to view locally on your computer. On the other
-hand, this option most closely resembles working in the terminal on a remote HPC cluster.
+<!-- To create a Python environment (you do this only once): -->
 
-2. **Second option** is the GUI version of the previous option: use JupyterHub on our training cluster. Point
-   your browser to https://bobthewren.c3.ca, log in with your username and password, then launch a JupyterHub
-   server with time = ***4 hours***, **1 CPU core**, memory = ***3600 MB***, GPU configuration = ***None***,
-   user interface = ***JupyterLab***. Finally, start a new Python 3 notebook.
-   
-![Submissions form](/img/jupyterlab.png)
+<!-- ```sh -->
+<!-- module avail python               # several versions available -->
+<!-- module load python/3.8.10 -->
+<!-- virtualenv --no-download astro    # install Python tools in your $HOME/astro -->
+<!-- source astro/bin/activate -->
+<!-- pip install --no-index --upgrade pip -->
+<!-- pip install --no-index numpy jupyter pandas            # all these will go into your $HOME/astro -->
+<!-- avail_wheels --name "*tensorflow_gpu*" --all_versions   # check out the available packages -->
+<!-- pip install --no-index tensorflow_gpu==2.2.0            # if needed, install a specific version -->
+<!-- ... -->
+<!-- deactivate -->
+<!-- ``` -->
 
-3. **Third option**: use syzygy.ca with one of the following accounts:
-    - if you have a university computer ID &nbsp;&rarr;&nbsp; go to <a href="https://syzygy.ca"
-      target="_blank">syzygy.ca</a>, under Launch select your institution, then log in with your university credentials
-    - if you have a Google account &nbsp;&rarr;&nbsp; go to <a href="https://syzygy.ca" target="_blank">syzygy.ca</a>,
-      under Launch select either Cybera or PIMS, then log in with your Google account
-	<!-- - if you have a GitHub account &nbsp;&rarr;&nbsp; go to https://westgrid.syzygy.ca, sign in with your GitHub account -->
+<!-- Once created, you would use it with: -->
 
-After you log in, start a new Python 3 notebook.
+<!-- ```sh -->
+<!-- source ~/astro/bin/activate -->
+<!-- python -->
+<!-- ... -->
+<!-- deactivate -->
+<!-- ``` -->
 
-<!-- This will open a browser page pointing to the Jupyter server (remote except for the last option). Click on New -> -->
-<!-- Python 3. -->
-
-Note that syzygy.ca is a free community service run on the Alliance cloud and used heavily for undergraduate
-teaching, with no uptime guarantees. In other words, it usually works, but it could be unstable or down.
-
-4. **Local option**, for more advanced users: if you have Python + Jupyter installed locally on your computer,
-and you know what you are doing, you can start a Jupyter notebook locally from your shell by typing `jupyter
-notebook`. If running locally, for this workshop you will need the following Python packages installed on your
-computer: numpy, matplotlib, pandas, scikit-image, xarray, nc-time-axis, netcdf4.
-
-<!-- cartopy -->
-
-## Virtual Python environments
-
-We talk about creating Virtual Python environments in the HPC course. These environment are very useful, as
-not only can you install packages into your directories without being root, but they also let you create
-sandbox Python environments with your custom set of packages -- perfect when you work on multiple projects,
-each with a different list of dependencies.
-
-To create a Python environment (you do this only once):
-
-```sh
-module avail python               # several versions available
-module load python/3.8.10
-virtualenv --no-download astro    # install Python tools in your $HOME/astro
-source astro/bin/activate
-pip install --no-index --upgrade pip
-pip install --no-index numpy jupyter pandas            # all these will go into your $HOME/astro
-avail_wheels --name "*tensorflow_gpu*" --all_versions   # check out the available packages
-pip install --no-index tensorflow_gpu==2.2.0            # if needed, install a specific version
-...
-deactivate
-```
-
-Once created, you would use it with:
-
-```sh
-source ~/astro/bin/activate
-python
-...
-deactivate
-```
-
-We'll talk more about virtual Python environments in
-[Section 10](../python-10-libraries#virtual-environments-and-packaging).
+<!-- We'll talk more about virtual Python environments in -->
+<!-- [Section 10](../python-10-libraries#virtual-environments-and-packaging). -->
 
 ## Navigating Jupyter interface
 
@@ -172,9 +129,9 @@ print(1/2)   # to run all commands in the cell, either use the Run button, or pr
 age = 100
 firstName = 'Jason'
 print(firstName, 'is', age, 'years old')
-a = 1; b = 2    # can use ; to separate multiple commands in one line
-a, b = 1, 2   # assign variables in a tuple notation; same as last line
-a = b = 10    #  assign a value to multiple variables at the same time
+a = 1; b = 2   # can use ; to separate multiple commands in one line
+a, b = 1, 2    # assign variables in a tuple notation; same as last line
+a = b = 10     #  assign a value to multiple variables at the same time
 b = "now I am a string"    # variables can change their type on the fly
 ```
 
@@ -191,9 +148,10 @@ print('age in three years:', age)
 What is the final value of `position` in the program below? (Try to predict the value without running the program, then
 check your prediction.)
 ```py
-initial = "left"
+initial = 1
 position = initial
-initial = "right"
+initial = 2
+print(position)
 ```
 {{< /question >}}
 
@@ -202,7 +160,7 @@ distinct objects in memory: `initial` and `position`.
 
 > Note: With more complex objects, its name could be a pointer. E.g. when we study lists, we'll see that `initial` and
 > `new` below really point to the same list in memory:
-> ```
+> ```py
 > initial = [1,2,3]
 > new = initial        # create a pointer to the same object
 > initial.append(4)    # change the original list to [1, 2, 3, 4]
@@ -829,7 +787,7 @@ print(a)          # []
 
 ## If we have time
 
-(1) How would you [explain](./solau.md) the following:
+How would you [explain](./solau.md) the following:
 
 ```py
 1 + 2 == 3              # returns True (makes sense!)
@@ -838,9 +796,6 @@ abs(0.1+0.2 - 0.3) < 1.e-8   # compare floats for almost equality
 import numpy as np
 np.isclose(0.1+0.2, 0.3, atol=1e-8)
 ```
-
-(2) More challening: write a code to solve x^3+4x^2-10=0 with a bisection method in the interval
-    [1.3, 1.4] with tolerance 1e-8.
 
 ## Libraries
 
@@ -953,7 +908,7 @@ jupyter kernelspec uninstall climate     # remove your environment from Jupyter
   - "`pandas` for multi-dimensional arrays"
   - great for large scientific datasets; writes into NetCDF files
 
-**Coming up**:
+**Coming up**: 2-part
 {{<a "https://training.westdri.ca/events/upcoming-training-winter-spring-2023/#online-courses" "Scientific Python course">}}
 on Feb-23, Mar-02 (not part of the Winter HSS Series) will cover most of these libraries.
 
