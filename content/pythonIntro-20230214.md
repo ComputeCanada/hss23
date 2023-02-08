@@ -17,15 +17,20 @@ Register {{<a "https://www.eventbrite.ca/e/512983085217" "here">}}
 
 Le même séminaire [en français](/pythonfr).
 
-#### Biography
+#### Biographies
 
-**Alex Razoumov** earned his PhD in computational astrophysics from the University of British Columbia and
-held postdoctoral positions in Urbana–Champaign, San Diego, Oak Ridge, and Halifax. He has worked on numerical
-models ranging from galaxy formation to core-collapse supernovae and stellar hydrodynamics, and has developed
-a number of computational fluid dynamics and radiative transfer codes and techniques. He spent five years as
-HPC Analyst in SHARCNET helping researchers from diverse backgrounds to use large clusters, and in 2014 moved
-back to Vancouver to focus on scientific visualization and training researchers to use advanced computing
-tools. He is now with Simon Fraser University.
+**Alex Razoumov**: Alex earned his PhD in computational astrophysics from the University of British Columbia
+and held postdoctoral positions in Urbana–Champaign, San Diego, Oak Ridge, and Halifax. He has worked on
+numerical models ranging from galaxy formation to core-collapse supernovae and stellar hydrodynamics, and has
+developed a number of computational fluid dynamics and radiative transfer codes and techniques. He spent five
+years as HPC Analyst in SHARCNET helping researchers from diverse backgrounds to use large clusters, and in
+2014 moved back to Vancouver to focus on scientific visualization and training researchers to use advanced
+computing tools. He is now with Simon Fraser University.
+
+**Mohamed Jabir**: Détenant une maîtrise en intelligence d’affaire, Mohamed a travaillé pendant plus de 20 ans
+dans un laboratoire de recherche où il offrait son support aux professeurs et étudiants de 2ème cycle. Il a
+rejoint récemment Calcul Québec où il fait partie des analystes de support aux utilisateurs des ressources de
+calcul.
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
@@ -36,6 +41,33 @@ tools. He is now with Simon Fraser University.
 
 **Disclaimer**: These notes started few years ago from the {{<a "https://software-carpentry.org/lessons"
 "official SWC lesson">}} but then evolved quite a bit to include other topics.
+
+## Why Python?
+
+Python is a free, open-source programming language developed in the 1980s and 90s that became really popular
+for scientific computing in the past 15 years.
+
+#### Python vs. Excel
+
+- Unlike Excel, Python can essentially read any type of data, both structured and unstructured.
+- Python is free and open-source.
+- Data manipulation is much easier in Python. There are thousands of data processing, machine learning, and
+  visualization libraries.
+- Python can handle much larger amounts of data: limited not by Python, but by your available computing
+  resources. In addition, Python can run at scale on larger systems.
+- Python is more reproducible (rerun / modify the script).
+- Python can run on any platform (Windows, Mac, Linux).
+
+<!-- Python code is easier to reproduce -->
+<!-- Python is faster doing difficult calculations. -->
+<!-- Python is easier than vba. -->
+<!-- Python works better with big data. -->
+<!-- Python is open source and has access to an enormous amount of libraries. -->
+<!-- On the other hand. -->
+<!-- Excel is known by more people. -->
+<!-- Excel is faster for simple calculations, graphs etc. -->
+
+#### Python vs. other programming languages
 
 Python pros                                 | Python cons
 --------------------------------------------|------------------------
@@ -52,10 +84,11 @@ There are many ways to run Python commands:
 * you can launch Python scripts saved in plain text *.py files,
 * you can execute Python cells inside Jupyter notebooks; the code is stored inside JSON files, displayed as HTML
 
-Today we will be using a Jupyter notebook at https://jupyter.pyten.calculquebec.cloud
-- we will distribute the usernames and password now
-- please login with your unique username
-- start a new Python 3 notebook
+Today we will be using a Jupyter notebook at https://jupyter.pyten.calculquebec.cloud (English) or
+https://jupyter.pytfr.calculquebec.cloud (French).
+1. we will distribute the usernames and password now
+1. please login with your unique username
+1. start a new Python 3 notebook
 
 **Local option** for more advanced users: if you have Python + Jupyter installed locally on your computer, and
 you know what you are doing, you can start a Jupyter notebook locally from your shell by typing `jupyter
