@@ -23,7 +23,22 @@ The same workshop [in English](/sensitive).
 
 #### Biographie
 
-**Lina Harper**:
+**Lina Harper** (elle/​elles) a rejoint l’Alliance avec une expérience
+en matière de politiques de gestion des données de recherche et
+de libre accès, et de recherches en sciences de l’information.
+Elle a récemment travaillé en tant qu’analyste politique au CRSH
+sur des dossiers tels que le lancement de la politique fédérale 2021
+en matière de gestion des données de recherche et un projet
+bibliométrique sur la publication en libre accès.
+Lina travaille en étroite collaboration avec la communauté de Dataverse
+Nord/Borealis afin de combler les fossés et de créer des liens entre les gens.
+Elle est titulaire d’un baccalauréat en communications
+de l’Université Concordia ainsi que d’un diplôme en études
+des femmes de l’Institut Simone de Beauvoir.
+Elle est sur le point de terminer une maîtrise en science de
+l’information à l’Université d’Ottawa (2022), et son mémoire
+porte sur les communications scientifiques, la réutilisation
+des données et la recherche en sciences humaines numériques.
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
