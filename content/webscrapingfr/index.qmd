@@ -2,6 +2,7 @@
 title: Moissonnage du Web avec R
 slug: webscrapingfr
 execute:
+  cache: false
   error: true
 format: hugo-md
 ---
@@ -45,3 +46,392 @@ Le matériel ci-dessous est une traduction et adaptation du matériel original
 [*Web scraping with R*](https://mint.westdri.ca/r/webscraping.html){target="_blank"}
 de Marie-Hélène Burle sur le
 [site d'ateliers de WestDRI](https://mint.westdri.ca/){target="_blank"}.
+
+For this workshop, we will use a temporary RStudio server. To access it, go to the website given during the workshop and sign in using the username and password you will be given (you can ignore the OTP entry).
+
+Our RStudio server already has the two packages that we will be using installed ([rvest](https://cran.r-project.org/web/packages/rvest/index.html) and [tibble](https://cran.r-project.org/web/packages/tibble/index.html)). If you want to run the code on your machine, you need to install them with `install.packages()` first.
+
+## HTML and CSS
+
+[HyperText Markup Language](https://en.wikipedia.org/wiki/HTML) (HTML) is the standard markup language for websites: it encodes the information related to the formatting and structure of webpages. Additionally, some of the customization can be stored in [Cascading Style Sheets](https://en.wikipedia.org/wiki/CSS) (CSS) files.
+
+HTML uses tags of the form:
+
+```{.html}
+<some_tag>Your content</some_tag>
+```
+
+Some tags have attributes:
+
+```{.html}
+<some_tag attribute_name="attribute value">Your content</some_tag>
+```
+
+:::{.example}
+
+Examples:
+
+:::
+
+Site structure:
+
+- `<h2>This is a heading of level 2</h2>`
+- `<p>This is a paragraph</p>`
+
+Formatting:
+
+- `<b>This is bold</b>`
+- `<a href="https://some.url">This is the text for a link</a>`
+
+## Web scrapping
+
+Web scraping is a general term for a set of tools which allow for the extraction of data from the web automatically.
+
+While most of the data on the internet is publicly available, it is illegal to scrape some sites and you should always look into the policy of a site before attempting to scrape it. Some sites will also block you if you submit too many requests in a short amount of time, so if you plan on scraping sites at a fairly large scale, you should look into the [polite](https://dmi3kno.github.io/polite/) package which will help you scrape responsibly.
+
+## Example
+
+### Goal
+
+We will use [a website](https://trace.tennessee.edu/utk_graddiss/index.html) from the [University of Tennessee](https://www.utk.edu/) containing a database of PhD theses from that university.
+
+Our goal is to scrape data from this site to produce a dataframe with the date, major, and principal investigator (PI) for each dissertation.
+
+:::{.note}
+
+We will only do this for the first page which contains the links for the 100 most recent theses. If you really wanted to gather all the data, you would have to do this for all pages.
+
+:::
+
+### Let's look at the sites
+
+First of all, let's have a close look at the websites we want to scrape to think carefully about what we want to do. Before starting to write code, it is always a good idea to think about what you are trying to achieve with your code.
+
+To create a dataframe with the data for all the dissertations on that first page, we need to do two things:
+
+- Step 1: from the [dissertations database first page](https://trace.tennessee.edu/utk_graddiss/index.html), we want to scrape the list of URLs for the dissertation pages.
+
+- Step 2: once we have the links, we want to scrape those pages too to get the date, major, and principal investigator (PI) for each dissertation.
+
+### Package
+
+To do all this, we will use the package [rvest](https://cran.r-project.org/web/packages/rvest/index.html), part of the [tidyverse](https://www.tidyverse.org/) (a modern set of R packages). It is a package influenced by the popular Python package [Beautiful Soup](https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)) and it makes scraping websites with R really easy.
+
+Let's load it:
+
+```{r}
+library(rvest)
+```
+
+### Read in HTML data
+
+As mentioned above, our site is the [database of PhD dissertations from the University of Tennessee](https://trace.tennessee.edu/utk_graddiss/index.html).
+
+Let's create a character vector with the url:
+
+```{r}
+url <- "https://trace.tennessee.edu/utk_graddiss/index.html"
+```
+
+First, we read in the html data from that page:
+
+```{r}
+html <- read_html(url)
+```
+
+Let's have a look at the raw data:
+
+```{r}
+html
+```
+
+### Extracting relevant data
+
+#### Method
+
+The html code for this webpage contains the data we are interested in, but it is mixed in with a lot of HTML formatting information and data we aren't interested in. We need to extract it and turn it into a workable format.
+
+The first step is to find the CSS elements that contain the data we want. For this, you can use a web inspector or—even easier—the [SelectorGadget](https://selectorgadget.com/), a JavaScript bookmarklet built by [Andrew Cantino](https://andrewcantino.com/).
+
+This bookmarklet allows us to see that the elements we want (the links to the dissertation information pages) are under the CSS class `.article-listing`.
+
+#### Extracting a single link
+
+It is a good idea to test things out on a single element before doing a massive batch scraping of a site, so let's test our method on the first dissertation.
+
+First, we need to extract the first URL. The function `html_element()` from the package `rvest` does exactly this. Let's assign the result to an object that we will call `test`:
+
+```{r}
+test <- html %>% html_element(".article-listing")
+```
+
+:::{.note}
+
+`%>%` is a pipe from the [magrittr](https://magrittr.tidyverse.org/) tidyverse package. It passes the output from the left-hand side expression as the first argument of the right-hand side expression. We could have written this as:
+
+```{.r}
+test <- html_element(html, ".article-listing")
+```
+
+:::
+
+Our new object is a list:
+
+```{r}
+typeof(test)
+```
+
+Let's print it:
+
+```{r}
+test
+```
+
+The link is in there, so we successfully extracted the correct element, but we need to do more cleaning.
+
+As you can see from printing `test`, the link is in an `a` anchor element. Let's extract it by running the function `html_element()` again:
+
+```{r}
+a_test <- test %>% html_element("a")
+a_test
+```
+
+:::{.note}
+
+An alternative method is to use the `html_children()` function which gets the children element (the element inside an element):
+
+```{r}
+test %>% html_children()
+```
+
+:::
+
+This is much better, but we still need to extract the `href` attribute:
+
+```{r}
+link_test <- a_test %>% html_attr("href")
+link_test
+```
+
+This is our link.
+
+```{r}
+str(link_test)
+```
+
+It is saved in a character vector, which is perfect.
+
+#### Getting data from our test link
+
+Now that we have the URL for the first dissertation information page, we want to extract the date, major, and principal investigator (PI) for that dissertation.
+
+We just saw that `link_test` is a character vector representing a URL. We know how to deal with this.
+
+The first thing to do—as we did earlier with the database site—is to read in the html data. Let's assign it to a new object that we will call `html_test`:
+
+```{r}
+html_test <- read_html(link_test)
+html_test
+```
+
+Now, we want to extract the publication date. Thanks to the [SelectorGadget](https://selectorgadget.com/), we can see that it is in the element `#publication_date p`. While earlier we wanted a link (i.e. part of the CSS formatting data), here we just want the text. In this case, we extract the element with `html_element()` (as before) and pass the result to `html_text2()`:
+
+```{r}
+date_test <- html_test %>%
+  html_element("#publication_date p") %>%
+  html_text2()
+```
+
+:::{.note}
+
+`html_text2()` extracts the text part of an element and formats it nicely.
+
+Note the difference with what we did earlier to extract the link: if we had used `html_text2()` then we would have gotten the text part of the link—that is "The Novel Chlorination of Zirconium Metal and Its Application to a Recycling Protocol for Zircaloy Cladding from Spent Nuclear Fuel Rods"—rather than the link itself.
+
+:::
+
+Let's verify that our `date` object indeed contains the date:
+
+```{r}
+date_test
+```
+
+We also want the major for this thesis. The [SelectorGadget](https://selectorgadget.com/) allows us to find that this time, it is the `#department p` element that we need. Let's extract it in the same fashion:
+
+```{r}
+major_test <- html_test %>%
+  html_element("#department p") %>%
+  html_text2()
+major_test
+```
+
+And for the PI, we need the `#advisor1 p` element:
+
+```{r}
+pi_test <- html_test %>%
+  html_element("#advisor1 p") %>%
+  html_text2()
+pi_test
+```
+
+:::{.exo}
+
+:::{.yourturn}
+
+Your turn:
+
+:::
+
+Try using the [SelectorGadget](https://selectorgadget.com/) to identify the element necessary to extract the abstract of this dissertation.
+
+Now, write the code to extract it.
+
+:::
+
+We now have the date, major, and PI for the first dissertation. We could create a matrix with them by passing them as arguments to `cbind()`:
+
+```{r}
+result_test <- cbind(date_test, major_test, pi_test)
+result_test
+```
+
+#### Extracting all links
+
+Now that we have tested our code on the first dissertation, we can apply it on all 100 dissertations of the first page of the database.
+
+Instead of using `html_element()`, this time we will use `html_elements()` which extracts *all* matching elements (instead of just the first one):
+
+```{r}
+dat <- html %>% html_elements(".article-listing")
+dat
+```
+
+```{r}
+typeof(dat)
+length(dat)
+typeof(dat[[1]])
+```
+
+We now have a list of lists.
+
+As we did for a single link, we want to extract all the links to have a list of links. We will do this using a loop.
+
+Before running for loops, it is important to initialize empty loops. It is much more efficient than growing the result at each iteration.
+
+So let's initialize an empty list:
+
+```{r}
+list_links <- vector("list", length(dat))
+```
+
+Let's have a look at one element of our list (the second one for instance):
+
+```{r}
+list_links[[2]]
+```
+
+We now have an empty list of the appropriate size. We can run our loop:
+
+```{r}
+for (i in seq_along(dat)) {
+  list_links[[i]] <- dat[[i]] %>%
+    html_element("a") %>%
+    html_attr("href")
+}
+```
+
+Let's print again the second element of our list to make sure all looks good:
+
+```{r}
+list_links[[2]]
+```
+
+We have a character vector with one link. That's great! `list_links` is a list of links (in the form of character vectors) as we wanted.
+
+#### Getting the data from the list of links
+
+We will now extract the data (date, major, and PI) for all links in our list.
+
+Again, before running a for loop, we need to allocate memory first by creating an empty container:
+
+```{r}
+list_data <- vector("list", length(list_links))
+```
+
+We move the code we tested for a single dissertation inside a loop and we add one result to the `list_data` list at each iteration until we have all 100 dissertation sites scraped. Because there are quite a few of us running the code at the same time, we don't want the site to block our request. To play safe, we will add a little delay (0.1 second) at each iteration:
+
+```{r}
+for (i in seq_along(list_links)) {
+  html <- read_html(list_links[[i]])
+  date <- html %>%
+    html_element("#publication_date p") %>%
+    html_text2()
+  major <- html %>%
+    html_element("#department p") %>%
+    html_text2()
+  pi <- html %>%
+    html_element("#advisor1 p") %>%
+    html_text2()
+  Sys.sleep(0.1)  # Add a little delay
+  list_data[[i]] <- cbind(date, major, pi)
+}
+```
+
+Let's make sure all looks good by printing the second element of `list_data`:
+
+```{r}
+list_data[[2]]
+```
+
+All looking good, so let's turn this big list into a dataframe:
+
+```{r}
+result <- do.call(rbind.data.frame, list_data)
+```
+
+`result` is a long dataframe, so we will only print the first few elements:
+
+```{r}
+head(result)
+```
+
+If you like the tidyverse, you can turn it into a tibble:
+
+```{r}
+result <- result %>% tibble::as_tibble()
+```
+
+:::{.note}
+
+The notation `tibble::as_tibble()` means that we are using the function `as_tibble()` from the package [tibble](https://tibble.tidyverse.org/). A tibble is the [tidyverse](https://www.tidyverse.org/) version of a dataframe. One advantage is that it will only print the first 10 rows by default instead of printing the whole dataframe, so you don't have to use `head()` when printing long dataframes:
+
+```{r}
+result
+```
+
+:::
+
+We can rename the headers:
+
+```{r}
+names(result) <- c("Date", "Major", "PI")
+```
+
+This is what our final result looks like:
+
+```{r}
+result
+```
+
+## Functions recap
+
+Below is a recapitulation of the `rvest` functions we have used today:
+
+| Functions | Usage |
+|-----------|-------|
+| `read_html()` | Read in HTML data |
+| `html_element()` | Extract first matching element |
+| `html_elements()` | Extract all matching elements |
+| `html_children()` | Get children element |
+| `html_attr()` | Get an attribute |
+| `html_text2()` | Retrieve text |
