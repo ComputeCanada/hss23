@@ -946,3 +946,19 @@ jupyter kernelspec uninstall climate     # remove your environment from Jupyter
 on Feb-23, Mar-02 (not part of the Winter HSS Series) will cover most of these libraries.
 
 <!-- {{<a "link" "text">}} -->
+
+## Pandas quick example
+
+<!-- # data from https://domohelp.domo.com/hc/en-us/articles/360043931814-Fun-Sample-DataSets -->
+
+Let's try reading some public-domain data about Jeopardy games with `pandas`:
+
+```py
+import pandas as pd
+data = pd.read_csv("https://raw.githubusercontent.com/razoumov/publish/master/jeopardy.csv")
+data.shape      # 216930 rows, 7 columns
+data.head(10)   # first 10 rows
+data.columns    # names of the columns
+data.loc[data['Category']=='HISTORY'].shape   # 349 matches
+data.loc[data['Category']=='HISTORY'].to_csv("history.csv")   # write to a file
+```
