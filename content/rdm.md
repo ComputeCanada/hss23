@@ -33,7 +33,11 @@ Le même séminaire [en français](/rdmfr).
 
 #### Biographies
 
-**Shahira Khair**:
+**Shahira Khair** (she/her) is a librarian at the
+University of Victoria Libraries, with portfolios in
+research data curation and organizational analysis.
+She holds a Masters of Science in Biology and a Masters
+of Information, both from the University of Ottawa.
 
 **Matt Huculak** (he/him) is Head of Advanced Research Services at the University of Victoria
 Libraries, with responsibilities in digital scholarship, faculty engagement, and grant work.
