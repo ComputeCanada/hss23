@@ -33,3 +33,14 @@ Québec, il fait partie de l'équipe d'analystes offrant du soutien aux utilisat
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
 <!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+
+{{<br>}}
+
+------------------------------------------------------------------------
+
+## À propos
+
+Le matériel ci-dessous est une traduction et adaptation du matériel original
+<a href="https://mint.westdri.ca/r/webscraping.html" target="_blank"><em>Web scraping with R</em></a>
+de Marie-Hélène Burle sur le
+<a href="https://mint.westdri.ca/" target="_blank">site d’ateliers de WestDRI</a>.

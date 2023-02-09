@@ -34,3 +34,14 @@ Québec, il fait partie de l’équipe d’analystes offrant du soutien aux util
 <!-- <br> -->
 
 <!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+
+{{<br>}}
+
+-----
+
+## À propos
+
+Le matériel ci-dessous est une traduction et adaptation du matériel original
+[*Web scraping with R*](https://mint.westdri.ca/r/webscraping.html){target="_blank"}
+de Marie-Hélène Burle sur le
+[site d'ateliers de WestDRI](https://mint.westdri.ca/){target="_blank"}.
