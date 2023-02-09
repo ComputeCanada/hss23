@@ -160,8 +160,8 @@ print(1/2)   # to run all commands in the cell, either use the Run button, or pr
 
 ```py
 age = 100
-firstName = 'Jason'
-print(firstName, 'is', age, 'years old')
+name = 'Jason'
+print(name, 'is', age, 'years old')
 a = 1; b = 2   # can use ; to separate multiple commands in one line
 a, b = 1, 2    # assign variables in a tuple notation; same as last line
 a = b = 10     #  assign a value to multiple variables at the same time
