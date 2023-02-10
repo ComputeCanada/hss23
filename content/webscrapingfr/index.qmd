@@ -47,13 +47,28 @@ Le matériel ci-dessous est une traduction et adaptation du matériel original
 de Marie-Hélène Burle sur le
 [site d'ateliers de WestDRI](https://mint.westdri.ca/){target="_blank"}.
 
-For this workshop, we will use a temporary RStudio server. To access it, go to the website given during the workshop and sign in using the username and password you will be given (you can ignore the OTP entry).
+Pour cet atelier, nous allons utiliser un serveur RStudio éphémère.
+Pour y accéder, il faut se connecter à un portail JupyterHub;
+les détails sont donnés en atelier.
 
-Our RStudio server already has the two packages that we will be using installed ([rvest](https://cran.r-project.org/web/packages/rvest/index.html) and [tibble](https://cran.r-project.org/web/packages/tibble/index.html)). If you want to run the code on your machine, you need to install them with `install.packages()` first.
+Le serveur RStudio est déjà configuré avec les deux modules suivants :
 
-## HTML and CSS
+* [rvest](https://cran.r-project.org/web/packages/rvest/index.html){target="_blank"}
+* [tibble](https://cran.r-project.org/web/packages/tibble/index.html){target="_blank"}
 
-[HyperText Markup Language](https://en.wikipedia.org/wiki/HTML) (HTML) is the standard markup language for websites: it encodes the information related to the formatting and structure of webpages. Additionally, some of the customization can be stored in [Cascading Style Sheets](https://en.wikipedia.org/wiki/CSS) (CSS) files.
+Si vous préférez exécuter les exemples sur votre propre ordinateur,
+vous devez les installer avec `install.packages()`.
+
+## HTML et CSS
+
+Le [*HyperText Markup Language*](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language){target="_blank"}
+(ou HTML) est le langage de balisage standard pour représenter des pages Web.
+Il permet, entre autres, d'encoder la structure d'une page Web et
+le formatage de son contenu.
+Pour ce qui est des règles de formatage réutilisées par plusieurs
+pages HTML, il est possible de les sauvegarder dans des fichiers
+[*Cascading Style Sheets*](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade){target="_blank"}
+(ou CSS).
 
 HTML uses tags of the form:
 
