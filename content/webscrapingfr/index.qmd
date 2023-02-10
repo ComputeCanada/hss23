@@ -70,35 +70,40 @@ pages HTML, il est possible de les sauvegarder dans des fichiers
 [*Cascading Style Sheets*](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade){target="_blank"}
 (ou CSS).
 
-HTML uses tags of the form:
+Le HTML utilise des balises de la forme suivante :
 
 ```{.html}
-<some_tag>Your content</some_tag>
+<balise>Du contenu</balise>
 ```
 
-Some tags have attributes:
+Certaines balises ont aussi des attributs :
 
 ```{.html}
-<some_tag attribute_name="attribute value">Your content</some_tag>
+<balise nom_attribut="valeur attribut">Du contenu</balise>
 ```
 
-:::{.example}
+{{<ex>}}
+Exemples réels :
+{{</ex>}}
 
-Examples:
+Structure du site :
 
-:::
+```{.html}
+<h2 id="ancre">Ceci est un titre de niveau 2</h2>
+<p>Ceci est un paragraphe. Cliquez ce
+  <a href="https://une.adresse/page.html#ancre">lien</a>.
+</p>
+```
 
-Site structure:
+Formatage :
 
-- `<h2>This is a heading of level 2</h2>`
-- `<p>This is a paragraph</p>`
+```{.html}
+<p class="texte_rouge">
+  <strong>Pour du texte en caractères gras</strong>
+</p>
+```
 
-Formatting:
-
-- `<b>This is bold</b>`
-- `<a href="https://some.url">This is the text for a link</a>`
-
-## Web scrapping
+## Moissonnage du Web
 
 Web scraping is a general term for a set of tools which allow for the extraction of data from the web automatically.
 
