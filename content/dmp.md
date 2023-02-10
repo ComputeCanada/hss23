@@ -27,11 +27,14 @@ strategic efforts in research data management and open access. She was responsib
 first institutional repository, StFX Scholar. Meghan is based at StFX University, but serves all of Atlantic
 Canada and is active in national humanities and social sciences initiatives.
 
-**Megan Meredith-Lobay** is the Associate Director of Research Computing at Simon Fraser University, and one
-of the Alliance HSS National Team Leads. She holds a Ph.D. from the University of Cambridge in Archaeology,
-where she used various computing resources to investigate ritual landscapes in the Late Iron Age/Early
-Medieval Scotland. In addition, Megan has supported digital researchers in the Humanities and Social Sciences
-for the last fifteen years at the University of Alberta, Oxford University, and the University of Columbia.
+**Megan Meredith-Lobay** is the Associate Director of Research Computing at
+Simon Fraser University, and one of the Alliance HSS National Team Leads.
+She holds a Ph.D. from the University of Cambridge in Archaeology,
+where she used various computing resources to investigate ritual
+landscapes in the Late Iron Age/Early Medieval Scotland.
+In addition, Megan has supported digital researchers in the Humanities
+and Social Sciences for the last fifteen years at the University of
+Alberta, Oxford University, and the University of British Columbia.
 
 <!-- {{< vimeo 690948795 >}} -->
 <!-- <br> -->
