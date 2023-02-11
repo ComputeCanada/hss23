@@ -160,8 +160,8 @@ print(1/2)   # to run all commands in the cell, either use the Run button, or pr
 
 ```py
 age = 100
-firstName = 'Jason'
-print(firstName, 'is', age, 'years old')
+name = 'Jason'
+print(name, 'is', age, 'years old')
 a = 1; b = 2   # can use ; to separate multiple commands in one line
 a, b = 1, 2    # assign variables in a tuple notation; same as last line
 a = b = 10     #  assign a value to multiple variables at the same time
@@ -270,27 +270,27 @@ Python implements conditionals via *if*, *elif* (short for "else if") and *else*
 whether some block of code is executed or not.
 
 ```py
-mass = 3.54
-if mass > 3.0:
-    print(mass, 'is large')
+year = 830
+if year > 476:
+    print('year', year, 'falls into the medieval era')
 ```
 
-Let's modify the mass:
+Let's modify the year:
 
 ```py
-mass = 2.07
-if mass > 3.0:
-    print (mass, 'is large')
+year = 205
+if year > 476:
+    print('year', year, 'falls into the medieval era')
 ```
 
 Add an *else* statement:
 
 ```py
-mass = 2.07
-if mass > 3.0:
-    print(mass, 'is large')
+year = 205
+if year > 476:
+    print('year', year, 'falls into the medieval era')
 else:
-    print(mass, 'is small')
+    print('year', year, 'falls into the classical antiquity period')
 ```
 
 Add an *elif* statement:
@@ -946,3 +946,19 @@ jupyter kernelspec uninstall climate     # remove your environment from Jupyter
 on Feb-23, Mar-02 (not part of the Winter HSS Series) will cover most of these libraries.
 
 <!-- {{<a "link" "text">}} -->
+
+## Pandas quick example
+
+<!-- # data from https://domohelp.domo.com/hc/en-us/articles/360043931814-Fun-Sample-DataSets -->
+
+Let's try reading some public-domain data about Jeopardy games with `pandas`:
+
+```py
+import pandas as pd
+data = pd.read_csv("https://raw.githubusercontent.com/razoumov/publish/master/jeopardy.csv")
+data.shape      # 216930 rows, 7 columns
+data.head(10)   # first 10 rows
+data.columns    # names of the columns
+data.loc[data['Category']=='HISTORY'].shape   # 349 matches
+data.loc[data['Category']=='HISTORY'].to_csv("history.csv")   # write to a file
+```
