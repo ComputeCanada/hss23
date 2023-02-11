@@ -142,16 +142,13 @@ Les chapitres et les concepts d'OpenRefine que nous verrons sont :
     ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/openrefine-clustering.png))
   * Activer la fusion des valeurs, fusionner et refaire le calcul des grappes
   * [Autres méthodes et clés de fonction](https://openrefine.org/docs/manual/cellediting#clustering-methods)
+* Nettoyer les espaces de début et de fin
+  * `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`
 * Subdiviser les données en colonnes séparées
   * **Exercice en groupe**
     * Pour `scientificName`, `Edit Column` > `Split into several columns`
     * Choisir un espace (` `) comme séparateur, préserver la colonne
     * Observer les colonnes vides
-    * Dans `Undo / Redo`, sélectionner la précédente révision
-* Nettoyer les espaces de début et de fin
-  * `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`
-  * **Exercice en groupe**
-    * Refaire la subdivision du nom scientifique en fonction de l'espace
 * Renommer des colonnes
   * `Edit column` > `Rename this column`
   * **Exercice en groupe**
@@ -184,7 +181,21 @@ nous sauterons les sections à ce sujet.
     * Rajouter une lettre
 * Facettes == aperçu, filtrer == sélection
 
-### 5. Réutiliser les étapes de nettoyage des données
+### 5. Exporter les données et le projet
+
+=> [Matériel Data Carpentry - Chapitre 6](https://datacarpentry.org/OpenRefine-ecology-lesson/06-exporting-data/index.html)
+
+* Exporter les données nettoyées
+  * `Export` > choix du type de fichier (TSV ou CSV)
+  * Comme le téléchargement d'un fichier `*.tsv` ou `*.csv`
+* Sauvegarde automatique du projet
+* Exporter un projet - `Export` > `OpenRefine project archive to file`
+  * Comme le téléchargement d'un fichier `*.tar.gz`
+  * Contient un dossier `history` pour les données transformées
+    et un fichier `data.zip` contenant les données initiales.
+  * Importation via `Open...` > `Import Project` > fichier `*.tar.gz`
+
+### 6. Réutiliser les étapes de nettoyage des données
 
 => [Matériel Data Carpentry - Chapitre 5](https://datacarpentry.org/OpenRefine-ecology-lesson/05-exporting-cleaning-steps/index.html)
 
@@ -199,20 +210,6 @@ nous sauterons les sections à ce sujet.
   * [Gestion des changements](https://swcarpentry.github.io/git-novice/)
     du fichier `*.json`
   * Publication des données et des étapes de changement
-
-### 6. Exporter le projet et les données
-
-=> [Matériel Data Carpentry - Chapitre 6](https://datacarpentry.org/OpenRefine-ecology-lesson/06-exporting-data/index.html)
-
-* Sauvegarde automatique du projet
-* Exporter un projet - `Export` > `OpenRefine project archive to file`
-  * Comme le téléchargement d'un fichier `*.tar.gz`
-  * Contient un dossier `history` pour les données transformées
-    et un fichier `data.zip` contenant les données initiales.
-  * Importation via `Open...` > `Import Project` > fichier `*.tar.gz`
-* Exporter les données nettoyées
-  * `Export` > choix du type de fichier (TSV ou CSV)
-  * Comme le téléchargement d'un fichier `*.tsv` ou `*.csv`
 
 ### 7. Ressources supplémentaires
 
