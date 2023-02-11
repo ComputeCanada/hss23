@@ -154,31 +154,39 @@ les données des thèses de la première page se fera en deux étapes :
 
 ### Module R
 
-To do all this, we will use the package [rvest](https://cran.r-project.org/web/packages/rvest/index.html), part of the [tidyverse](https://www.tidyverse.org/) (a modern set of R packages). It is a package influenced by the popular Python package [Beautiful Soup](https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)) and it makes scraping websites with R really easy.
+Pour les deux grandes étapes ci-dessus, nous allons utiliser le module R
+[`rvest`](https://cran.r-project.org/web/packages/rvest/index.html){target="_blank"}
+qui fait partie du [tidyverse](https://www.tidyverse.org/){target="_blank"},
+un ensemble moderne de modules R.
+Il s'agit d'un module influencé par le populaire module Python
+[Beautiful Soup](https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)){target="_blank"}
+et qui facilite le moissonnage du Web via le langage R.
 
-Let's load it:
+Chargeons-le dans notre session R :
 
 ```{r}
 library(rvest)
 ```
 
-### Read in HTML data
+### Obtenir les données HTML
 
-As mentioned above, our site is the [database of PhD dissertations from the University of Tennessee](https://trace.tennessee.edu/utk_graddiss/index.html).
+Tel que mentionné ci-dessus, notre site en exemple est la
+[base de données de thèses de doctorat](https://trace.tennessee.edu/utk_graddiss/index.html){target="_blank"}
+de l'Université du Tennessee.
 
-Let's create a character vector with the url:
-
-```{r}
-url <- "https://trace.tennessee.edu/utk_graddiss/index.html"
-```
-
-First, we read in the html data from that page:
+Assignons l'adresse du site (une chaîne de caractères) à une variable :
 
 ```{r}
-html <- read_html(url)
+adresse <- "https://trace.tennessee.edu/utk_graddiss/index.html"
 ```
 
-Let's have a look at the raw data:
+L'étape suivante consiste à obtenir les données HTML de cette page :
+
+```{r}
+html <- read_html(adresse)
+```
+
+Regardons un aperçu de ces données HTML encore à l'état brut :
 
 ```{r}
 html
@@ -399,7 +407,7 @@ list_data <- vector("list", length(list_links))
 
 We move the code we tested for a single dissertation inside a loop and we add one result to the `list_data` list at each iteration until we have all 100 dissertation sites scraped. Because there are quite a few of us running the code at the same time, we don't want the site to block our request. To play safe, we will add a little delay (0.1 second) at each iteration:
 
-```{r}
+```{.r}
 for (i in seq_along(list_links)) {
   html <- read_html(list_links[[i]])
   date <- html %>%
