@@ -120,22 +120,22 @@ Par conséquent, si vous planifiez effectuer du moissonnage à grande
 
 ## Un site Web en exemple
 
-### Notre but
+### Notre objectif
 
 Nous allons utiliser
 [**ce site Web**](https://trace.tennessee.edu/utk_graddiss/index.html){target="_blank"}
 de [l'Université du Tennessee](https://www.utk.edu/){target="_blank"},
 car il présente une interface de base de données
 dont le code HTML est facile à décortiquer.
-**Notre but consiste donc à extraire de ce site la date de publication,
+**Notre objectif consiste donc à extraire de ce site la date de publication,
 le domaine de recherche et le nom du directeur ou de la directrice de
 recherche pour chacune des thèses de doctorat de cette université.**
 Ces informations doivent ensuite être colligées dans un *data frame*.
 
-Note : pour cet atelier, nous nous limiterons à la première
-page qui contient les liens des 100 thèses les plus récentes.
-Si vous vouliez extraire les données de toutes les thèses, il vous
-faudrait envoyer une requête HTTP pour chaque page de la base de données.
+> Note : pour cet atelier, nous nous limiterons à la première
+  page qui contient les liens des 100 thèses les plus récentes.
+  Si vous vouliez extraire les données de toutes les thèses, il vous
+  faudrait envoyer une requête HTTP pour chaque page de la base de données.
 
 ### Méthodologie
 
@@ -192,15 +192,37 @@ Regardons un aperçu de ces données HTML encore à l'état brut :
 html
 ```
 
-### Extracting relevant data
+### Extraction des données pertinentes
 
-#### Method
+#### Inspection du code HTML
 
-The html code for this webpage contains the data we are interested in, but it is mixed in with a lot of HTML formatting information and data we aren't interested in. We need to extract it and turn it into a workable format.
+Le code HTML contient bel et bien les données qui nous intéressent,
+mais elles sont mélangées avec plusieurs balises HTML, des instructions
+de formatage et d'autres données inutiles pour notre objectif.
+Nous devons donc extraire ces données et les regrouper dans un format pratique.
 
-The first step is to find the CSS elements that contain the data we want. For this, you can use a web inspector or—even easier—the [SelectorGadget](https://selectorgadget.com/), a JavaScript bookmarklet built by [Andrew Cantino](https://andrewcantino.com/).
+La première étape consiste à trouver les branches de balises,
+souvent enrichies d'un identifiant ou d'éléments de CSS,
+qui contiennent les données que nous voulons.
+Pour ce faire, vous pouvez utiliser l'inspecteur intégré
+de votre navigateur Web sur la page de thèses.
+Par exemple, en pointant un hyperlien avec la souris :
 
-This bookmarklet allows us to see that the elements we want (the links to the dissertation information pages) are under the CSS class `.article-listing`.
+* **Firefox** : bouton droit de la souris et *Inspecter*
+  * L'arborescence se trouve au bas de la fenêtre
+* **Google Chrome** : bouton droit de la souris et *Inspecter*
+  * L'arborescence se trouve à la droite de la fenêtre
+* **Microsoft Edge** : bouton droit de la souris et *Inspecter*
+  * L'arborescence se trouve à la droite de la fenêtre
+* **Safari** : bouton droit de la souris et *Inspecter l'élément*
+  * Note: il faut au préalable activer le menu *Développement* dans les
+    paramètres avancés.
+
+> Voir aussi le [SelectorGadget](https://selectorgadget.com/){target="_blank"}.
+
+On remarque donc que toutes les adresses qui nous intéressent se trouvent
+dans l'attribut `href` des balises `<a>` qui sont elles-même dans des
+paragraphes `<p>` dont la classe CSS porte le nom `article-listing`.
 
 #### Extracting a single link
 
