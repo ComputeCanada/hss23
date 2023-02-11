@@ -105,35 +105,54 @@ Formatage :
 
 ## Moissonnage du Web
 
-Web scraping is a general term for a set of tools which allow for the extraction of data from the web automatically.
+Le moissonnage du Web consiste à utiliser un ensemble d'outils afin
+d'extraire automatiquement de l'information directement d'Internet.
 
-While most of the data on the internet is publicly available, it is illegal to scrape some sites and you should always look into the policy of a site before attempting to scrape it. Some sites will also block you if you submit too many requests in a short amount of time, so if you plan on scraping sites at a fairly large scale, you should look into the [polite](https://dmi3kno.github.io/polite/) package which will help you scrape responsibly.
+Alors que la plupart des données sur Internet sont disponibles
+publiquement, il peut être illégal de moissonner certains sites.
+En effet, vous devriez toujours regarder la politique d'utilisation d'un
+site Web avant de tenter toute extraction d'information par moissonnage.
+Notez aussi que certains sites peuvent vous bloquer si vous leur envoyez
+un trop grand nombre de requêtes HTTP dans une courte période de temps.
+Par conséquent, si vous planifiez effectuer du moissonnage à grande
+échelle, vous devriez considérer l'utilisation du module R
+[`polite`](https://dmi3kno.github.io/polite/){target="_blank"}.
 
-## Example
+## Un site Web en exemple
 
-### Goal
+### Notre but
 
-We will use [a website](https://trace.tennessee.edu/utk_graddiss/index.html) from the [University of Tennessee](https://www.utk.edu/) containing a database of PhD theses from that university.
+Nous allons utiliser
+[**ce site Web**](https://trace.tennessee.edu/utk_graddiss/index.html){target="_blank"}
+de [l'Université du Tennessee](https://www.utk.edu/){target="_blank"},
+car il présente une interface de base de données
+dont le code HTML est facile à décortiquer.
+**Notre but consiste donc à extraire de ce site la date de publication,
+le domaine de recherche et le nom du directeur ou de la directrice de
+recherche pour chacune des thèses de doctorat de cette université.**
+Ces informations doivent ensuite être colligées dans un *data frame*.
 
-Our goal is to scrape data from this site to produce a dataframe with the date, major, and principal investigator (PI) for each dissertation.
+Note : pour cet atelier, nous nous limiterons à la première
+page qui contient les liens des 100 thèses les plus récentes.
+Si vous vouliez extraire les données de toutes les thèses, il vous
+faudrait envoyer une requête HTTP pour chaque page de la base de données.
 
-:::{.note}
+### Méthodologie
 
-We will only do this for the first page which contains the links for the 100 most recent theses. If you really wanted to gather all the data, you would have to do this for all pages.
+Avant de se lancer dans la programmation, il est recommandé
+de réfléchir aux grandes étapes de notre moissonnage.
+Étant donné la structure du site Web, la création du *data frame* avec
+les données des thèses de la première page se fera en deux étapes :
 
-:::
+1. À partir de
+  [la première page](https://trace.tennessee.edu/utk_graddiss/index.html){target="_blank"}
+  de la base de données, nous voulons colliger une liste
+  d'hyperliens menant vers les pages de chaque thèse.
+2. Avec ces hyperliens, nous voulons moissonner les pages
+  correspondantes afin d'y extraire la valeur des champs
+  *Date of Award*, *Major* et *Major Professor* de chaque thèse.
 
-### Let's look at the sites
-
-First of all, let's have a close look at the websites we want to scrape to think carefully about what we want to do. Before starting to write code, it is always a good idea to think about what you are trying to achieve with your code.
-
-To create a dataframe with the data for all the dissertations on that first page, we need to do two things:
-
-- Step 1: from the [dissertations database first page](https://trace.tennessee.edu/utk_graddiss/index.html), we want to scrape the list of URLs for the dissertation pages.
-
-- Step 2: once we have the links, we want to scrape those pages too to get the date, major, and principal investigator (PI) for each dissertation.
-
-### Package
+### Module R
 
 To do all this, we will use the package [rvest](https://cran.r-project.org/web/packages/rvest/index.html), part of the [tidyverse](https://www.tidyverse.org/) (a modern set of R packages). It is a package influenced by the popular Python package [Beautiful Soup](https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)) and it makes scraping websites with R really easy.
 
