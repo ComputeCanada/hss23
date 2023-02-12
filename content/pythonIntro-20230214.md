@@ -266,8 +266,9 @@ print('result of print is', result)   # what happened here? Answer: print return
 
 ## Conditionals
 
-Python implements conditionals via *if*, *elif* (short for "else if") and *else*. Use an *if* statement to control
-whether some block of code is executed or not.
+Python implements conditionals via `if`, `elif` (short for "else if") and `else`. Use an `if` statement to
+control whether some block of code is executed or not. Let's consider the boundary between the Antiquity and
+the Middle Ages:
 
 ```py
 year = 830
@@ -283,7 +284,7 @@ if year > 476:
     print('year', year, 'falls into the medieval era')
 ```
 
-Add an *else* statement:
+Add an `else` statement:
 
 ```py
 year = 205
@@ -293,7 +294,7 @@ else:
     print('year', year, 'falls into the classical antiquity period')
 ```
 
-Add an *elif* statement:
+Add an `elif` statement:
 
 ```py
 x = 5
