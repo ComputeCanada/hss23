@@ -59,7 +59,9 @@ Le serveur RStudio est déjà configuré avec les deux modules suivants :
 Si vous préférez exécuter les exemples sur votre propre ordinateur,
 vous devez les installer avec `install.packages()`.
 
-## HTML et CSS
+## Introduction
+
+### HTML et CSS
 
 Le [*HyperText Markup Language*](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language){target="_blank"}
 (ou HTML) est le langage de balisage standard pour représenter des pages Web.
@@ -103,7 +105,7 @@ Formatage :
 </p>
 ```
 
-## Moissonnage du Web
+### Moissonnage du Web
 
 Le moissonnage du Web consiste à utiliser un ensemble d'outils afin
 d'extraire automatiquement de l'information directement d'Internet.
@@ -118,9 +120,7 @@ Par conséquent, si vous planifiez effectuer du moissonnage à grande
 échelle, vous devriez considérer l'utilisation du module R
 [`polite`](https://dmi3kno.github.io/polite/){target="_blank"}.
 
-## Un site Web en exemple
-
-### Notre objectif
+### Un site Web en exemple
 
 Nous allons utiliser
 [**ce site Web**](https://trace.tennessee.edu/utk_graddiss/index.html){target="_blank"}
@@ -137,7 +137,7 @@ Ces informations doivent ensuite être colligées dans un *data frame*.
   Si vous vouliez extraire les données de toutes les thèses, il vous
   faudrait envoyer une requête HTTP pour chaque page de la base de données.
 
-### Méthodologie
+## Méthodologie
 
 Avant de se lancer dans la programmation, il est recommandé
 de réfléchir aux grandes étapes de notre moissonnage.
@@ -152,7 +152,7 @@ les données des thèses de la première page se fera en deux étapes :
   correspondantes afin d'y extraire la valeur des champs
   *Date of Award*, *Major* et *Major Professor* de chaque thèse.
 
-### Module R
+### Utiliser un module R spécialisé
 
 Pour les deux grandes étapes ci-dessus, nous allons utiliser le module R
 [`rvest`](https://cran.r-project.org/web/packages/rvest/index.html){target="_blank"}
@@ -168,7 +168,7 @@ Chargeons-le dans notre session R :
 library(rvest)
 ```
 
-### Obtenir les données HTML
+### Obtenir les données HTML brutes
 
 Tel que mentionné ci-dessus, notre site en exemple est la
 [base de données de thèses de doctorat](https://trace.tennessee.edu/utk_graddiss/index.html){target="_blank"}
@@ -192,9 +192,9 @@ Regardons un aperçu de ces données HTML encore à l'état brut :
 html
 ```
 
-### Extraction des données pertinentes
+## Extraction des données pertinentes
 
-#### Inspection du code HTML
+### Inspection du code HTML
 
 Le code HTML contient bel et bien les données qui nous intéressent,
 mais elles sont mélangées avec plusieurs balises HTML, des instructions
@@ -202,7 +202,7 @@ de formatage et d'autres données inutiles pour notre objectif.
 Nous devons donc extraire ces données et les regrouper dans un format pratique.
 
 La première étape consiste à trouver les branches de balises,
-souvent enrichies d'un identifiant ou d'éléments de CSS,
+souvent enrichies de [sélecteurs CSS](#points-à-retenir),
 qui contiennent les données que nous voulons.
 Pour ce faire, vous pouvez utiliser l'inspecteur intégré
 de votre navigateur Web sur la page de thèses.
@@ -224,14 +224,14 @@ On remarque donc que toutes les adresses qui nous intéressent se trouvent
 dans l'attribut `href` des balises `<a>` qui sont elles-même dans des
 paragraphes `<p>` dont la classe CSS porte le nom `article-listing`.
 
-#### Extraction d'une seule adresse
+### Extraction d'une seule adresse
 
 Puisqu'il est recommandé de tester l'extraction d'information sur
 un seul élément avant d'effectuer un moissonnage sur toute la page,
 essayons uniquement d'obtenir l'adresse de la première thèse.
 
 La fonction `html_element()` du module `rvest` retourne le premier
-élément HTML qui correspond aux identifiants de CSS donnés en paramètre.
+élément HTML qui correspond aux sélecteurs CSS donnés en paramètre.
 Pour les paragraphes `<p>` de classe `article-listing`, nous ferons une
 recherche avec `p.article-listing` et sauvegarderons le résultat dans `test`.
 
@@ -287,7 +287,7 @@ test_addr
 C'est bien l'adresse voulue et elle est stockée en mémoire
 sous la forme d'une chaîne de caractères, ce qui est parfait!
 
-#### Getting data from our test link
+### Getting data from our test link
 
 Now that we have the URL for the first dissertation information page, we want to extract the date, major, and principal investigator (PI) for that dissertation.
 
@@ -361,7 +361,7 @@ result_test <- cbind(date_test, major_test, pi_test)
 result_test
 ```
 
-#### Extracting all links
+### Extracting all links
 
 Now that we have tested our code on the first dissertation, we can apply it on all 100 dissertations of the first page of the database.
 
@@ -414,7 +414,7 @@ list_links[[2]]
 
 We have a character vector with one link. That's great! `list_links` is a list of links (in the form of character vectors) as we wanted.
 
-#### Getting the data from the list of links
+### Getting the data from the list of links
 
 We will now extract the data (date, major, and PI) for all links in our list.
 
@@ -489,15 +489,30 @@ This is what our final result looks like:
 result
 ```
 
-## Functions recap
+## Points à retenir
 
-Below is a recapitulation of the `rvest` functions we have used today:
+**Les sélecteurs CSS :**
 
-| Functions | Usage |
-|-----------|-------|
-| `read_html()` | Read in HTML data |
-| `html_element()` | Extract first matching element |
-| `html_elements()` | Extract all matching elements |
-| `html_children()` | Get children element |
-| `html_attr()` | Get an attribute |
-| `html_text2()` | Retrieve text |
+|   Sélecteurs    | Recherche pour ... |
+|-----------------|--------------------|
+| `balise`        | Tous les éléments de ce type de balise |
+| `.classe`       | Tous les éléments ayant cette classe |
+| `balise.classe` | Tous les éléments de ce type de balise ayant cette classe |
+| `#identifiant`  | L'élément ayant cet identifiant unique |
+
+* Référence :
+  [W3C - Selectors](https://www.w3.org/TR/selectors/#overview){target="_blank"}
+
+**Les fonctions du module `rvest` :**
+
+|     Fonctions     | Pour obtenir ... |
+|-------------------|------------------|
+| `html_attr()`     | La valeur d'un attribut |
+| `html_children()` | Les éléments enfant |
+| `html_element()`  | Le premier élément selon les sélecteurs CSS |
+| `html_elements()` | Tous les éléments selon les sélecteurs CSS |
+| `html_text2()`    | Le texte de l'élément |
+| `read_html()`     | Le code HTML d'une page |
+
+* Référence :
+  [rvest - Function reference](https://rvest.tidyverse.org/reference/index.html){target="_blank"}
