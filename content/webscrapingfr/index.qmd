@@ -247,13 +247,7 @@ test <- html %>% html_element("p.article-listing")
   mais l'opérateur `%>%` permet d'enchaîner élégamment
   plusieurs appels similaires.
 
-Le nouvel objet retourné par `html_element()` est une liste d'un seul élément :
-
-```{r}
-typeof(test)
-```
-
-Affichons-la :
+Affichons l'objet obtenu qui représente le paragraphe sélectionné :
 
 ```{r}
 test
@@ -363,58 +357,56 @@ test_resultat <- cbind(test_date, test_department, test_direction)
 test_resultat
 ```
 
-### Extracting all links
+### Extraire toutes les adresses
 
-Now that we have tested our code on the first dissertation, we can apply it on all 100 dissertations of the first page of the database.
-
-Instead of using `html_element()`, this time we will use `html_elements()` which extracts *all* matching elements (instead of just the first one):
+Maintenant que nous avons testé notre code sur la première thèse, nous pouvons
+l'utiliser sur les 100 thèses de la première page de la base de données.
+Or, au lieu d'utiliser `html_element()`, nous allons utiliser `html_elements()`
+pour extraire *tous* les éléments qui correspondent au sélecteur :
 
 ```{r}
-dat <- html %>% html_elements(".article-listing")
-dat
+les_p <- html %>% html_elements("p.article-listing")
+les_p
 ```
 
 ```{r}
-typeof(dat)
-length(dat)
-typeof(dat[[1]])
+typeof(les_p)
+length(les_p)
+les_p[[2]]
 ```
 
-We now have a list of lists.
-
-As we did for a single link, we want to extract all the links to have a list of links. We will do this using a loop.
-
-Before running for loops, it is important to initialize empty loops. It is much more efficient than growing the result at each iteration.
-
-So let's initialize an empty list:
+Pour extraire la liste de toutes les adresses, nous allons utiliser
+une boucle qui va refaire les étapes que nous avons faites pour la
+[première thèse](#extraction-dune-seule-adresse).
+Mais avant de lancer la boucle, il est important d'initialiser cette liste
+d'adresses, ce qui est plus efficace que de l'allonger à chaque itération :
 
 ```{r}
-list_links <- vector("list", length(dat))
+liste_addr <- vector("list", length(les_p))
 ```
 
-Let's have a look at one element of our list (the second one for instance):
+Et si on regarde l'un des éléments de la liste (le deuxième, par exemple) :
 
 ```{r}
-list_links[[2]]
+liste_addr[[2]]
 ```
 
-We now have an empty list of the appropriate size. We can run our loop:
+Nous pouvons maintenant exécuter notre boucle pour noter les adresses :
 
 ```{r}
-for (i in seq_along(dat)) {
-  list_links[[i]] <- dat[[i]] %>%
-    html_element("a") %>%
-    html_attr("href")
+for (i in seq_along(les_p)) {
+  liste_addr[[i]] <- les_p[[i]] %>% html_element("a") %>% html_attr("href")
 }
 ```
 
-Let's print again the second element of our list to make sure all looks good:
+Affichons à nouveau le second élément de notre liste pour vérifier :
 
 ```{r}
-list_links[[2]]
+liste_addr[[2]]
 ```
 
-We have a character vector with one link. That's great! `list_links` is a list of links (in the form of character vectors) as we wanted.
+Nous obtenons donc l'adresse sous la forme de chaîne de caractères.
+Ainsi, `liste_addr` est bel et bien une liste d'adresses telle qu'attendue.
 
 ### Getting the data from the list of links
 
