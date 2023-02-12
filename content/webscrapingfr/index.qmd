@@ -224,71 +224,68 @@ On remarque donc que toutes les adresses qui nous intéressent se trouvent
 dans l'attribut `href` des balises `<a>` qui sont elles-même dans des
 paragraphes `<p>` dont la classe CSS porte le nom `article-listing`.
 
-#### Extracting a single link
+#### Extraction d'une seule adresse
 
-It is a good idea to test things out on a single element before doing a massive batch scraping of a site, so let's test our method on the first dissertation.
+Puisqu'il est recommandé de tester l'extraction d'information sur
+un seul élément avant d'effectuer un moissonnage sur toute la page,
+essayons uniquement d'obtenir l'adresse de la première thèse.
 
-First, we need to extract the first URL. The function `html_element()` from the package `rvest` does exactly this. Let's assign the result to an object that we will call `test`:
+La fonction `html_element()` du module `rvest` retourne le premier
+élément HTML qui correspond aux identifiants de CSS donnés en paramètre.
+Pour les paragraphes `<p>` de classe `article-listing`, nous ferons une
+recherche avec `p.article-listing` et sauvegarderons le résultat dans `test`.
 
 ```{r}
-test <- html %>% html_element(".article-listing")
+test <- html %>% html_element("p.article-listing")
 ```
 
-:::{.note}
+> Note : `%>%` est un opérateur de redirection du module tidyverse
+  [magrittr](https://magrittr.tidyverse.org/){target="_blank"}.
+  Cet opérateur transmet l'objet résultant de l'expression de gauche
+  à l'appel de fonction de droite comme premier argument.
+  En fait, nous aurions pu écrire `html_element(html, "p.article-listing")`,
+  mais l'opérateur `%>%` permet d'enchaîner élégamment
+  plusieurs appels similaires.
 
-`%>%` is a pipe from the [magrittr](https://magrittr.tidyverse.org/) tidyverse package. It passes the output from the left-hand side expression as the first argument of the right-hand side expression. We could have written this as:
-
-```{.r}
-test <- html_element(html, ".article-listing")
-```
-
-:::
-
-Our new object is a list:
+Le nouvel objet retourné par `html_element()` est une liste d'un seul élément :
 
 ```{r}
 typeof(test)
 ```
 
-Let's print it:
+Affichons-la :
 
 ```{r}
 test
 ```
 
-The link is in there, so we successfully extracted the correct element, but we need to do more cleaning.
+L'adresse voulue s'y trouve, donc nous avons isolé le bon élément.
+Cependant, nous devons poursuivre le nettoyage de notre extraction.
 
-As you can see from printing `test`, the link is in an `a` anchor element. Let's extract it by running the function `html_element()` again:
-
-```{r}
-a_test <- test %>% html_element("a")
-a_test
-```
-
-:::{.note}
-
-An alternative method is to use the `html_children()` function which gets the children element (the element inside an element):
+Comme vous pouvez le voir dans l'affichage de `test`,
+l'adresse se trouve dans un élément `<a>`.
+Utilisons à nouveau `html_element()`, mais avec `"a"` seulement :
 
 ```{r}
-test %>% html_children()
+test_a <- test %>% html_element("a")
+test_a
 ```
 
-:::
+> Note : nous aurions pu utiliser la fonction `html_children()`
+  pour aller chercher les éléments enfant du paragraphe :
+  `test %>% html_children()`.
+  Par contre, il y a un risque d'obtenir une liste de plusieurs éléments.
 
-This is much better, but we still need to extract the `href` attribute:
+Finalement, à partir de ce dernier objet,
+nous pouvons extraire la valeur de l'attribut `href` :
 
 ```{r}
-link_test <- a_test %>% html_attr("href")
-link_test
+test_addr <- test_a %>% html_attr("href")
+test_addr
 ```
 
-This is our link.
-
-```{r}
-str(link_test)
-```
-
-It is saved in a character vector, which is perfect.
+C'est bien l'adresse voulue et elle est stockée en mémoire
+sous la forme d'une chaîne de caractères, ce qui est parfait!
 
 #### Getting data from our test link
 
