@@ -128,7 +128,7 @@ de [l'Université du Tennessee](https://www.utk.edu/){target="_blank"},
 car il présente une interface de base de données
 dont le code HTML est facile à décortiquer.
 **Notre objectif consiste donc à extraire de ce site la date de publication,
-le domaine de recherche et le nom du directeur ou de la directrice de
+le département de recherche et le nom du directeur ou de la directrice de
 recherche pour chacune des thèses de doctorat de cette université.**
 Ces informations doivent ensuite être colligées dans un *data frame*.
 
@@ -287,78 +287,80 @@ test_addr
 C'est bien l'adresse voulue et elle est stockée en mémoire
 sous la forme d'une chaîne de caractères, ce qui est parfait!
 
-### Getting data from our test link
+### Extraire les données de la page de thèse
 
-Now that we have the URL for the first dissertation information page, we want to extract the date, major, and principal investigator (PI) for that dissertation.
+Maintenant que nous avons l'adresse de la page d'information de la
+première thèse, nous voulons extraire la date de publication, le département
+de recherche et le nom du directeur ou de la directrice de recherche.
 
-We just saw that `link_test` is a character vector representing a URL. We know how to deal with this.
-
-The first thing to do—as we did earlier with the database site—is to read in the html data. Let's assign it to a new object that we will call `html_test`:
+Nous venons de voir que `test_addr` est une chaîne de caractères
+représentant une adresse et nous savons comment l'utiliser.
+Comme nous avions fait pour la page de la base de données, nous allons
+lire les données HTML brutes et les assigner à une nouvelle variable :
 
 ```{r}
-html_test <- read_html(link_test)
-html_test
+test_html <- read_html(test_addr)
+test_html
 ```
 
-Now, we want to extract the publication date. Thanks to the [SelectorGadget](https://selectorgadget.com/), we can see that it is in the element `#publication_date p`. While earlier we wanted a link (i.e. part of the CSS formatting data), here we just want the text. In this case, we extract the element with `html_element()` (as before) and pass the result to `html_text2()`:
+Maintenant, nous voulons extraire la date de publication :
+
+* Celle-ci se trouve dans une balise `<p>` dont le parent est identifié par
+  `#publication_date`. Or, la syntaxe du sélecteur nous permet d'isoler
+  directement le paragraphe enfant en utilisant `#publication_date p`.
+* Ensuite, à partir de la sortie de `html_element()`,
+  au lieu d'aller chercher la valeur d'un attribut,
+  nous voulons plutôt extraire le texte de notre paragraphe.
+  Dans ce cas, nous devons utiliser la fonction `html_text2()` qui
+  extrait le texte et ajoute des sauts de ligne `\n` lorsque requis.
 
 ```{r}
-date_test <- html_test %>%
-  html_element("#publication_date p") %>%
-  html_text2()
+test_date <- test_html %>% html_element("#publication_date p") %>% html_text2()
 ```
 
-:::{.note}
+> Note : dans la page de la base de données, si nous avions utilisé
+  `html_text2()` au lieu de `html_attr("href")`, nous aurions eu
+  le texte de l'hyperlien, c'est-à-dire le titre de la thèse.
 
-`html_text2()` extracts the text part of an element and formats it nicely.
-
-Note the difference with what we did earlier to extract the link: if we had used `html_text2()` then we would have gotten the text part of the link—that is "The Novel Chlorination of Zirconium Metal and Its Application to a Recycling Protocol for Zircaloy Cladding from Spent Nuclear Fuel Rods"—rather than the link itself.
-
-:::
-
-Let's verify that our `date` object indeed contains the date:
+Vérifions maintenant le contenu de notre date (de format `"M-AAAA"`) :
 
 ```{r}
-date_test
+test_date
 ```
 
-We also want the major for this thesis. The [SelectorGadget](https://selectorgadget.com/) allows us to find that this time, it is the `#department p` element that we need. Let's extract it in the same fashion:
+Nous pouvons utiliser la même méthode pour extraire le département de
+recherche, sauf que nous devons utiliser le sélecteur `#department p` :
 
 ```{r}
-major_test <- html_test %>%
-  html_element("#department p") %>%
-  html_text2()
-major_test
+test_department <- test_html %>% html_element("#department p") %>% html_text2()
+test_department
 ```
 
-And for the PI, we need the `#advisor1 p` element:
+Enfin, pour le nom du directeur ou de la directrice de recherche,
+nous devons utiliser le sélecteur `#advisor1 p` :
 
 ```{r}
-pi_test <- html_test %>%
-  html_element("#advisor1 p") %>%
-  html_text2()
-pi_test
+test_direction <- test_html %>% html_element("#advisor1 p") %>% html_text2()
+test_direction
 ```
 
-:::{.exo}
+{{<ex>}}
+Exercice - Extraire le titre "Abstract" et le texte de tous ses paragraphes
+{{</ex>}}
 
-:::{.yourturn}
+Voici la solution attendue, soit une seule longue chaîne de caractères :
+```{r}
+#| echo: false
+test_abstract <- test_html %>% html_element("#abstract") %>% html_text2()
+"Abstract\n\n..."
+```
 
-Your turn:
-
-:::
-
-Try using the [SelectorGadget](https://selectorgadget.com/) to identify the element necessary to extract the abstract of this dissertation.
-
-Now, write the code to extract it.
-
-:::
-
-We now have the date, major, and PI for the first dissertation. We could create a matrix with them by passing them as arguments to `cbind()`:
+Maintenant que nous avons nos trois informations, nous pouvons créer un tuple
+avec ces trois valeurs en les passant comme arguments à la fonction `cbind()` :
 
 ```{r}
-result_test <- cbind(date_test, major_test, pi_test)
-result_test
+test_resultat <- cbind(test_date, test_department, test_direction)
+test_resultat
 ```
 
 ### Extracting all links
@@ -499,6 +501,7 @@ result
 | `.classe`       | Tous les éléments ayant cette classe |
 | `balise.classe` | Tous les éléments de ce type de balise ayant cette classe |
 | `#identifiant`  | L'élément ayant cet identifiant unique |
+| `#id balise`   | Tous les éléments de ce type de balise avec le parent `id` |
 
 * Référence :
   [W3C - Selectors](https://www.w3.org/TR/selectors/#overview){target="_blank"}
