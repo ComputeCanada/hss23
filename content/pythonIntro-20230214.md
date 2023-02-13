@@ -348,8 +348,9 @@ print('primes has become', primes)
 
 ```py
 print('primes before', primes)
-del primes[4]   # remove element #4
+primes.pop(4)      # remove element #4
 print('primes after', primes)
+primes.remove(2)   # remove first value 2
 ```
 
 ```py
@@ -628,7 +629,7 @@ concepts
 Deleting dictionary items:
 
 ```py
-del concepts['list']       # remove the key 'list' and its value
+concepts.pop('list')   # remove the key 'list' and its value
 ```
 
 Values can also be numerical:
