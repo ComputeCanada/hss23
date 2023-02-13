@@ -164,7 +164,7 @@ et qui facilite le moissonnage du Web via le langage R.
 
 Chargeons-le dans notre session R :
 
-```{r}
+```{.r}
 library(rvest)
 ```
 
@@ -176,19 +176,19 @@ de l'Université du Tennessee.
 
 Assignons l'adresse du site (une chaîne de caractères) à une variable :
 
-```{r}
+```{.r}
 adresse <- "https://trace.tennessee.edu/utk_graddiss/index.html"
 ```
 
 L'étape suivante consiste à obtenir les données HTML de cette page :
 
-```{r}
+```{.r}
 html <- read_html(adresse)
 ```
 
 Regardons un aperçu de ces données HTML encore à l'état brut :
 
-```{r}
+```{.r}
 html
 ```
 
@@ -235,7 +235,7 @@ La fonction `html_element()` du module `rvest` retourne le premier
 Pour les paragraphes `<p>` de classe `article-listing`, nous ferons une
 recherche avec `p.article-listing` et sauvegarderons le résultat dans `test`.
 
-```{r}
+```{.r}
 test <- html %>% html_element("p.article-listing")
 ```
 
@@ -249,7 +249,7 @@ test <- html %>% html_element("p.article-listing")
 
 Affichons l'objet obtenu qui représente le paragraphe sélectionné :
 
-```{r}
+```{.r}
 test
 ```
 
@@ -260,7 +260,7 @@ Comme vous pouvez le voir dans l'affichage de `test`,
 l'adresse se trouve dans un élément `<a>`.
 Utilisons à nouveau `html_element()`, mais avec `"a"` seulement :
 
-```{r}
+```{.r}
 test_a <- test %>% html_element("a")
 test_a
 ```
@@ -273,7 +273,7 @@ test_a
 Finalement, à partir de ce dernier objet,
 nous pouvons extraire la valeur de l'attribut `href` :
 
-```{r}
+```{.r}
 test_addr <- test_a %>% html_attr("href")
 test_addr
 ```
@@ -292,7 +292,7 @@ représentant une adresse et nous savons comment l'utiliser.
 Comme nous avions fait pour la page de la base de données, nous allons
 lire les données HTML brutes et les assigner à une nouvelle variable :
 
-```{r}
+```{.r}
 test_html <- read_html(test_addr)
 test_html
 ```
@@ -308,7 +308,7 @@ Maintenant, nous voulons extraire la date de publication :
   Dans ce cas, nous devons utiliser la fonction `html_text2()` qui
   extrait le texte et ajoute des sauts de ligne `\n` lorsque requis.
 
-```{r}
+```{.r}
 test_date <- test_html %>% html_element("#publication_date p") %>% html_text2()
 ```
 
@@ -318,14 +318,14 @@ test_date <- test_html %>% html_element("#publication_date p") %>% html_text2()
 
 Vérifions maintenant le contenu de notre date (de format `"M-AAAA"`) :
 
-```{r}
+```{.r}
 test_date
 ```
 
 Nous pouvons utiliser la même méthode pour extraire le département de
 recherche, sauf que nous devons utiliser le sélecteur `#department p` :
 
-```{r}
+```{.r}
 test_department <- test_html %>% html_element("#department p") %>% html_text2()
 test_department
 ```
@@ -333,7 +333,7 @@ test_department
 Enfin, pour le nom du directeur ou de la directrice de recherche,
 nous devons utiliser le sélecteur `#advisor1 p` :
 
-```{r}
+```{.r}
 test_direction <- test_html %>% html_element("#advisor1 p") %>% html_text2()
 test_direction
 ```
@@ -345,14 +345,14 @@ Exercice - Extraire le titre "Abstract" et le texte de tous ses paragraphes
 Voici la solution attendue, soit une seule longue chaîne de caractères :
 ```{r}
 #| echo: false
-test_abstract <- test_html %>% html_element("#abstract") %>% html_text2()
+#test_abstract <- test_html %>% html_element("#abstract") %>% html_text2()
 "Abstract\n\n..."
 ```
 
 Maintenant que nous avons nos trois informations, nous pouvons créer un tuple
 avec ces trois valeurs en les passant comme arguments à la fonction `cbind()` :
 
-```{r}
+```{.r}
 test_resultat <- cbind(test_date, test_department, test_direction)
 test_resultat
 ```
@@ -364,12 +364,12 @@ l'utiliser sur les 100 thèses de la première page de la base de données.
 Or, au lieu d'utiliser `html_element()`, nous allons utiliser `html_elements()`
 pour extraire *tous* les éléments qui correspondent au sélecteur :
 
-```{r}
+```{.r}
 les_p <- html %>% html_elements("p.article-listing")
 les_p
 ```
 
-```{r}
+```{.r}
 typeof(les_p)
 length(les_p)
 les_p[[2]]
@@ -381,19 +381,19 @@ une boucle qui va refaire les étapes que nous avons faites pour la
 Mais avant de lancer la boucle, il est important d'initialiser cette liste
 d'adresses, ce qui est plus efficace que de l'allonger à chaque itération :
 
-```{r}
+```{.r}
 liste_addr <- vector("list", length(les_p))
 ```
 
 Et si on regarde l'un des éléments de la liste (le deuxième, par exemple) :
 
-```{r}
+```{.r}
 liste_addr[[2]]
 ```
 
 Nous pouvons maintenant exécuter notre boucle pour noter les adresses :
 
-```{r}
+```{.r}
 for (i in seq_along(les_p)) {
   liste_addr[[i]] <- les_p[[i]] %>% html_element("a") %>% html_attr("href")
 }
@@ -401,7 +401,7 @@ for (i in seq_along(les_p)) {
 
 Affichons à nouveau le second élément de notre liste pour vérifier :
 
-```{r}
+```{.r}
 liste_addr[[2]]
 ```
 
@@ -415,7 +415,7 @@ pour chaque adresse dans notre liste.
 Encore une fois, avant de lancer la boucle principale,
 il est préférable d'initialiser notre liste :
 
-```{r}
+```{.r}
 liste_donnees <- vector("list", length(liste_addr))
 ```
 
@@ -425,7 +425,7 @@ dans notre `liste_donnees` qui contiendra les informations des 100 thèses.
 Finalement, pour éviter de se faire bloquer par le site Web, chaque itération
 fera une courte pause de 0.1 seconde avant de lancer une nouvelle requête HTTP.
 
-```{r}
+```{.r}
 for (i in seq_along(liste_addr)) {
   html <- read_html(liste_addr[[i]])
 
@@ -440,26 +440,26 @@ for (i in seq_along(liste_addr)) {
 
 Affichons le deuxième tuple pour vérifier que le moissonnage est complété :
 
-```{r}
+```{.r}
 liste_donnees[[2]]
 ```
 
 Tout semble normal. Il reste à transformer la liste en *data frame* :
 
-```{r}
+```{.r}
 resultat <- do.call(rbind.data.frame, liste_donnees)
 ```
 
 L'objet `resultat` est un long *data frame* de 100 enregistrements,
 alors affichons uniquement les quelques premiers enregistrements :
 
-```{r}
+```{.r}
 head(resultat)
 ```
 
 Le *data frame* peut aussi être converti en objet *tibble* :
 
-```{r}
+```{.r}
 resultat <- resultat %>% tibble::as_tibble()
 ```
 
@@ -472,19 +472,19 @@ resultat <- resultat %>% tibble::as_tibble()
   10 rangées par défaut au lieu d'afficher toutes les rangées,
   ce qui nous évite de devoir utiliser la fonction `head()`.
 
-```{r}
+```{.r}
 resultat
 ```
 
 On peut aussi renommer facilement les entêtes de colonne :
 
-```{r}
+```{.r}
 names(resultat) <- c("Date", "Département", "Nom")
 ```
 
 Et voici le résultat final :
 
-```{r}
+```{.r}
 resultat
 ```
 
