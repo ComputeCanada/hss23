@@ -408,79 +408,84 @@ liste_addr[[2]]
 Nous obtenons donc l'adresse sous la forme de chaîne de caractères.
 Ainsi, `liste_addr` est bel et bien une liste d'adresses telle qu'attendue.
 
-### Getting the data from the list of links
+### Extraire les données des 100 thèses
 
-We will now extract the data (date, major, and PI) for all links in our list.
-
-Again, before running a for loop, we need to allocate memory first by creating an empty container:
+Nous allons maintenant extraire les données (date, département et nom)
+pour chaque adresse dans notre liste.
+Encore une fois, avant de lancer la boucle principale,
+il est préférable d'initialiser notre liste :
 
 ```{r}
-list_data <- vector("list", length(list_links))
+liste_donnees <- vector("list", length(liste_addr))
 ```
 
-We move the code we tested for a single dissertation inside a loop and we add one result to the `list_data` list at each iteration until we have all 100 dissertation sites scraped. Because there are quite a few of us running the code at the same time, we don't want the site to block our request. To play safe, we will add a little delay (0.1 second) at each iteration:
+La boucle suivante contient essentiellement toutes les étapes que nous avons
+testées deux sections plus haut. Le tuple généré à chaque itération est stocké
+dans notre `liste_donnees` qui contiendra les informations des 100 thèses.
+Finalement, pour éviter de se faire bloquer par le site Web, chaque itération
+fera une courte pause de 0.1 seconde avant de lancer une nouvelle requête HTTP.
 
-```{.r}
-for (i in seq_along(list_links)) {
-  html <- read_html(list_links[[i]])
-  date <- html %>%
-    html_element("#publication_date p") %>%
-    html_text2()
-  major <- html %>%
-    html_element("#department p") %>%
-    html_text2()
-  pi <- html %>%
-    html_element("#advisor1 p") %>%
-    html_text2()
-  Sys.sleep(0.1)  # Add a little delay
-  list_data[[i]] <- cbind(date, major, pi)
+```{r}
+for (i in seq_along(liste_addr)) {
+  html <- read_html(liste_addr[[i]])
+
+  date <- html %>% html_element("#publication_date p") %>% html_text2()
+  dept <- html %>% html_element("#department p") %>% html_text2()
+  nom <- html %>% html_element("#advisor1 p") %>% html_text2()
+
+  liste_donnees[[i]] <- cbind(date, dept, nom)
+  Sys.sleep(0.1)  # Une courte pause de 0.1 seconde
 }
 ```
 
-Let's make sure all looks good by printing the second element of `list_data`:
+Affichons le deuxième tuple pour vérifier que le moissonnage est complété :
 
 ```{r}
-list_data[[2]]
+liste_donnees[[2]]
 ```
 
-All looking good, so let's turn this big list into a dataframe:
+Tout semble normal. Il reste à transformer la liste en *data frame* :
 
 ```{r}
-result <- do.call(rbind.data.frame, list_data)
+resultat <- do.call(rbind.data.frame, liste_donnees)
 ```
 
-`result` is a long dataframe, so we will only print the first few elements:
+L'objet `resultat` est un long *data frame* de 100 enregistrements,
+alors affichons uniquement les quelques premiers enregistrements :
 
 ```{r}
-head(result)
+head(resultat)
 ```
 
-If you like the tidyverse, you can turn it into a tibble:
+Le *data frame* peut aussi être converti en objet *tibble* :
 
 ```{r}
-result <- result %>% tibble::as_tibble()
+resultat <- resultat %>% tibble::as_tibble()
 ```
 
-:::{.note}
-
-The notation `tibble::as_tibble()` means that we are using the function `as_tibble()` from the package [tibble](https://tibble.tidyverse.org/). A tibble is the [tidyverse](https://www.tidyverse.org/) version of a dataframe. One advantage is that it will only print the first 10 rows by default instead of printing the whole dataframe, so you don't have to use `head()` when printing long dataframes:
+> Note : la notation `tibble::as_tibble()` veut dire que
+  nous utilisons la fonction `as_tibble()` du module R
+  [tibble](https://tibble.tidyverse.org/){target="_blank"}.
+  Un *tibble* est la version
+  [tidyverse](https://www.tidyverse.org/){target="_blank"}
+  d'un *data frame*. Un de ses avantages est d'afficher seulement
+  10 rangées par défaut au lieu d'afficher toutes les rangées,
+  ce qui nous évite de devoir utiliser la fonction `head()`.
 
 ```{r}
-result
+resultat
 ```
 
-:::
-
-We can rename the headers:
+On peut aussi renommer facilement les entêtes de colonne :
 
 ```{r}
-names(result) <- c("Date", "Major", "PI")
+names(resultat) <- c("Date", "Département", "Nom")
 ```
 
-This is what our final result looks like:
+Et voici le résultat final :
 
 ```{r}
-result
+resultat
 ```
 
 ## Points à retenir
