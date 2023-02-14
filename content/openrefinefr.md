@@ -146,67 +146,71 @@ Référence : https://openrefine.org/docs/manual/cellediting#cluster-and-edit
 * Cliquer sur l'onglet `Undo / Redo`, voir les changements
   * En annuler et tous les refaire
 
-## Matériel en cours de révision ...
+## 3. Filtrer avec OpenRefine
 
-=> [Matériel Data Carpentry - Chapitre 3](https://datacarpentry.org/OpenRefine-ecology-lesson/03-transforming-data/index.html)
-
-* Colonnes de nombres
-  * Options de `Edit cells` > `Common transforms`
-  * Transformer `recordID` avec `To number`
-  * **Exercice en groupe**
-    * Transformer `period` et deux autres colonnes en nombres
-    * Cliquer sur l'onglet `Undo / Redo` et voir les changements
-  * **Exercice en groupe**
-    * Dans une colonne transformée en nombres :
-      * Remplacer un nombre par `abc`
-      * Remplacer un autre nombre par rien (laisser vide)
-    * Obtenir une facette numérique sur la colonne
-    * Activer et désactiver la vue des valeurs
-      `Numeric`, `Non-numeric` et `Blank`
-    * Fermer la facette
-    * Annuler tous les changements dans `Undo / Redo`
-* Nettoyer les espaces de début et de fin
-  * `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`
-* Subdiviser les données en colonnes séparées
-  * **Exercice en groupe**
-    * Pour `scientificName`, `Edit Column` > `Split into several columns`
-    * Choisir un espace (` `) comme séparateur, préserver la colonne
-    * Observer les colonnes vides
-* Renommer des colonnes
-  * `Edit column` > `Rename this column`
-  * **Exercice en groupe**
-    * Renommer `scientificName 1` et `scientificName 2`
-      par `genus` et `species`, respectivement
-    * Choisir `speciesName` en cas de conflit de nom
-    * Annuler les actions de renommer et de subdiviser en gardant
-      la révision dont les espaces ont été nettoyés
-
-### 4. Filtrer avec OpenRefine
-
-=> [Matériel Data Carpentry - Chapitre 4](https://datacarpentry.org/OpenRefine-ecology-lesson/04-filter-exclude-sort/index.html)
+=> [Matériel Data Carpentry - Chapitre 3](https://datacarpentry.org/openrefine-socialsci/03-filter-sort/index.html)
 
 Note : puisque le tri peut se faire via les facettes,
 nous sauterons les sections à ce sujet.
 
-* Inclure ou exclure des valeurs sur les facettes
-  * Reprendre la facette textuelle sur `scientificName`
-  * Vis-à-vis une valeur, cliquer sur `include`
-  * Noter le nombre de rangées qui change
-  * Tester différents `include`/`exclude`, cliquer sur une valeur
-* Filtres de texte
-  * Reprendre à neuf la facette textuelle sur `scientificName`
-  * Pour `scientificName`, sélectionner l'option `Text filter`
+* Filtre de texte
+  * Colonne `respondent_roof_type` > `Text filter`
   * **Exercice en groupe**
-    ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/openrefine-filtering.png))
-    * Tenter une sélection avec `bai` ; observer la table et la facette
+    * Tenter une sélection avec `mabat`
+    * Observer la table et la facette
     * Modifier la vue pour avoir jusqu'à 50 rangées
-    * Tester *case sensitive* avec `Bai` et `bai`
-    * Rajouter une lettre
-* Facettes == aperçu, filtrer == sélection
+    * Rajouter deux lettres (`ip`, par exemple)
+    * Remettre à `mabat`
+* Inclusion et exclusion des valeurs sur les facettes
+  * Vis-à-vis une des deux valeurs, cliquer sur `include`
+  * Noter le nombre de rangées qui change
+  * Tester différents `include` / `exclude`, cliquer sur une valeur
+* Facette == aperçu, filtre == sélection
 
-### 5. Exporter les données et le projet
+## 4. Examiner les nombres
 
-=> [Matériel Data Carpentry - Chapitre 6](https://datacarpentry.org/OpenRefine-ecology-lesson/06-exporting-data/index.html)
+=> [Matériel Data Carpentry - Chapitre 4](https://datacarpentry.org/openrefine-socialsci/04-numbers/index.html)
+
+* Gestion des nombres
+  * Enlever toutes les facettes de texte
+  * Colonne `years_farm` > `Edit cells` > `Commont Transforms...` > `To number`
+  * **Exercice en groupe**
+    * Transformer `no_membrs`, `years_liv`, `buildings_in_compound`
+      et `villange` en nombres
+    * Cliquer sur l'onglet `Undo / Redo` et voir les changements
+* Facette numérique
+  * Colonne `gps_Altitude` > `Facet` > `Numeric Facet`
+  * Trier dans la facette pour identifier les valeurs manquantes
+  * **Exercice en groupe**
+    * Colonne `years_liv` :
+      * Remplacer un nombre par `abc`
+      * Remplacer un autre nombre par rien (laisser vide)
+    * Obtenir une facette numérique sur la colonne
+    * Activer et désactiver la vue des valeurs
+      `Numeric`, `Non-numeric`, `Blank` et `Error`
+    * Fermer la facette
+    * Annuler tous ces derniers changements dans `Undo / Redo`
+
+## 5. Réutiliser les étapes de nettoyage
+
+=> [Matériel Data Carpentry - Chapitre 5](https://datacarpentry.org/openrefine-socialsci/05-scripts/index.html)
+
+* Exporter les transformations
+  ([Image](https://datacarpentry.org/openrefine-socialsci/fig/history.png))
+  * `Undo / Redo` > `Extract ...` > Sélection des étapes
+  * Copier le code dans un éditeur texte et sauvegarder (fichier `*.txt`)
+* Importer les transformations
+  * Démarrer un nouveau projet (nouveau nom), même fichier CSV
+  * `Undo / Redo` > `Apply` > Coller le contenu du fichier `*.txt`
+  * Cliquer sur `Perform operations`; valider le nettoyage
+* Science reproductible
+  * [Gestion des changements](https://swcarpentry.github.io/git-novice/)
+    du fichier `*.txt`
+  * Publication des données et des étapes de changement
+
+## 6. Exporter les données et le projet
+
+=> [Matériel Data Carpentry - Chapitre 6](https://datacarpentry.org/openrefine-socialsci/06-saving/index.html)
 
 * Exporter les données nettoyées
   * `Export` > choix du type de fichier (TSV ou CSV)
@@ -218,22 +222,6 @@ nous sauterons les sections à ce sujet.
     et un fichier `data.zip` contenant les données initiales.
   * Importation via `Open...` > `Import Project` > fichier `*.tar.gz`
 
-### 6. Réutiliser les étapes de nettoyage des données
-
-=> [Matériel Data Carpentry - Chapitre 5](https://datacarpentry.org/OpenRefine-ecology-lesson/05-exporting-cleaning-steps/index.html)
-
-* Exporter les transformations
-  * `Undo / Redo` > `Extract ...` > Sélection des étapes
-  * Copier le code dans un éditeur texte et sauvegarder (fichier `*.json`)
-* Importer les transformations
-  * Démarrer un nouveau projet (nouveau nom), même fichier CSV
-  * `Undo / Redo` > `Apply` > Coller le contenu du fichier `*.json`
-  * Cliquer sur `Perform operations`; valider le nettoyage
-* Science reproductible
-  * [Gestion des changements](https://swcarpentry.github.io/git-novice/)
-    du fichier `*.json`
-  * Publication des données et des étapes de changement
-
 ### 7. Ressources supplémentaires
 
-=> [Matériel Data Carpentry - Chapitre 7](https://datacarpentry.org/OpenRefine-ecology-lesson/07-resources/index.html)
+=> [Matériel Data Carpentry - Chapitre 7](https://datacarpentry.org/openrefine-socialsci/07-resources/index.html)
