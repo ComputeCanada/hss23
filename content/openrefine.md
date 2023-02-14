@@ -44,7 +44,7 @@ Canada and is active in national humanities and social sciences initiatives.
 ## Setup instructions
 
 The below instructions come from
-[Data Carpentry: Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/setup.html).
+[Data Carpentry: OpenRefine for Social Science Data](https://datacarpentry.org/openrefine-socialsci/setup.html).
 
 ### Installation
 
@@ -61,10 +61,10 @@ installation steps.
 ### Data
 
 For this workshop, we will use the following CSV file:
-[Portal_rodents_19772002_scinameUUIDs.csv](https://ndownloader.figshare.com/files/7823341).
+[SAFI_openrefine.csv](https://ndownloader.figshare.com/files/11502815).
 * **Note carefully where** you save this file on your computer, because
   we will use it in OpenRefine at the beginning of the workshop.
-* **About the data**: it is a part of the Data Carpentry Ecology workshop.
+* **About the data**: it is a part of the Data Carpentry workshop.
   It is a teaching version, which is in fact a subset of the
-  [Portal Project Teaching Database](https://figshare.com/articles/dataset/Portal_Project_Teaching_Database/1314459)
+  *Studying African Farmer-Led Irrigation* (SAFI) database
   that has been intentionally *messed up* for the tutorial.

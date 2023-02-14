@@ -42,7 +42,7 @@ Québec, il fait partie de l’équipe d’analystes offrant du soutien aux util
 ## Préparation pour l'atelier
 
 Les instructions ci-dessous proviennent de l'atelier
-[Data Carpentry: Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/setup.html).
+[Data Carpentry: OpenRefine for Social Science Data](https://datacarpentry.org/openrefine-socialsci/setup.html).
 
 ### Installation
 
@@ -59,23 +59,24 @@ ces étapes d'installation.
 ### Les données
 
 Pour cet atelier, nous utiliserons ce fichier CSV :
-[Portal_rodents_19772002_scinameUUIDs.csv](https://ndownloader.figshare.com/files/7823341).
+[SAFI_openrefine.csv](https://ndownloader.figshare.com/files/11502815).
 * **Notez bien l'endroit** où vous avez sauvegardé ce fichier dans votre
   ordinateur, car il faudra le charger dans OpenRefine pendant l'atelier.
 * **À propos des données** : ce fichier est tiré du tutoriel Data Carpentry.
   Il est conçu pour l'enseignement, c'est-à-dire que son contenu est
-  une version réduite et intentionnellement modifiée du
-  [Portal Project Teaching Database](https://figshare.com/articles/dataset/Portal_Project_Teaching_Database/1314459).
+  une version réduite et intentionnellement modifiée de la base de données
+  du projet *Studying African Farmer-Led Irrigation (SAFI)*.
 
 ## Tutoriel Data Carpentry
 
 Cet atelier est une version écourtée du tutoriel en ligne
-[Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/).
+[OpenRefine for Social Science Data](https://datacarpentry.org/openrefine-socialsci/).
 
-Les chapitres et les concepts d'OpenRefine que nous verrons sont :
+Les chapitres et les concepts d'OpenRefine que nous verrons
+sont listés dans les sections ci-dessous.
 
-### 1- Introduction à OpenRefine
-=> [Matériel Data Carpentry - Chapitre 1](https://datacarpentry.org/OpenRefine-ecology-lesson/01-getting-started/index.html)
+## 1- Introduction à OpenRefine
+=> [Matériel Data Carpentry - Chapitre 1](https://datacarpentry.org/openrefine-socialsci/01-introduction/index.html)
 
 * Pourquoi un atelier sur OpenRefine?
   * Faciliter le nettoyage des données
@@ -84,39 +85,68 @@ Les chapitres et les concepts d'OpenRefine que nous verrons sont :
   * Application locale via un navigateur Web
   * Préservation des données brutes
   * Aperçu des données
-  * Résoudre des inconsistences
+  * Trouver et résoudre des inconsistences
   * Division de valeurs multiples
   * Fusion avec des données externes
   * Annulation d'opérations au besoin
   * Réutilisation de recette de nettoyage
 
-### 2. Exploration des données
+## 2. Travailler avec OpenRefine
 
-=> [Matériel Data Carpentry - Chapitre 2](https://datacarpentry.org/OpenRefine-ecology-lesson/02-exploring-data/index.html)
+=> [Matériel Data Carpentry - Chapitre 2](https://datacarpentry.org/openrefine-socialsci/02-working-with-openrefine/index.html)
 
-* Création d'un projet
-  * Démarrage d'OpenRefine
-  * Importation d'un fichier
-    ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/openrefine-create-project.png))
-    * Formats pris en charge :
-      CSV, TSV, Excel (xls, xlsx), JSON, XML, Google Spreadsheets.
-  * Valider la séparation des colonnes
-    ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/openrefine-data-import.png))
-* Facettes de données ([Référence](https://docs.openrefine.org/manual/facets))
-  * Regrouper des enregistrements selon les valeurs d'une colonne
-  * *Text facet*
-    ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/ORFacetMenu.png))
-    * Tri par le nom et le décompte
-      ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/ORFacetedScientificName.png))
-    * Édition d'un groupe de valeurs
-  * Facettes numériques, de dates et heures, personnalisées
-  * **Exercice en groupe**
-    * Trouver le nombre d'années différentes avec une facette textuelle
-    * Trouver les années ayant le plus et le moins d'enregistrement
-    * Obtenir une facette numérique
-    * Fermer toutes les facettes
+### Création d'un projet
 
-### 3. Transformation des données
+* Démarrage d'OpenRefine
+* Importation d'un fichier
+  ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/openrefine-create-project.png))
+  * Formats pris en charge :
+    CSV, TSV, Excel (xls, xlsx), JSON, XML, Google Spreadsheets.
+* Valider la séparation des colonnes
+  ([Image](https://datacarpentry.org/openrefine-socialsci/fig/OR_01_parse_options.png))
+  * Nettoyer les espaces de début et de fin
+
+### Facettes de données
+
+* Regrouper des enregistrements selon les valeurs d'une colonne
+* *Text facet* sur la colonne `village`
+  ([Aperçu des options](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/ORFacetMenu.png))
+  * Tri par le nom et le décompte
+    ([Exemple de facette](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/ORFacetedScientificName.png))
+  * Édition d'un groupe de valeurs
+* Facettes numériques, de dates et heures, personnalisées
+* **Exercice en groupe**
+  * Trouver le nombre de différentes `interview_date` avec une facette
+  * Convertir en dates : `Edit cells` > `Common transforms` > `To date`
+  * Trouver la période ayant le plus d'enregistrements avec `Timeline facet`
+
+Référence : https://docs.openrefine.org/manual/facets
+
+### Grappes de valeurs semblables
+
+* Facette textuelle de `village` => Bouton `Cluster`
+* Méthode `key collision` et clé de fonction `metaphone3`
+  ([Exemple d'analyse](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/openrefine-clustering.png))
+* Activer la fusion des valeurs, fusionner et refaire le calcul des grappes
+* Test d'autres [méthodes et clés de fonction](https://openrefine.org/docs/manual/cellediting#clustering-methods)
+* Corrections manuelles lorsqu'aucune grappe ne se trouve facilement
+
+Référence : https://openrefine.org/docs/manual/cellediting#cluster-and-edit
+
+### Transformation des données avec GREL
+
+* Colonne `items_owned` > `Edit Cells` > `Transform...`
+  ([Image](https://datacarpentry.org/openrefine-socialsci/fig/OR_02_Transform.png))
+  * `value.replace("[", "")` et OK
+* **Exercice en groupe**
+  * Répéter avec `value.replace("]", "")`, `value.replace("'", "")` et
+    `value.replace(" ", "")`
+* Colonne `items_owned` > `Facet` > `Custom text facet...`
+  * Expression : `value.split(";")`
+* Cliquer sur l'onglet `Undo / Redo`, voir les changements
+  * En annuler et tous les refaire
+
+## Matériel en cours de révision ...
 
 => [Matériel Data Carpentry - Chapitre 3](https://datacarpentry.org/OpenRefine-ecology-lesson/03-transforming-data/index.html)
 
@@ -135,13 +165,6 @@ Les chapitres et les concepts d'OpenRefine que nous verrons sont :
       `Numeric`, `Non-numeric` et `Blank`
     * Fermer la facette
     * Annuler tous les changements dans `Undo / Redo`
-* Grappes de valeurs semblables
-  ([Référence](https://openrefine.org/docs/manual/cellediting#cluster-and-edit))
-  * Facette textuelle de `scientificName` => Bouton `Cluster`
-  * Méthode `key collision` et clé de fonction `metaphone3`
-    ([Image](https://datacarpentry.org/OpenRefine-ecology-lesson/fig/openrefine-clustering.png))
-  * Activer la fusion des valeurs, fusionner et refaire le calcul des grappes
-  * [Autres méthodes et clés de fonction](https://openrefine.org/docs/manual/cellediting#clustering-methods)
 * Nettoyer les espaces de début et de fin
   * `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`
 * Subdiviser les données en colonnes séparées
