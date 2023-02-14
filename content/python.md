@@ -451,7 +451,7 @@ for i in 'hello':
 for i in range(0,3):
     print(i)
 ```
-	
+
 Let's sum numbers 1 to 10:
 
 ```py
@@ -599,14 +599,14 @@ list(favs.values()).index('blue')     # will return the index of the first value
 
 ```py
 for key in favs:
-	print(key)            # will print the names (keys)
-	print(favs[key])      # will print the colours (values)
+    print(key)            # will print the names (keys)
+    print(favs[key])      # will print the colours (values)
 for k in favs.keys():
-	print(k, favs[k])     # the same as above
+    print(k, favs[k])     # the same as above
 for v in favs.values():
-	print(v)              # cycle through the values
+    print(v)              # cycle through the values
 for i, j in favs.items():
-	print(i,j)            # both the names and the colours
+    print(i,j)            # both the names and the colours
 ```
 
 Now let's see how to add items to a dictionary:
@@ -655,7 +655,7 @@ favs = {'mary': 'orange', 'john': 'green', 'eric': 'blue', 'jane': 'orange'}
 sorted(favs)             # returns the sorted list of keys
 sorted(favs.keys())      # the same
 for k in sorted(favs):
-	print(k, favs[k])         # full dictionary sorted by key
+    print(k, favs[k])         # full dictionary sorted by key
 sorted(favs.values())         # returns the sorted list of values
 ```
 
@@ -791,7 +791,7 @@ The scope of a variable is the part of a program that can see that variable.
 ```py
 a = 5
 def adjust(b):
-	sum = a + b
+    sum = a + b
     return sum
 adjust(10)   # what will be the outcome?
 ```
