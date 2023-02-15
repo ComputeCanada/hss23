@@ -348,9 +348,9 @@ quarto render <file>.qmd     # this will render the document
 quarto preview <file>.qmd	 # this will display live preview as you work on your document
 ```
 
-## Let's give this a try
+## Let's create a webpage together
 
-Create a file called `test.qmd` with the text editor of your choice.
+First, create a file called `test.qmd` with the text editor of your choice.
 
 {{<ex>}}
 Example:
@@ -360,16 +360,12 @@ Example:
 nano test.qmd
 ```
 
-Add a minimal front matter with the output format.
-
-{{<ex>}}
-Example:
-{{</ex>}}
+Add a minimal front matter with the title of your document and the output format (`html` here since we are creating a webpage):
 
 ```{.yaml}
 ---
-title: "Some title"
-format: revealjs
+title: Test webpage
+format: html
 ---
 ```
 
