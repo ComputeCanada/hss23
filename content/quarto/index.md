@@ -507,11 +507,11 @@ format:
     toc: true
 ---
 
-# Header 1
+## Heading
 
 Some text.
 
-## Header 2
+### Subheading
 
 More text.
 
@@ -589,17 +589,16 @@ institute: "Simon Fraser University"
 format: html
 ---
 
-# Header 1
+# Heading
 
-## Header 2
+## Subheading
 
 Some text.
 
 ## Formatting  {#sec-formatting}
 
 ::: aside
-Note that each header automatically creates an anchor,
-making it easy to link to specific sections of your documents.
+Note that each heading automatically creates an anchor, making it easy to link to specific sections of your documents.
 :::
 
 Text can be rendered *in italic* or **in bold** as well as [underlined]{.underline}.
