@@ -36,7 +36,5 @@ more complex than they really are. He holds a Masters of Management Innovation &
 University and a graduate diploma in statistics from Stanford University (he did drop back into stats
 eventually).
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube J2asGlhkHf0 >}}

@@ -35,10 +35,6 @@ strategic efforts in research data management and open access. She was responsib
 first institutional repository, StFX Scholar. Meghan is based at StFX University, but serves all of Atlantic
 Canada and is active in national humanities and social sciences initiatives.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
 -----
 
 ## Setup instructions
@@ -68,3 +64,11 @@ For this workshop, we will use the following CSV file:
   It is a teaching version, which is in fact a subset of the
   *Studying African Farmer-Led Irrigation* (SAFI) database
   that has been intentionally *messed up* for the tutorial.
+
+<br>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+	<iframe width="817" height="466"
+	src="https://www.youtube.com/embed/K-yGVp6Nlho?list=PL2jE_DQZemnWvTDIkK2LEMP5au_4nhH6l" title="HSS Winter
+	Series 2023: Introduction to OpenRefine" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>

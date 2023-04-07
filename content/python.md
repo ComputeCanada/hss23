@@ -32,11 +32,6 @@ dans un laboratoire de recherche où il offrait son support aux professeurs et �
 rejoint récemment Calcul Québec où il fait partie des analystes de support aux utilisateurs des ressources de
 calcul.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
-
 # Course notes
 
 **Disclaimer**: These notes started few years ago from the {{<a "https://software-carpentry.org/lessons"
@@ -964,3 +959,6 @@ data.columns    # names of the columns
 data.loc[data['Category']=='HISTORY'].shape   # 349 matches
 data.loc[data['Category']=='HISTORY'].to_csv("history.csv")   # write to a file
 ```
+
+<br>
+{{< youtube KmVEmxHmdY0 >}}

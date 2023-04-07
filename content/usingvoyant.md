@@ -25,7 +25,5 @@ compares American astronaut and Soviet/Russian cosmonaut memoirs of space explor
 text analysis. She is currently working with Prof. Geoffrey Rockwell at the University of Alberta on Spyral
 Notebooks, a notebook environment extension of Voyant Tools.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube gs2xNCB6HKc >}}

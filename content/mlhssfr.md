@@ -40,7 +40,5 @@ Polytechnique Montréal et a travaillé à réduire l'empreinte environnementale
 larges simulations numériques et de techniques d’optimisation. Son expertise inclut la programmation en
 Python, C++ et Fortran, la modélisation mathématique et l’optimisation.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube LdZTzcZCGyc >}}

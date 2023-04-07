@@ -24,10 +24,6 @@ Le même séminaire [en français](/quartofr).
 
 Evolutionary and behavioural ecologist by training, Software/Data Carpentry instructor, and open source advocate, **Marie-Hélène Burle** develops and delivers training for researchers on high-performance computing tools (R, Python, Julia, Git, Bash scripting, machine learning, parallel scientific programming, HPC...) for Simon Fraser University and the Digital Research Alliance of Canada.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
-
 {{<br size="4">}}
 
 ------------------------------------------------------------------------
@@ -831,3 +827,6 @@ plt.show()
 {{<accordion title="Rendered document (click on the image to open the document in a new tab)">}}
 [![](../../quarto/beamer.png)](/quarto/beamer.pdf)
 {{</accordion>}}
+
+<br>
+{{< youtube _bDaDk36kiY >}}

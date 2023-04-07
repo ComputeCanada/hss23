@@ -58,7 +58,5 @@ responsable de la formation des nouveaux étudiants et du personnel aux outils
 numériques avancés, travaillant souvent avec des apprenants qui étaient peu
 familiers avec les nouvelles technologies.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube 8vIDWoIEOqA >}}

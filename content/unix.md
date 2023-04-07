@@ -34,7 +34,5 @@ ultrasound. Throughout her masters, Grace sought out professional development op
 improving learning and teaching in higher education. As ACENET’s Training Coordinator she is responsible for
 the organization and landscape of ACENET’s Training.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube TvUCKDW1r3M >}}

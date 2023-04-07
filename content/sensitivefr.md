@@ -40,7 +40,5 @@ l’information à l’Université d’Ottawa (2022), et son mémoire
 porte sur les communications scientifiques, la réutilisation
 des données et la recherche en sciences humaines numériques.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube 4S1hs3fXV5s >}}

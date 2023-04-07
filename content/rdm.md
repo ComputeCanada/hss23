@@ -42,7 +42,5 @@ of Information, both from the University of Ottawa.
 **Matt Huculak** (he/him) is Head of Advanced Research Services at the University of Victoria
 Libraries, with responsibilities in digital scholarship, faculty engagement, and grant work.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube izbqdGvvDvo >}}

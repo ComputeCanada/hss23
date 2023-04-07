@@ -31,10 +31,6 @@ travaillé pendant cinq ans pour différents laboratoires de recherche avant de 
 mai 2013. Dans son projet de recherche, il s'était spécialisé en vision par ordinateur avec OpenCV. À Calcul
 Québec, il fait partie de l'équipe d'analystes offrant du soutien aux utilisateurs des ressources de calcul.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
-
 {{<br>}}
 
 ------------------------------------------------------------------------
@@ -512,3 +508,6 @@ resultat
 
 -   Référence :
     <a href="https://rvest.tidyverse.org/reference/index.html" target="_blank">rvest - Function reference</a>
+
+<br>
+{{< youtube qjdTQt371MI >}}

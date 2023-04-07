@@ -27,7 +27,5 @@ background in research ethics, sensitive data management, and research policy to
 management. Victoria is leading the FRDR Sensitive Data Repository Project and supports the Sensitive Data
 Expert Group.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube MMh8OBU0A5Y >}}

@@ -29,8 +29,3 @@ landscapes in the Late Iron Age/Early Medieval Scotland.
 In addition, Megan has supported digital researchers in the Humanities
 and Social Sciences for the last fifteen years at the University of
 Alberta, Oxford University, and the University of British Columbia.
-
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->

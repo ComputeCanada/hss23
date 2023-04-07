@@ -22,7 +22,5 @@ Détenant une maîtrise en intelligence d’affaire, **Mohamed Jabir** a travail
 laboratoire de recherche où il offrait son support aux professeurs et étudiants de 2ème cycle. Il a rejoint
 récemment Calcul Québec où il fait partie des analystes de support aux utilisateurs des ressources de calcul.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube Tor6EmzE6Yc >}}

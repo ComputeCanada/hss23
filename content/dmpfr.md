@@ -24,7 +24,5 @@ The same workshop [in English](/dmp).
 McGill. Elle détient une maîtrise en sciences de l’information de l’Université McGill. Ses recherches portent
 sur les services de référence et l'impact de l'intelligence artificielle sur les services aux utilisateurs.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube LuCtrXgu4yg >}}

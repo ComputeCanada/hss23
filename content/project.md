@@ -16,8 +16,3 @@ with an instructor. Note : English and French language Alliance staff members wi
 Register {{<a "https://www.eventbrite.ca/e/510994557477" "here">}}
 
 Le même séminaire [en français](/projectfr).
-
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->

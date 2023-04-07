@@ -17,8 +17,3 @@ aider dans les deux langues.
 Inscrivez-vous {{<a "https://www.eventbrite.ca/e/510994557477" "ici">}}
 
 The same workshop [in English](/project).
-
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->

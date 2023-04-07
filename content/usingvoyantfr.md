@@ -37,7 +37,5 @@ pandémie du COVID-19 dans la province d'Alberta.
 Ses autres intérêts sont l’analyse des données, la psychologie, la technologie
 et l’intelligence artificielle.
 
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube 9vd7yiHdiIc >}}

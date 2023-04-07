@@ -33,6 +33,5 @@ Fortran, C/C++ et R ainsi que les méthodes de parallélisation comme MPI, Pthre
 formations en français et en anglais sur l'utilisation des grappes de calcul et coordonne le service
 d'assistance technique de première ligne chez Calcul Québec.
 
-<!-- {{< vimeo 690948795 >}} --> <!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube w1uU8c16tMs >}}

@@ -39,9 +39,5 @@ University et d’un DESS baccalauréat en statistiques de Stanford University.
 <!-- for the training of new students and staff in the area of advanced digital tools, often working with learners -->
 <!-- who had minimal exposure to advanced technology. -->
 
-
-
-<!-- {{< vimeo 690948795 >}} -->
-<!-- <br> -->
-
-<!-- - [Watch this session on Vimeo](https://vimeo.com/690948795) -->
+<br>
+{{< youtube wtAfSUvJcQk >}}
